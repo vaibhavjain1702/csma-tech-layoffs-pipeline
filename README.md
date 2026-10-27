@@ -8,8 +8,13 @@ Reddit data-collection and pseudonymization pipeline for studying tech-layoff di
 - `config/collection_config.yaml` - subreddits, date range, keywords, rate limits
 - `src/` - collector, processor, privacy (pseudonymization), QA, orchestrator
 - `docs/RUNBOOK.md` - how to run each phase
+- `docs/report/CSMA_Midterm_Report_Solidarity_or_Blame.pdf` - project mid-term report (Phase 2), with `docs/report/CSMA_Midterm_Presentation_Solidarity_or_Blame.pptx` (slides)
 - `reports/QA_REPORT.md` - QA output from the original collection run
 - `data/README.md` - how to obtain the data (none is included) and the required `CSMA_SALT` setting
+
+## Project report
+
+The study context, research questions, corpus audit and preliminary results are in [`docs/report/CSMA_Midterm_Report_Solidarity_or_Blame.pdf`](docs/report/CSMA_Midterm_Report_Solidarity_or_Blame.pdf) ("Solidarity or Blame: how technology employment disruption is discussed across Reddit communities").
 
 ## Quick start
 
