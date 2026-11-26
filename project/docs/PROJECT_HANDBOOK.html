@@ -65,7 +65,7 @@ a{color:#1a4f8b;text-decoration:none}
 <li>Part 4, workflow 1 (presenting) and Part 5, section 5.3 (opening a project): about 3 minutes. Open the Tableau workbook and the Gephi projects once before the talk.</li>
 <li>Part 6, section 6.4.7 (likely questions): skim, about 2 minutes.</li>
 </ol>
-<p><strong>Three honesty rules that apply everywhere:</strong> (1) the 240-row human label check is not done, so results are "Supported", not "Findings", and all label precision is provisional (one reader: an AI-assisted first pass, not a human check); (2) no causal claims and no claims about the whole population of Reddit users; (3) the "agree" reply marker over-fires on replies starting with "This", so never say that blame draws agreement.</p>
+<p><strong>Three honesty rules that apply everywhere:</strong> (1) the 240-row human label check is not done, so results are "Supported", not "Findings", and all label precision is provisional (an AI-assisted first pass, not a human check); (2) no causal claims and no claims about the whole population of Reddit users; (3) the "agree" reply marker over-fires on replies starting with "This", so never say that blame draws agreement.</p>
 </blockquote>
 <hr />
 <h2 id="table-of-contents">Table of contents</h2>
@@ -252,7 +252,7 @@ a{color:#1a4f8b;text-decoration:none}
 </tr>
 <tr>
 <td>Precision</td>
-<td>Of the comments a rule tags, the share that really are what the label says. Ours is provisional (one reader: an AI-assisted first pass)</td>
+<td>Of the comments a rule tags, the share that really are what the label says. Ours is provisional (an AI-assisted first pass)</td>
 </tr>
 <tr>
 <td>Lift</td>
@@ -776,7 +776,7 @@ a{color:#1a4f8b;text-decoration:none}
 <tr>
 <td>12</td>
 <td><strong>Keyword labels not validated</strong></td>
-<td>Every label is a keyword rule. Precision was checked provisionally by one reader (an AI-assisted first pass, not a human check)</td>
+<td>Every label is a keyword rule. Precision was checked provisionally in an AI-assisted first pass (not a human check)</td>
 <td>Nothing can be a Finding</td>
 <td>Human-check kit built (problem 27). Results called Supported</td>
 <td>Open</td>
@@ -922,7 +922,7 @@ a{color:#1a4f8b;text-decoration:none}
 <hr />
 <h3 id="16-what-is-still-open-and-the-next-steps">1.6 What is still open, and the next steps</h3>
 <p><strong>Still open:</strong>
-1. <strong>The human label check.</strong> This is the single most important open item. Until two coders have coded the 240 rows, every result stays "Supported", no inter-coder agreement exists, and all precision numbers are provisional (one reader: an AI-assisted first pass, not a human check).
+1. <strong>The human label check.</strong> This is the single most important open item. Until two coders have coded the 240 rows, every result stays "Supported", no inter-coder agreement exists, and all precision numbers are provisional (an AI-assisted first pass, not a human check).
 2. <strong>The 200-record reading sample</strong> (<code>annotations/reading_labels_employment.csv</code>) promised at the midterm is still uncoded.
 3. <strong>Coverage gaps</strong> stay, because the team decided not to collect more data.
 4. <strong>Polarisation</strong> cannot be measured with the current labels.
@@ -1726,9 +1726,9 @@ a{color:#1a4f8b;text-decoration:none}
 </table>
 <p>Together they retrieve <strong>177,808 candidate records</strong> (173,473 comments and 4,335 posts). <strong>The facets overlap</strong>: one comment can match several, so the facet counts add up to more than 177,808. Never add them together.</p>
 <p>Two known weaknesses:
-- <strong>Hiring:</strong> the hiring screen's provisional precision is only about 22% (one reader's check: an AI-assisted first pass), so its numbers are <strong>not quoted</strong>. The layoffs screen read at about 95%.
+- <strong>Hiring:</strong> the hiring screen's provisional precision is only about 22% (an AI-assisted first pass), so its numbers are <strong>not quoted</strong>. The layoffs screen read at about 95%.
 - <strong>Career transition:</strong> its "quit…" pattern also matches the word "quite". It is therefore left out of the "employment core" used in H3 (<code>outputs/16_tableau/TABLEAU_GUIDE.md</code>).</p>
-<p>All precision figures are provisional, from one reader, because the 240-row human check has not been done.</p>
+<p>All precision figures are provisional, from an AI-assisted first pass (Claude), because the 240-row human check has not been done.</p>
 <p>Facet hits by community and kind (overlapping):</p>
 <table>
 <thead>
@@ -3922,7 +3922,7 @@ FROM records GROUP BY subreddit, kind, text_state ORDER BY subreddit, kind, n DE
 <p><em>Figure 4.4. Dashboard 4, "Can we trust the numbers" (screenshot from the 26 Nov check, cropped to the dashboard area). Note: the "Colours:" line in this capture is outdated; in the final workbook cscq is blue, r/programming orange and r/technology red, which matches the lines drawn.</em></p>
 <ul>
 <li><strong>Layout:</strong> R5a and R5b on top, R5c full width below. R5c has a <strong>statistic dropdown</strong> on this dashboard (the only dashboard filter in the workbook).</li>
-<li><strong>Takeaway text (paraphrased):</strong> Comparisons use Jan-Jun 2025 only. The screens are provisional (one reader: an AI-assisted first pass, not a human check). Blame-talker clustering stays above 1 under label noise, thresholds and megathread removal.</li>
+<li><strong>Takeaway text (paraphrased):</strong> Comparisons use Jan-Jun 2025 only. The screens are provisional (an AI-assisted first pass, not a human check). Blame-talker clustering stays above 1 under label noise, thresholds and megathread removal.</li>
 </ul>
 <p><strong>Check status:</strong> Dashboards 1 and 2 were re-checked in the app after the last fixes. Dashboards 3 and 4 had a layout change afterwards and were <strong>checked structurally only</strong> (by script), not reopened in Tableau (<code>tableau/README.md</code>). Look at them yourself before the talk (workflow 1, step 1).</p>
 <p><strong>The story: "Solidarity or Blame (story)"</strong></p>
@@ -4165,7 +4165,7 @@ FROM records GROUP BY subreddit, kind, text_state ORDER BY subreddit, kind, n DE
 <li><strong>Dashboard 1, Where disruption talk lives:</strong> "Layoff talk is concentrated in r/cscareerquestions: 2.45% of non-bot comments versus 0.20% on r/technology and 0.32% on r/programming. cscq is higher in all 24 comparable weeks, and its threads of every size contain more layoff talk. This supports H1."</li>
 <li><strong>Dashboard 2, How communities frame it:</strong> "The communities talk about employment differently. r/technology mentions executives and the economy more, and r/programming mentions AI most. But for the same 152 people posting in both places, the executive-mention gap disappears (6.06% vs 6.00%), while the AI gap stays. So H2 is supported but narrowed: for these 152 authors the executive gap is absent, and we do not generalise beyond them."</li>
 <li><strong>Dashboard 3, Who replies to whom:</strong> "Personal layoff stories get 2.8 times more sympathy replies than unmarked comments, and blame topics get less sympathy. In the reply network, blame-talkers reply to each other 1.69 times more than random mixing predicts. That supports H3. We make no claim about agreement, because our agree marker is unreliable."</li>
-<li><strong>Dashboard 4, Can we trust the numbers:</strong> "Coverage differs by community, so we compare only Jan-Jun 2025. Our layoff screen looks precise (95%), but other screens are much weaker, and all precision figures are provisional (from one reader: an AI-assisted first pass, not a human check) because the 240-row human label check is not done yet. The blame-talker clustering stays above 1 under every robustness check (minimum 1.28)."</li>
+<li><strong>Dashboard 4, Can we trust the numbers:</strong> "Coverage differs by community, so we compare only Jan-Jun 2025. Our layoff screen looks precise (95%), but other screens are much weaker, and all precision figures are provisional (from an AI-assisted first pass, not a human check) because the 240-row human label check is not done yet. The blame-talker clustering stays above 1 under every robustness check (minimum 1.28)."</li>
 <li><strong>If asked "is this causal?":</strong> "No. These are descriptive patterns in three subreddits over the collected period. We make no causal claim and no claim about the wider population."</li>
 </ul>
 <hr />
@@ -4182,7 +4182,7 @@ FROM records GROUP BY subreddit, kind, text_state ORDER BY subreddit, kind, n DE
 <ol>
 <li><strong>The saved projects have not been opened in the Gephi app yet.</strong> They were built on 26 Nov in the final build session on the project laptop, using Claude Code to drive the <strong>Gephi Toolkit 0.11.4</strong> (Gephi's engine, run with no window). The app on the Mac is <strong>Gephi Desktop 0.11.3</strong> (<code>/Applications/Gephi.app</code>). The docs say plainly that opening the projects in the app is untested (<code>gephi/README.md</code>, <code>gephi/projects/analysis_notes.md</code> section 7, <code>docs/CHANGELOG_2026-11-26.md</code>). Open them once before you present. If one will not open, use the <code>.gexf</code> fallback (section 5.3.4).</li>
 <li><strong>Practise on a copy.</strong> Do File &gt; Save As to a new name before you click anything that recalculates. Re-running Modularity or a layout changes group numbers and positions, and then the slides no longer match the project.</li>
-<li><strong>Labels are rule-based and not yet human-checked.</strong> The 240-row human check is not done. Everything coloured by "type" or "kind" uses provisional marker precision from one reader (an AI-assisted first pass, not a human check). Results are "Supported", not "Findings".</li>
+<li><strong>Labels are rule-based and not yet human-checked.</strong> The 240-row human check is not done. Everything coloured by "type" or "kind" uses provisional marker precision from an AI-assisted first pass (not a human check). Results are "Supported", not "Findings".</li>
 </ol>
 <p>The documented owner of the Gephi and network work is <strong>Dividh Vijay</strong>: exports, edge direction, weights, scope, validation, and the reply-structure part of H3. The 26 Nov Gephi projects and figures were produced in the final build session, "not by the assigned owner" (<code>docs/PROJECT_REFERENCE.md</code>, task 5).</p>
 <hr />
@@ -5033,7 +5033,7 @@ FROM records GROUP BY subreddit, kind, text_state ORDER BY subreddit, kind, n DE
 <li><em>Notice:</em> the <strong>thickest line</strong>: experience → sympathy, <strong>2.82×</strong> (5.11% vs 1.82%). Replies to someone's own layoff story carry sympathy far more often than replies to unmarked comments. Blame topics (execs, offshoring, AI-as-excuse) draw <em>less</em> sympathy: the light lines, 0.77–0.81.</li>
 <li><strong>The agree edges: say this, or someone will misread the slide.</strong> "The three vermillion lines into <em>agree reply</em>, from ai excuse, ai replaces and mentions execs, are a <strong>marker artefact</strong>. Our agree rule also fires on hostile replies that start with 'This…'. When a stance model reads the same replies, agreement under blame topics is flat (×0.92–1.19). So this does <strong>not</strong> show that blame draws agreement."</li>
 <li><em>Also:</em> blames workers → sympathy (1.29) is vermillion, but <code>blames_workers</code> is a noisy label. Do not draw a conclusion from it.</li>
-<li><em>Limit:</em> "This is rule-based and not yet human-checked. The experience marker's precision is about 11 in 20, from one reader (an AI-assisted first pass, not a human check). The result is Supported, not a Finding. Noise pulls lift towards 1, so the true effect is probably larger."</li>
+<li><em>Limit:</em> "This is rule-based and not yet human-checked. The experience marker's precision is about 11 in 20, from an AI-assisted first pass (not a human check). The result is Supported, not a Finding. Noise pulls lift towards 1, so the true effect is probably larger."</li>
 </ul>
 <p><strong>Conversation network</strong></p>
 <ul>
@@ -5754,7 +5754,7 @@ python -B -m unittest discover -s gephi/tests -v
 <td>12</td>
 <td>Validity</td>
 <td>1:15</td>
-<td>Precision table (provisional, one reader: an AI-assisted first pass); human check pending. The slide title says "survive every robustness check": qualify it aloud as "the headline results survive the checks we ran; two claims did not (story-sharer clustering, blame draws agreement), and modularity was never null-tested".</td>
+<td>Precision table (provisional, an AI-assisted first pass); human check pending. The slide title says "survive every robustness check": qualify it aloud as "the headline results survive the checks we ran; two claims did not (story-sharer clustering, blame draws agreement), and modularity was never null-tested".</td>
 </tr>
 <tr>
 <td>13</td>
@@ -5905,7 +5905,7 @@ python -B -m unittest discover -s gephi/tests -v
 <p><strong>Do not quote:</strong> the hiring-screen ratio (precision about 22%) or the midterm 18.7x; a pooled precision; any kappa. The midterm figure 2.32% vs 0.20% (11.36x) used Jan-May 2025 with bots in the denominator; most of the gap to 2.45% is the bot correction (see Q19).</p>
 <p><strong>6.4.6 Limitations to state before they are asked</strong></p>
 <ul>
-<li>Labels are keyword rules; precision is <strong>provisional (one reader: an AI-assisted first pass, not a human check)</strong>, and the human check of 240 rows is <strong>not done</strong>. Results are "Supported", not "Findings".</li>
+<li>Labels are keyword rules; precision is <strong>provisional (an AI-assisted first pass, not a human check)</strong>, and the human check of 240 rows is <strong>not done</strong>. Results are "Supported", not "Findings".</li>
 <li>3 of 7 configured subreddits; coverage ends at different dates; no r/cscareerquestions posts, so about 40% of cscq comments in Jan-Jun 2025 (replies to posts) have no target.</li>
 <li>Comments only; one window; associations, no causal or population claims.</li>
 <li>The "agree" marker over-fires on replies starting with "This"; we do not claim blame draws agreement.</li>

@@ -2457,12 +2457,12 @@ Comments collected per week (sum of daily counts), all months. cscq runs to Sep 
           <formatted-text>
             <run bold="true" fontcolor="#1b1b1b" fontsize="13">Screen precision (provisional): layoffs 95%, restructuring/policy 70-75%, rest under 30%</run>
             <run fontcolor="#666666" fontsize="9">
-Share of sampled hits read as relevant by one reader; n = 20-40 per screen. Provisional until the human label check is finished.</run>
+Share of sampled hits read as relevant in an AI-assisted check (Claude); n = 20-40 per screen. Provisional until the human label check is finished.</run>
           </formatted-text>
         </title>
         <caption>
           <formatted-text>
-            <run fontcolor="#666666" fontsize="9">Share of sampled hits read as relevant by one reader; n = 20-40 per screen. Provisional until the human label check is finished.</run>
+            <run fontcolor="#666666" fontsize="9">Share of sampled hits read as relevant in an AI-assisted check (Claude); n = 20-40 per screen. Provisional until the human label check is finished.</run>
           </formatted-text>
         </caption>
       </layout-options>
@@ -2722,7 +2722,7 @@ One statistic at a time (filter). This statistic has 11 rows (observed, megathre
           <zone h="5500" id="2" type="title" w="100000" x="0" y="0" />
           <zone h="5500" id="3" type="text" w="100000" x="0" y="5500">
             <formatted-text>
-              <run fontcolor="#333333" fontsize="11">Coverage differs by community, so comparisons use Jan-Jun 2025 only. Keyword screens are provisional (one reader). Blame-talker clustering stays above 1 under label noise, thresholds, megathread removal.</run>
+              <run fontcolor="#333333" fontsize="11">Coverage differs by community, so comparisons use Jan-Jun 2025 only. Keyword screens are provisional (AI-assisted check, not yet human-validated). Blame-talker clustering stays above 1 under label noise, thresholds, megathread removal.</run>
             </formatted-text>
           </zone>
           <zone h="3500" id="4" type="text" w="100000" x="0" y="11000">

@@ -306,7 +306,7 @@ SHEETS = [
         "name": "R5b Marker precision",
         "key": "R5b", "ds": "r5_prec", "mark": "Bar",
         "title": "Screen precision (provisional): layoffs 95%, restructuring/policy 70-75%, rest under 30%",
-        "caveat": "Share of sampled hits read as relevant by one reader; n = 20-40 per screen. "
+        "caveat": "Share of sampled hits read as relevant in an AI-assisted check (Claude); n = 20-40 per screen. "
                   "Provisional until the human label check is finished.",
         "rows": [("none", "group", "nk")],
         "cols": [("sum", "precision_R_percent", "qk")],
@@ -357,7 +357,7 @@ DASHBOARDS = [
     {"name": "4 Can we trust the numbers",
      "title": "4. Can we trust the numbers (R5)",
      "note": "Coverage differs by community, so comparisons use Jan-Jun 2025 only. Keyword screens are "
-             "provisional (one reader). Blame-talker clustering stays above 1 under label noise, thresholds, megathread removal.",
+             "provisional (AI-assisted check, not yet human-validated). Blame-talker clustering stays above 1 under label noise, thresholds, megathread removal.",
      "legend": "sub",
      "grid": [("R5a", 0, 0, 45000, 44000), ("R5b", 45000, 0, 55000, 44000), ("R5c", 0, 44000, 100000, 56000)],
      "filters": [("R5c", ("none", "statistic", "nk"), "dropdown")]},

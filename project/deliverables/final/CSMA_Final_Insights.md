@@ -43,8 +43,8 @@ In r/cscareerquestions, solidarity follows disclosure, not a shared enemy: peopl
 
 ## Validity status
 
-- **The human label check has not been completed.** The labels are keyword rules, and their precision is provisional (one reader). A human check with two independent coders is prepared (docs/HUMAN_CHECK_GUIDE.md, 240 rows) but pending. Until it is done, results are "Supported", not "Findings", and no inter-coder agreement is reported.
-- Provisional precision (one reader): layoffs screen 95%; restructuring 75%; economic policy 70%; AI/work 26.7%; hiring 22.5%; career transition 15%. Experience marker 39/40 on layoff comments (about 11/20 overall); ai_replaces only 7/30 endorse; offshore only 7/70 blame foreign workers; the agree marker over-fires.
+- **The human label check has not been completed.** The labels are keyword rules, and their precision is provisional (an AI-assisted check by Claude, not yet human-validated). A human check with two independent coders is prepared (docs/HUMAN_CHECK_GUIDE.md, 240 rows) but pending. Until it is done, results are "Supported", not "Findings", and no inter-coder agreement is reported.
+- Provisional precision (AI-assisted check): layoffs screen 95%; restructuring 75%; economic policy 70%; AI/work 26.7%; hiring 22.5%; career transition 15%. Experience marker 39/40 on layoff comments (about 11/20 overall); ai_replaces only 7/30 endorse; offshore only 7/70 blame foreign workers; the agree marker over-fires.
 
 ## Next steps
 

@@ -53,6 +53,11 @@ Built with the **Gephi Toolkit 0.11.4** (the engine behind Gephi Desktop), run h
 - Built from the verified figures in this changelog and the project docs, then fact-checked; the checker's corrections were applied. The human label check is described as pending throughout; no agreement or kappa figure is reported.
 - Task 5 in `docs/PROJECT_REFERENCE.md` (Gephi slide) is marked as done in this final build session, not by its assigned owner.
 
+## 5c. Added on 27 Nov (after the submission)
+
+- `docs/PROJECT_HANDBOOK.md` (+ `.html`, `.pdf`, `docs/handbook_img/`): a 104-page handbook covering the project story, data, every result, problems faced, Tableau and Gephi step by step, how to run everything, presentation prep and a glossary.
+- Wording correction: the provisional precision checks were an AI-assisted first pass (Claude), as `docs/PROJECT_REFERENCE.md` section 5 records ("Claude-provisional"), not a check by one human reader. The final report, slides, insights, the Tableau R5b caption and the dashboard 4 note now say "AI-assisted check, not yet human-validated". The copies inside the 26 Nov submission zips still say "one reader".
+
 ## 6. Not changed
 
 - The database (`data/processed/*.sqlite`), `outputs/03_tables/`, every existing result table in `outputs/` (the only `outputs/` files edited are the notes and index files listed above), and the label sheets (not edited tonight) (`annotations/reading_labels_employment.csv`, `outputs/12_replies/check_sheet.csv`).
