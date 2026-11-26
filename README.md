@@ -19,6 +19,7 @@ The study compares how r/cscareerquestions, r/technology and r/programming talk 
 | How the data was collected (settings, timeline, known issues) | [`project/collection/PROVENANCE.md`](project/collection/PROVENANCE.md) |
 | Midterm report and slides | [`docs/report/`](docs/report/) |
 | Everything changed for the final submission | [`project/docs/CHANGELOG_2026-11-26.md`](project/docs/CHANGELOG_2026-11-26.md) |
+| **Complete project handbook** (104 pages: story, data, every result, problems faced, Tableau and Gephi step by step, how to run everything, presentation prep, glossary) | [`project/docs/PROJECT_HANDBOOK.md`](project/docs/PROJECT_HANDBOOK.md) ([PDF](project/docs/PROJECT_HANDBOOK.pdf)) |
 
 ## Repository layout
 
@@ -58,9 +59,9 @@ Comparisons between communities use the shared window January–June 2025. See [
 
 | File | Size | What it is |
 |---|---:|---|
-| `project/data/processed/reddit.sqlite` | 3.9 GB | Working database (records, features, screens, reply edges, threads) |
+| `project/data/processed/reddit.sqlite` | 4.1 GB | Working database (records, features, screens, reply edges, threads) |
 | `project/outputs/03_tables/comments.csv.gz` | 462 MB | Full-corpus comment export |
-| `raw_data/raw_reddit_json_2025-01_to_2026-09.zip` | 623 MB | Original Arctic Shift JSON batches (29,844 files, about 6.1 GB unzipped) |
+| `raw_data/raw_reddit_json_2025-01_to_2026-09.zip` | 623 MB | Original Arctic Shift JSON batches (29,821 files, about 6.1 GB unzipped) |
 
 Also left out of the public repository: the Gephi Toolkit jar (84 MB; `project/gephi/toolkit/run.sh` downloads it and checks its SHA-256), and two files of verbatim comment excerpts (`examples.txt` in `outputs/15_network/` and `outputs/17_sentiment_stance/`), which the project keeps private.
 
