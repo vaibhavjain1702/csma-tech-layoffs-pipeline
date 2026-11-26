@@ -1,0 +1,9 @@
+mode=relayout_authors toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+relayout LWCC: nodes=9330 edges=12360
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=10.0, gravity=1.00, strongGravity=true, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1500 iterations, then preventOverlap(adjustSizes=true) 200 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  x extent -669.99207 .. 671.4946
+  figure -> figures/largest_component_communities.pdf page 1000x1000 pt
+  figure -> figures/largest_component_communities.svg
+  gexf -> gephi/projects/author_replies_largest_component.gexf
+  project saved -> gephi/projects/author_replies.gephi (1773603 bytes)
+done in 31 s

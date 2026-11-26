@@ -1,0 +1,30 @@
+{
+  "script": "scripts/explore_dynamics.py",
+  "database": "read-only",
+  "adoption_terms": {
+    "slop": "\\bslop\\w*\\b",
+    "agents / agentic": "\\bagent(s|ic)\\b",
+    "vibe coding": "\\bvibe[- ]?cod\\w*\\b",
+    "claude": "\\bclaude\\b",
+    "\"cooked\"": "\\bcooked\\b",
+    "cope / copium": "\\b(cope|copium|coping)\\b",
+    "H-1B": "\\bh-?1-?bs?\\b",
+    "AI-washing / AI as excuse": "\\bai[- ]?wash\\w*\\b|\\b(excuse|scapegoat\\w*|pretext|cover)\\b[^.!?]{0,60}\\bai\\b|\\bai\\b[^.!?]{0,60}\\b(excuse|scapegoat\\w*|pretext)\\b"
+  },
+  "style_features": {
+    "first_person_singular": "\\b(i|me|my|mine|i'm|i've|i'd|i'll|im|ive)\\b",
+    "second_person": "\\b(you|your|you're|youre|yours)\\b",
+    "question": "\\?",
+    "number_or_amount": "\\d",
+    "profanity": "\\b(fuck\\w*|shit\\w*|damn|crap|bullshit|wtf)\\b",
+    "certainty": "\\b(definitely|always|never|obviously|clearly|literally|100%|guaranteed|no way)\\b",
+    "hedging": "\\b(maybe|probably|perhaps|might|i think|i guess|seems|imo|imho)\\b",
+    "humour_marker": "\\b(lol|lmao|rofl|haha\\w*)\\b|\ud83d\ude02|\ud83e\udd23"
+  },
+  "references": [
+    "Danescu-Niculescu-Mizil et al. 2013, No country for old members (WWW)",
+    "Zhang et al. 2017, Community identity and user engagement (ICWSM)",
+    "Goyal et al., Uncovering the Internet's hidden values (ICWSM; arXiv 2410.13036)",
+    "Monroe, Colaresi & Quinn 2008, Fightin' Words (Political Analysis)"
+  ]
+}

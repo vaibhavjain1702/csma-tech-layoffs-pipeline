@@ -1,0 +1,30 @@
+{
+  "question": "R4: the social structure behind R3 (r/cscareerquestions, Jan-Jun 2025, read-only)",
+  "window": [
+    "2025-01",
+    "2025-06"
+  ],
+  "seed": 20261125,
+  "lwcc_nodes": 30976,
+  "lwcc_replies": 162024,
+  "thresholds": {
+    "N_MIN": 5,
+    "EMP_MIN": 2,
+    "BLAME_MIN": 2,
+    "BLAME_SHARE": 0.25,
+    "HELP_GIVEN_MIN": 5,
+    "HELP_SHARE": 0.11
+  },
+  "sampling": {
+    "betweenness_sources": 1000,
+    "closeness_sources": 2000,
+    "path_sources": 500
+  },
+  "packages": {
+    "networkx": "3.7",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "seconds": 353,
+  "peak_mb": 1435
+}

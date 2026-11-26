@@ -1,0 +1,78 @@
+{
+  "window": "2025-01 through 2025-05 inclusive",
+  "unit": "comments",
+  "communities": {
+    "cscareerquestions": {
+      "collected_comments": 256497,
+      "facets": {
+        "layoffs": {
+          "records": 5958,
+          "rate_percent": 2.3228,
+          "rate_ratio_vs_technology": 11.36
+        },
+        "hiring_conditions": {
+          "records": 21794,
+          "rate_percent": 8.4968,
+          "rate_ratio_vs_technology": 18.69
+        },
+        "ai_work_change": {
+          "records": 7585,
+          "rate_percent": 2.9571,
+          "rate_ratio_vs_technology": 5.4
+        },
+        "corporate_restructuring": {
+          "records": 2652,
+          "rate_percent": 1.0339,
+          "rate_ratio_vs_technology": 11.97
+        },
+        "economic_policy": {
+          "records": 3516,
+          "rate_percent": 1.3708,
+          "rate_ratio_vs_technology": 5.58
+        },
+        "career_transition": {
+          "records": 3240,
+          "rate_percent": 1.2632,
+          "rate_ratio_vs_technology": 10.07
+        }
+      }
+    },
+    "technology": {
+      "collected_comments": 1593759,
+      "facets": {
+        "layoffs": {
+          "records": 3260,
+          "rate_percent": 0.2045
+        },
+        "hiring_conditions": {
+          "records": 7244,
+          "rate_percent": 0.4545
+        },
+        "ai_work_change": {
+          "records": 8725,
+          "rate_percent": 0.5474
+        },
+        "corporate_restructuring": {
+          "records": 1377,
+          "rate_percent": 0.0864
+        },
+        "economic_policy": {
+          "records": 3918,
+          "rate_percent": 0.2458
+        },
+        "career_transition": {
+          "records": 1998,
+          "rate_percent": 0.1254
+        }
+      }
+    }
+  },
+  "layoff_rate_test": {
+    "cscareerquestions_rate_percent": 2.3228,
+    "technology_rate_percent": 0.2045,
+    "rate_ratio": 11.36,
+    "z_approx": 141.42,
+    "two_sided_p_approx": "<0.001",
+    "test_note": "Two-proportion z test on collected comment records in the shared window; statistical significance does not correct for sampling or collection bias."
+  }
+}

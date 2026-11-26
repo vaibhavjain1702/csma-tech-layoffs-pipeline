@@ -1,0 +1,30 @@
+{
+  "script": "scripts/explore_leads.py",
+  "database": "read-only",
+  "shared_window_end": "2025-06",
+  "seed": 20261114,
+  "markers": {
+    "ai_pretext": "\\b(excuse|scapegoat\\w*|pretext|smokescreen|cover (story|for)|ai[- ]?washing)\\b|\\bblam\\w* (it )?on (the )?ai\\b|\\b(not|isn'?t|wasn'?t|aren'?t|weren'?t) (really )?(because of|due to|about|caused by|replaced by) ai\\b|\\busing ai as (an? )?(excuse|cover|reason|justification)\\b|\\bai is (just )?(the|an) (excuse|cover)\\b",
+    "ai_inevitable": "\\b(ai|llms?|it|agents?) (will|is going to|are going to|gonna) (soon )?(replace|take|eliminate|automate|wipe out|make .{0,20}obsolete)\\b|\\bjobs (will be|are) (gone|obsolete|dead)\\b|\\badapt or (die|get left)\\b|\\b(get|be|being) left behind\\b|\\byou(?:'ll| will) be replaced\\b|\\breplaced by (someone|people) (who|using)\\b",
+    "exec_blame": "\\b(greed\\w*|shareholders?|stock (price|buybacks?)|buybacks?|executives?|execs|c-suite|ceos?|wall street|investors?)\\b",
+    "offshore_h1b": "\\b(offshor\\w*|outsourc\\w*|h-?1-?bs?|visas?)\\b",
+    "ethnic_ref": "\\b(india\\w*|chinese|desi|brown people|white people)\\b",
+    "macro": "\\b(interest rates?|zirp|recession|economy|tariffs?|section 174)\\b",
+    "overhiring": "\\bover-?\\s?hir\\w*\\b",
+    "individual_blame": "\\b(low performers?|skill issue|not good enough|unqualified|lazy|deadweight|underperform\\w*|git gud)\\b",
+    "ai_any": "\\b(ai|a\\.i\\.|chatgpt|llms?|gpt-?\\d?|automation|copilot|cursor|claude|agents?)\\b",
+    "first_person_layoff": "\\b(i was|i got|i've been|i have been|i'm being|i am being|i just got|we were|we got|my (whole )?team (was|got))\\b[^.!?]{0,30}\\b(laid off|let go|rif'?d|riffed|cut)\\b|\\b(laid me off|let me go)\\b|\\bsince (i|my) (was |got )?(layoff|laid off)\\b",
+    "consequence": "\\b(insurance|cobra|savings|severance|mortgage|rent|bills|visa|green card|kids?|baby|wife|husband|family|months? (of|without|unemployed)|unemploy\\w*|runway|applications?|ghosted)\\b",
+    "empathy_reply": "\\b(sorry|good luck|best of luck|hang in|rooting for|feel for you|that sucks|you got this|wishing you|congrat\\w*|glad you|hugs)\\b",
+    "challenge_reply": "\\b(source\\??|citation|not true|wrong|disagree|nonsense|bullshit|cope|delusional|no it|that's not|this is false|lol no)\\b",
+    "realism": "\\b(market is (really )?(bad|terrible|brutal|awful|cooked|rough|trash)|it (really )?is that bad|not lying|in denial|denial|stop (coping|pretending)|cooked|bloodbath|tech depression)\\b"
+  },
+  "ai_themes": {
+    "replacement": "\\b(laid off|layoffs?|replac\\w*|headcount|job losses|eliminat\\w*)\\b",
+    "hiring_gate": "\\b(interviews?|resumes?|recruit\\w*|applicants?|ats|cheat\\w*|applications?)\\b",
+    "tools_named": "\\b(cursor|copilot|claude|agents?|agentic|vibe ?cod\\w*|codex|windsurf)\\b",
+    "mandate_tracking": "\\b(mandat\\w*|forced to use|required to use|requir\\w* (us )?to use|track\\w* (our )?(usage|tokens?)|token usage|usage metrics|ai adoption|kpis?|okrs?)\\b",
+    "quality_slop": "\\b(slop|tech debt|quality|bugs?|broken)\\b"
+  },
+  "note": "Lexical markers are retrieval devices; precision is checked by reading (precision_samples/, manual/). Scores are snapshots; comparisons use within-thread percentiles."
+}

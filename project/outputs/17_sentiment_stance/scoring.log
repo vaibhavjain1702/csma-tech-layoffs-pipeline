@@ -1,0 +1,83 @@
+[    11s] texts: sentiment 300,946  blame 67,219  reply pairs 162,722
+[    86s] sentiment: 299,852 to score
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 37688.55it/s]
+[transformers] [1mRobertaForSequenceClassification LOAD REPORT[0m from: cardiffnlp/twitter-roberta-base-sentiment-latest
+Key                         | Status     |  | 
+----------------------------+------------+--+-
+roberta.pooler.dense.weight | UNEXPECTED |  | 
+roberta.pooler.dense.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[    93s]   sentiment 20,096/299,852
+[    96s]   sentiment 40,064/299,852
+[   101s]   sentiment 60,032/299,852
+[   107s]   sentiment 80,000/299,852
+[   113s]   sentiment 100,096/299,852
+[   121s]   sentiment 120,064/299,852
+[   130s]   sentiment 140,032/299,852
+[   140s]   sentiment 160,000/299,852
+[   152s]   sentiment 180,096/299,852
+[   166s]   sentiment 200,064/299,852
+[   183s]   sentiment 220,032/299,852
+[   203s]   sentiment 240,000/299,852
+[   230s]   sentiment 260,096/299,852
+[   265s]   sentiment 280,064/299,852
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 13280.60it/s]
+[   320s] stance/blames_execs: 66,479 to score
+[   337s]   blames_execs 20,032/66,479
+[   368s]   blames_execs 40,000/66,479
+[   433s]   blames_execs 60,032/66,479
+[   469s] stance/blames_offshore: 66,479 to score
+[   487s]   blames_offshore 20,032/66,479
+[   520s]   blames_offshore 40,000/66,479
+[   588s]   blames_offshore 60,032/66,479
+[   624s] stance/blames_ai: 66,479 to score
+[   638s]   blames_ai 20,032/66,479
+[   667s]   blames_ai 40,000/66,479
+[   729s]   blames_ai 60,032/66,479
+[   764s] stance/ai_is_excuse: 66,479 to score
+[   780s]   ai_is_excuse 20,032/66,479
+[   810s]   ai_is_excuse 40,000/66,479
+[   873s]   ai_is_excuse 60,032/66,479
+[   909s] stance/blames_macro: 66,479 to score
+[   926s]   blames_macro 20,032/66,479
+[   958s]   blames_macro 40,000/66,479
+[  1024s]   blames_macro 60,032/66,479
+[  1059s] stance/blames_workers: 66,479 to score
+[  1077s]   blames_workers 20,032/66,479
+[  1109s]   blames_workers 40,000/66,479
+[  1174s]   blames_workers 60,032/66,479
+[  1210s] stance/own_job_loss: 66,479 to score
+[  1226s]   own_job_loss 20,032/66,479
+[  1256s]   own_job_loss 40,000/66,479
+[  1319s]   own_job_loss 60,032/66,479
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 14709.70it/s]
+[  1356s] reply_stance/agrees: 162,122 to score
+[  1370s]   agrees 20,016/162,122
+[  1389s]   agrees 40,032/162,122
+[  1414s]   agrees 60,000/162,122
+[  1444s]   agrees 80,016/162,122
+[  1483s]   agrees 100,032/162,122
+[  1533s]   agrees 120,000/162,122
+[  1600s]   agrees 140,016/162,122
+[  1695s]   agrees 160,032/162,122
+[  1710s] reply_stance/disagrees: 162,122 to score
+[  1723s]   disagrees 20,016/162,122
+[  1743s]   disagrees 40,032/162,122
+[  1768s]   disagrees 60,000/162,122
+[  1798s]   disagrees 80,016/162,122
+[  1837s]   disagrees 100,032/162,122
+[  1887s]   disagrees 120,000/162,122
+[  1954s]   disagrees 140,016/162,122
+[  2051s]   disagrees 160,032/162,122
+[  2066s] reply_stance/sympathy: 162,122 to score
+[  2082s]   sympathy 20,016/162,122
+[  2104s]   sympathy 40,032/162,122
+[  2131s]   sympathy 60,000/162,122
+[  2164s]   sympathy 80,016/162,122
+[  2205s]   sympathy 100,032/162,122
+[  2258s]   sympathy 120,000/162,122
+[  2329s]   sympathy 140,016/162,122
+[  2429s]   sympathy 160,032/162,122
+[  2444s] done

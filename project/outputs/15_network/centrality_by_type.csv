@@ -1,0 +1,69 @@
+type,measure,n,median,ci95_lo,ci95_hi,mean,pct_zero
+story-sharer,degree,233,23.0,18.0,29.0,40.150215,0.0
+story-sharer,in_degree,233,12.0,9.0,14.0,19.896996,0.9
+story-sharer,out_degree,233,11.0,9.0,13.0,20.253219,0.4
+story-sharer,in_weight,233,14.0,11.0,16.0,24.330472,0.9
+story-sharer,out_weight,233,14.0,10.0,16.0,24.613734,0.4
+story-sharer,ratio_recv_given,233,1.0,0.9,1.0,1.128293,0.0
+story-sharer,pagerank,233,2.177494,1.855997,2.696745,3.868339,0.0
+story-sharer,betweenness,233,9.7e-05,6.8e-05,0.000135,0.000496,2.6
+story-sharer,closeness_in,233,0.233894,0.228907,0.236894,0.228125,1.7
+story-sharer,closeness_out,233,0.199257,0.194545,0.201515,0.195624,0.9
+blame-talker,degree,577,23.0,21.0,26.0,38.802426,0.0
+blame-talker,in_degree,577,11.0,10.0,13.0,19.760832,1.2
+blame-talker,out_degree,577,12.0,10.0,13.0,19.041594,0.9
+blame-talker,in_weight,577,14.0,13.0,16.0,24.954939,1.2
+blame-talker,out_weight,577,15.0,13.0,16.0,24.199307,0.9
+blame-talker,ratio_recv_given,577,1.0,0.933276,1.0,1.149316,0.0
+blame-talker,pagerank,577,2.379901,2.158634,2.592368,3.920109,0.0
+blame-talker,betweenness,577,9.6e-05,7.6e-05,0.000121,0.000399,3.5
+blame-talker,closeness_in,577,0.233789,0.231956,0.235923,0.229078,1.7
+blame-talker,closeness_out,577,0.198364,0.196095,0.20052,0.195612,1.2
+helper,degree,1770,13.0,12.0,14.0,20.988701,0.0
+helper,in_degree,1770,6.0,6.0,6.0,10.681356,0.9
+helper,out_degree,1770,7.0,6.0,7.0,10.307345,0.0
+helper,in_weight,1770,8.0,7.0,8.0,13.255932,0.9
+helper,out_weight,1770,8.0,8.0,8.0,12.849718,0.0
+helper,ratio_recv_given,1770,0.885165,0.857143,0.907706,1.011371,0.0
+helper,pagerank,1770,1.372279,1.319749,1.426038,2.22881,0.0
+helper,betweenness,1770,3.8e-05,3.5e-05,4.1e-05,0.000178,1.8
+helper,closeness_in,1770,0.222773,0.221264,0.223806,0.219244,1.4
+helper,closeness_out,1770,0.1899,0.189032,0.190919,0.189948,0.0
+other,degree,8198,9.0,9.0,9.0,18.707246,0.0
+other,in_degree,8198,4.0,4.0,5.0,9.46304,3.9
+other,out_degree,8198,5.0,4.0,5.0,9.244206,2.5
+other,in_weight,8198,5.0,5.0,5.0,11.508051,3.9
+other,out_weight,8198,5.0,5.0,5.0,11.276409,2.5
+other,ratio_recv_given,8198,1.0,1.0,1.0,1.211733,0.0
+other,pagerank,8198,1.013814,0.986864,1.036839,1.959889,0.0
+other,betweenness,8198,1.9e-05,1.7e-05,2.1e-05,0.00018,10.9
+other,closeness_in,8198,0.21589,0.215043,0.216565,0.205832,5.1
+other,closeness_out,8198,0.182538,0.182034,0.183091,0.178033,3.0
+low-activity,degree,20198,2.0,2.0,2.0,2.349837,0.0
+low-activity,in_degree,20198,1.0,1.0,1.0,1.105902,37.7
+low-activity,out_degree,20198,1.0,1.0,1.0,1.243935,12.6
+low-activity,in_weight,20198,1.0,1.0,1.0,1.195663,37.7
+low-activity,out_weight,20198,1.0,1.0,1.0,1.343598,12.6
+low-activity,ratio_recv_given,20198,0.75,0.75,0.8,1.071542,0.0
+low-activity,pagerank,20198,0.288636,0.285466,0.292455,0.386207,0.0
+low-activity,betweenness,20198,0.0,0.0,0.0,5e-06,72.1
+low-activity,closeness_in,20198,0.168699,0.167606,0.169939,0.112696,41.2
+low-activity,closeness_out,20198,0.15636,0.155984,0.156743,0.134735,15.4
+story-sharer minus other,ratio_recv_given,233,0.0,-0.113208,0.0,,
+story-sharer minus other,betweenness,233,7.9e-05,4.9e-05,0.000114,,
+story-sharer minus other,pagerank,233,1.16368,0.833726,1.620821,,
+story-sharer minus other,out_degree,233,6.0,4.0,9.0,,
+story-sharer minus other,in_degree,233,8.0,5.0,10.0,,
+story-sharer minus other,closeness_in,233,0.018004,0.012959,0.021465,,
+blame-talker minus other,ratio_recv_given,577,0.0,-0.066667,0.0,,
+blame-talker minus other,betweenness,577,7.8e-05,5.8e-05,0.000103,,
+blame-talker minus other,pagerank,577,1.366087,1.135079,1.568834,,
+blame-talker minus other,out_degree,577,7.0,5.0,8.0,,
+blame-talker minus other,in_degree,577,7.0,5.0,9.0,,
+blame-talker minus other,closeness_in,577,0.0179,0.015773,0.020467,,
+helper minus other,ratio_recv_given,1770,-0.114835,-0.142857,-0.090909,,
+helper minus other,betweenness,1770,1.9e-05,1.6e-05,2.3e-05,,
+helper minus other,pagerank,1770,0.358465,0.303569,0.419068,,
+helper minus other,out_degree,1770,2.0,1.0,3.0,,
+helper minus other,in_degree,1770,2.0,1.0,2.0,,
+helper minus other,closeness_in,1770,0.006884,0.005039,0.00834,,

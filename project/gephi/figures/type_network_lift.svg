@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1249.5305"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-634.054382 -407.000000 1249.530518 814.000000" height="814.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="19.74"
+              d="M -498.000000,-385.000000 L 498.000000,-385.000000"
+              class="id_P:experience id_R:sympathy" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="6.72"
+              d="M -498.640869,-379.728668 L 498.640869,-133.604660"
+              class="id_P:experience id_R:advice" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="7.42"
+              d="M -500.272278,-375.262604 L 500.272278,118.595932"
+              class="id_P:experience id_R:agree" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="4.41"
+              d="M -502.318726,-371.909058 L 502.318726,371.909058"
+              class="id_P:experience id_R:challenge" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="5.67"
+              d="M -498.122040,-277.314026 L 498.122040,-382.685974"
+              class="id_P:mentions_execs id_R:sympathy" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="4.34"
+              d="M -498.215576,-271.927826 L 498.215576,-131.405487"
+              class="id_P:mentions_execs id_R:advice" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="8.82"
+              d="M -499.488495,-267.045227 L 499.488495,120.378548"
+              class="id_P:mentions_execs id_R:agree" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="8.26"
+              d="M -501.424744,-263.211853 L 501.424744,373.211853"
+              class="id_P:mentions_execs id_R:challenge" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="5.39"
+              d="M -498.476318,-169.553085 L 498.476318,-380.446899"
+              class="id_P:mentions_offshore id_R:sympathy" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="4.48"
+              d="M -498.013672,-164.224838 L 498.013672,-129.108490"
+              class="id_P:mentions_offshore id_R:advice" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="7.35"
+              d="M -498.826111,-159.027878 L 498.826111,122.361206"
+              class="id_P:mentions_offshore id_R:agree" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.49"
+              d="M -500.552124,-154.715057 L 500.552124,374.715057"
+              class="id_P:mentions_offshore id_R:challenge" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="9.03"
+              d="M -499.030334,-61.653831 L 499.030334,-378.346161"
+              class="id_P:blames_workers id_R:sympathy" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="7.56"
+              d="M -498.054504,-56.547440 L 498.054504,-126.785889"
+              class="id_P:blames_workers id_R:advice" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.91"
+              d="M -498.334076,-51.180683 L 498.334076,124.514015"
+              class="id_P:blames_workers id_R:agree" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.56"
+              d="M -499.738708,-46.427921 L 499.738708,376.427917"
+              class="id_P:blames_workers id_R:challenge" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="5.39"
+              d="M -499.738708,46.427921 L 499.738708,-376.427917"
+              class="id_P:ai_excuse id_R:sympathy" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="4.48"
+              d="M -498.334076,51.180683 L 498.334076,-124.514015"
+              class="id_P:ai_excuse id_R:advice" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="9.03"
+              d="M -498.054504,56.547440 L 498.054504,126.785889"
+              class="id_P:ai_excuse id_R:agree" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="7.42"
+              d="M -499.030334,61.653831 L 499.030334,378.346161"
+              class="id_P:ai_excuse id_R:challenge" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="4.69"
+              d="M -500.552124,154.715057 L 500.552124,-374.715057"
+              class="id_P:ai_replaces id_R:sympathy" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="5.53"
+              d="M -498.826111,159.027878 L 498.826111,-122.361206"
+              class="id_P:ai_replaces id_R:advice" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="8.82"
+              d="M -498.013672,164.224838 L 498.013672,129.108490"
+              class="id_P:ai_replaces id_R:agree" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="8.61"
+              d="M -498.476318,169.553085 L 498.476318,380.446899"
+              class="id_P:ai_replaces id_R:challenge" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="6.16"
+              d="M -501.424744,263.211853 L 501.424744,-373.211853"
+              class="id_P:doom id_R:sympathy" stroke-opacity="1.0"
+              stroke="#dadada"/>
+        <path fill="none" stroke-width="9.66"
+              d="M -499.488495,267.045227 L 499.488495,-120.378548"
+              class="id_P:doom id_R:advice" stroke-opacity="1.0"
+              stroke="#d55e00"/>
+        <path fill="none" stroke-width="7.77"
+              d="M -498.215576,271.927826 L 498.215576,131.405487"
+              class="id_P:doom id_R:agree" stroke-opacity="1.0" stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.63"
+              d="M -498.122040,277.314026 L 498.122040,382.685974"
+              class="id_P:doom id_R:challenge" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -502.318726,371.909058 L 502.318726,-371.909058"
+              class="id_P:none id_R:sympathy" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -500.272278,375.262604 L 500.272278,-118.595932"
+              class="id_P:none id_R:advice" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -498.640869,379.728668 L 498.640869,133.604660"
+              class="id_P:none id_R:agree" stroke-opacity="1.0" stroke="#8c8c8c"/>
+        <path fill="none" stroke-width="7.0"
+              d="M -498.000000,385.000000 L 498.000000,385.000000"
+              class="id_P:none id_R:challenge" stroke-opacity="1.0"
+              stroke="#8c8c8c"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:experience id_R:sympathy"
+                  points="498.000000,-385.000000 498.000000,-385.000000 498.000000,-385.000000"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:experience id_R:advice"
+                  points="498.640869,-133.604660 498.640869,-133.604660 498.640869,-133.604660"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:experience id_R:agree"
+                  points="500.272278,118.595932 500.272278,118.595932 500.272278,118.595932"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:experience id_R:challenge"
+                  points="502.318726,371.909058 502.318726,371.909058 502.318726,371.909058"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:mentions_execs id_R:sympathy"
+                  points="498.122040,-382.685974 498.122040,-382.685974 498.122040,-382.685974"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:mentions_execs id_R:advice"
+                  points="498.215576,-131.405487 498.215576,-131.405487 498.215576,-131.405487"
+                  stroke="none"/>
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:mentions_execs id_R:agree"
+                  points="499.488495,120.378548 499.488495,120.378548 499.488495,120.378548"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:mentions_execs id_R:challenge"
+                  points="501.424744,373.211853 501.424744,373.211853 501.424744,373.211853"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:mentions_offshore id_R:sympathy"
+                  points="498.476318,-380.446899 498.476318,-380.446899 498.476318,-380.446899"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:mentions_offshore id_R:advice"
+                  points="498.013672,-129.108490 498.013672,-129.108490 498.013672,-129.108490"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:mentions_offshore id_R:agree"
+                  points="498.826111,122.361206 498.826111,122.361206 498.826111,122.361206"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:mentions_offshore id_R:challenge"
+                  points="500.552124,374.715057 500.552124,374.715057 500.552124,374.715057"
+                  stroke="none"/>
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:blames_workers id_R:sympathy"
+                  points="499.030334,-378.346161 499.030334,-378.346161 499.030334,-378.346161"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:blames_workers id_R:advice"
+                  points="498.054504,-126.785889 498.054504,-126.785889 498.054504,-126.785889"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:blames_workers id_R:agree"
+                  points="498.334076,124.514015 498.334076,124.514015 498.334076,124.514015"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:blames_workers id_R:challenge"
+                  points="499.738708,376.427917 499.738708,376.427917 499.738708,376.427917"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:ai_excuse id_R:sympathy"
+                  points="499.738708,-376.427917 499.738708,-376.427917 499.738708,-376.427917"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:ai_excuse id_R:advice"
+                  points="498.334076,-124.514015 498.334076,-124.514015 498.334076,-124.514015"
+                  stroke="none"/>
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:ai_excuse id_R:agree"
+                  points="498.054504,126.785889 498.054504,126.785889 498.054504,126.785889"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:ai_excuse id_R:challenge"
+                  points="499.030334,378.346161 499.030334,378.346161 499.030334,378.346161"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:ai_replaces id_R:sympathy"
+                  points="500.552124,-374.715057 500.552124,-374.715057 500.552124,-374.715057"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:ai_replaces id_R:advice"
+                  points="498.826111,-122.361206 498.826111,-122.361206 498.826111,-122.361206"
+                  stroke="none"/>
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:ai_replaces id_R:agree"
+                  points="498.013672,129.108490 498.013672,129.108490 498.013672,129.108490"
+                  stroke="none"/>
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:ai_replaces id_R:challenge"
+                  points="498.476318,380.446899 498.476318,380.446899 498.476318,380.446899"
+                  stroke="none"/>
+        <polyline fill="#dadada" fill-opacity="1.0"
+                  class="id_P:doom id_R:sympathy"
+                  points="501.424744,-373.211853 501.424744,-373.211853 501.424744,-373.211853"
+                  stroke="none"/>
+        <polyline fill="#d55e00" fill-opacity="1.0"
+                  class="id_P:doom id_R:advice"
+                  points="499.488495,-120.378548 499.488495,-120.378548 499.488495,-120.378548"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0" class="id_P:doom id_R:agree"
+                  points="498.215576,131.405487 498.215576,131.405487 498.215576,131.405487"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:doom id_R:challenge"
+                  points="498.122040,382.685974 498.122040,382.685974 498.122040,382.685974"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:none id_R:sympathy"
+                  points="502.318726,-371.909058 502.318726,-371.909058 502.318726,-371.909058"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:none id_R:advice"
+                  points="500.272278,-118.595932 500.272278,-118.595932 500.272278,-118.595932"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0" class="id_P:none id_R:agree"
+                  points="498.640869,133.604660 498.640869,133.604660 498.640869,133.604660"
+                  stroke="none"/>
+        <polyline fill="#8c8c8c" fill-opacity="1.0"
+                  class="id_P:none id_R:challenge"
+                  points="498.000000,385.000000 498.000000,385.000000 498.000000,385.000000"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:experience" cy="-385.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:mentions_execs" cy="-275.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:mentions_offshore" cy="-165.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:blames_workers" cy="-55.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:ai_excuse" cy="55.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:ai_replaces" cy="165.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:doom" cy="275.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#4d4d4d" r="20.24" cx="-520.0"
+                class="id_P:none" cy="385.0" stroke="#262626"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#009e73" r="20.24" cx="520.0"
+                class="id_R:sympathy" cy="-385.0" stroke="#004f39"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#009e73" r="20.24" cx="520.0"
+                class="id_R:advice" cy="-128.33333" stroke="#004f39"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#009e73" r="20.24" cx="520.0"
+                class="id_R:agree" cy="128.33333" stroke="#004f39"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+        <circle fill-opacity="1.0" fill="#009e73" r="20.24" cx="520.0"
+                class="id_R:challenge" cy="385.0" stroke="#004f39"
+                stroke-opacity="1.0" stroke-width="3.52"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:experience" x="-520.0"
+              stroke-linejoin="round" y="-375.9277" font-size="24">
+            experience
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:mentions_execs" x="-520.0"
+              stroke-linejoin="round" y="-265.9277" font-size="24">
+            mentions execs
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:mentions_offshore" x="-520.0"
+              stroke-linejoin="round" y="-155.92769" font-size="24">
+            mentions offshore
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:blames_workers" x="-520.0"
+              stroke-linejoin="round" y="-45.927692" font-size="24">
+            blames workers
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:ai_excuse" x="-520.0"
+              stroke-linejoin="round" y="64.07231" font-size="24">
+            ai excuse
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:ai_replaces" x="-520.0"
+              stroke-linejoin="round" y="174.07231" font-size="24">
+            ai replaces
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:doom" x="-520.0"
+              stroke-linejoin="round" y="284.0723" font-size="24">
+            doom
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_P:none" x="-520.0"
+              stroke-linejoin="round" y="394.0723" font-size="24">
+            none
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_R:sympathy" x="520.0"
+              stroke-linejoin="round" y="-375.9277" font-size="24">
+            sympathy reply
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_R:advice" x="520.0"
+              stroke-linejoin="round" y="-119.26102" font-size="24">
+            advice reply
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_R:agree" x="520.0"
+              stroke-linejoin="round" y="137.40564" font-size="24">
+            agree reply
+        </text>
+        <text stroke="#ffffff" stroke-linecap="round"
+              style="text-anchor: middle;" stroke-opacity="0.8980392"
+              fill="none" font-weight="bold" stroke-width="4.5"
+              font-family="SansSerif" class="id_R:challenge" x="520.0"
+              stroke-linejoin="round" y="394.0723" font-size="24">
+            challenge reply
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="-520.0" y="-375.9277" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:experience"
+              font-weight="bold">
+            experience
+        </text>
+        <text font-size="24" x="-520.0" y="-265.9277" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:mentions_execs"
+              font-weight="bold">
+            mentions execs
+        </text>
+        <text font-size="24" x="-520.0" y="-155.92769" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:mentions_offshore"
+              font-weight="bold">
+            mentions offshore
+        </text>
+        <text font-size="24" x="-520.0" y="-45.927692" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:blames_workers"
+              font-weight="bold">
+            blames workers
+        </text>
+        <text font-size="24" x="-520.0" y="64.07231" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:ai_excuse"
+              font-weight="bold">
+            ai excuse
+        </text>
+        <text font-size="24" x="-520.0" y="174.07231" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:ai_replaces"
+              font-weight="bold">
+            ai replaces
+        </text>
+        <text font-size="24" x="-520.0" y="284.0723" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:doom" font-weight="bold">
+            doom
+        </text>
+        <text font-size="24" x="-520.0" y="394.0723" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_P:none" font-weight="bold">
+            none
+        </text>
+        <text font-size="24" x="520.0" y="-375.9277" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_R:sympathy"
+              font-weight="bold">
+            sympathy reply
+        </text>
+        <text font-size="24" x="520.0" y="-119.26102" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_R:advice"
+              font-weight="bold">
+            advice reply
+        </text>
+        <text font-size="24" x="520.0" y="137.40564" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_R:agree" font-weight="bold">
+            agree reply
+        </text>
+        <text font-size="24" x="520.0" y="394.0723" fill-opacity="1.0"
+              fill="#000000" font-family="SansSerif"
+              style="text-anchor: middle;" class="id_R:challenge"
+              font-weight="bold">
+            challenge reply
+        </text>
+    </g>
+</svg>

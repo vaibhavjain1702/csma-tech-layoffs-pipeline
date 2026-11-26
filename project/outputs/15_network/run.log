@@ -1,0 +1,21 @@
+[     5s] window comments 302,881
+[    16s] human comments 274,850  edges kept 162,818  dropped {'parent comment not collected': 2501, 'parent is a post (no cscq posts collected)': 108722, 'self': 628, 'parent bot': 165, 'parent author deleted': 16}
+[    16s] graph nodes 31,953 pairs 135,549 replies 162,818 | LWCC nodes 30,976 (96.9%) pairs 134,859 (99.5%) replies 162,024 (99.5%) | components 460
+[    16s] help share among profiled authors with >=5 replies: median 0.02, p75 0.11, p90 0.20
+[    16s] types (LWCC): story-sharer 233, blame-talker 577, helper 1,770, other 8,198, low-activity 20,198  overlap {'story&blame_rule': 17, 'story&helper': 56, 'blame&helper': 111, 'blame_rule&not_story': 581}
+[   120s] centralities done
+[   122s] k-means: silhouette best k=2, used k=4; selection [{'k': 2, 'inertia': 51226.9, 'silhouette': 0.4383}, {'k': 3, 'inertia': 47278.2, 'silhouette': 0.2571}, {'k': 4, 'inertia': 43752.0, 'silhouette': 0.3279}, {'k': 5, 'inertia': 40456.9, 'silhouette': 0.1248}, {'k': 6, 'inertia': 36763.4, 'silhouette': 0.1509}, {'k': 7, 'inertia': 33938.8, 'silhouette': 0.1507}, {'k': 8, 'inertia': 31115.9, 'silhouette': 0.1677}]
+[   122s] ARI rules~kmeans 0.136  ward~kmeans 0.422  ward~rules 0.160
+[   130s] centrality by type written
+[   131s] assortativity all 0.022 typed 0.029
+[   138s] nulls done
+[   141s] Louvain: 59 communities, Q=0.429, top sizes [988, 902, 899, 865, 806, 803, 766, 731]; ARI comm~kmeans 0.000 NMI 0.009
+[   295s] GN core 300 nodes 4014 edges: best Q 0.001 (36 groups) vs Louvain Q 0.223 (10); ARI 0.001
+[   300s] structure done
+[   306s] bipartite done
+[   306s] activity rival done
+[   339s] megathread rival done
+[   350s] label noise rival done
+[   350s] sensitivity done
+[   352s] gexf: 10778 nodes, 91657 edges
+[   353s] done, peak 1435 MB

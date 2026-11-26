@@ -1,0 +1,53 @@
+measure,value
+window_comments,302881
+human_comments,274850
+dropped_parent comment not collected,2501
+dropped_parent is a post (no cscq posts collected),108722
+dropped_self,628
+dropped_parent bot,165
+dropped_parent author deleted,16
+nodes,31953
+directed_pairs,135549
+replies,162818
+components,460
+lwcc_nodes,30976
+lwcc_node_share,0.9694
+lwcc_pairs,134859
+lwcc_reply_share,0.9951
+second_component_size,5
+density_directed,0.00014055
+undirected_edges,105088
+reciprocity,0.4415
+degree_median,2.0
+degree_max,860
+degree_tail_alpha_xmin10,2.218
+top1pct_authors_share_of_degree,0.202
+transitivity_global,0.0154
+avg_local_clustering,0.0348
+avg_shortest_path_sampled,4.289
+diameter_lower_bound_sampled,11
+max_clique,8
+cliques_size_ge4,4346
+louvain_communities,59
+louvain_modularity,0.4289
+louvain_largest5,988 902 899 865 806
+communities_ge50,59
+ari_rules_kmeans,0.1363
+ari_ward_kmeans,0.4224
+ari_ward_rules,0.1597
+kmeans_k,4
+ari_community_kmeans,0.0001
+nmi_community_kmeans,0.0087
+ari_community_rules,0.0001
+nmi_community_rules,0.0054
+gn_core_nodes,300
+gn_core_edges,4014
+gn_best_modularity,0.0013
+gn_groups,36
+louvain_core_modularity,0.223
+louvain_core_groups,10
+ari_gn_louvain_core,0.0013
+ari_gn_kmeans_core,-0.0014
+ari_louvain_kmeans_core,-0.0005
+type_overlap,"{""story&blame_rule"": 17, ""story&helper"": 56, ""blame&helper"": 111, ""blame_rule&not_story"": 581}"
+help_share_p75,0.111

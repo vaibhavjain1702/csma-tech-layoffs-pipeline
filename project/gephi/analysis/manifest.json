@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-05T18:18:47.534826+00:00",
+  "script": "gephi/scripts/analyze_gephi.py",
+  "inputs": {
+    "authors_keyword-comments.csv": "d4497925e80feaf38b423a0976e77d84803e580c68d52a8f2bec74241af211f2",
+    "edges.csv": "198da7155864a5c3f8856833bab26e55ee00b0442c2f1507b489ac4e9095f737"
+  },
+  "settings": {
+    "source": "User report in this chat, 5 October 2026",
+    "user_report": "Mostly default settings, edge weights on. A resolution value of 1 was mentioned in connection with PageRank.",
+    "weights_reported_enabled": true,
+    "resolution_value_mentioned": 1,
+    "resolution_metric_association_confirmed": false,
+    "modularity_resolution_exact": null,
+    "pagerank_probability_exact": 0.85,
+    "pagerank_epsilon_exact": 0.001,
+    "gephi_version": null,
+    "distance_directed_confirmed": false,
+    "distance_normalization_confirmed": false,
+    "clustering_direction_confirmed": false,
+    "modularity_randomization_confirmed": false,
+    "note": "The user subsequently confirmed PageRank probability 0.85 and epsilon 0.001. Resolution is a Modularity parameter. Unrecorded settings remain unconfirmed; imported centrality values are preserved."
+  },
+  "validation": {
+    "node_ids_match_original": true,
+    "retained_values_match_original": true,
+    "calculated_degrees_match_edges": true,
+    "weak_partitions_match_edges": true,
+    "strong_partitions_match_edges": true,
+    "numeric_fields_complete_finite_nonnegative": true
+  },
+  "methods": {
+    "quantiles": "Linear interpolation",
+    "rank_correlation": "Pearson correlation of average ranks (Spearman); no p-values",
+    "top20": "Descending metric, then ascending node ID; ties at cutoff can be excluded",
+    "modularity_quality": "Weighted undirected Q at gamma=1 for exported labels; opposite directions summed. No community detection rerun. Not an asserted recovery of the Gephi report.",
+    "strong_components": "Iterative Kosaraju; labels compared as node sets",
+    "weak_components": "Breadth-first traversal ignoring edge direction",
+    "export_rounding": "Gephi centralities are rounded to six decimals; imported values preserved"
+  },
+  "plots": true,
+  "plots_reused": "Existing validated plots retained unchanged during directory reorganization; input hashes unchanged."
+}

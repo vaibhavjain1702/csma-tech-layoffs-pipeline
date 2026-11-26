@@ -1,0 +1,5 @@
+marker,all_authors_cscq_pct,all_authors_tech_pct,same_authors_n,same_authors_cscq_pct,same_authors_tech_pct,within_author_diff_tech_minus_cscq_pp,ci95_pp
+execs,3.3,7.8,160,5.8,6.6,0.8,"(-1.7, 3.2)"
+offshore,10.0,7.8,160,14.9,15.7,0.8,"(-3.4, 5.1)"
+consequence,17.6,14.4,160,15.7,15.2,-0.5,"(-5.0, 4.3)"
+ai,20.0,38.4,160,28.8,38.2,9.4,"(2.7, 15.3)"

@@ -1,0 +1,3126 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<workbook xmlns:user="http://www.tableausoftware.com/xml/user" locale="en_US" source-build="0.0.0 (0000.0.0.0)" source-platform="mac" version="18.1">
+  <preferences>
+    <preference name="ui.encoding.shelf.height" value="24" />
+    <preference name="ui.shelf.height" value="26" />
+  </preferences>
+  <style-theme name="smooth" />
+  <datasources>
+    <datasource caption="R1/R5 daily volume by community" inline="true" name="federated.r1_daily" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r1_daily_by_community" name="textscan.r1_daily">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r1_daily_by_community.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r1_daily" name="r1_daily_by_community.csv" table="[r1_daily_by_community#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="date" name="date" ordinal="0" />
+            <column datatype="date" name="week_start" ordinal="1" />
+            <column datatype="string" name="month" ordinal="2" />
+            <column datatype="string" name="subreddit" ordinal="3" />
+            <column datatype="string" name="kind" ordinal="4" />
+            <column datatype="integer" name="in_shared_window" ordinal="5" />
+            <column datatype="integer" name="records" ordinal="6" />
+            <column datatype="integer" name="bot_records" ordinal="7" />
+            <column datatype="integer" name="unknown_author_records" ordinal="8" />
+            <column datatype="integer" name="text_available" ordinal="9" />
+            <column datatype="integer" name="text_deleted_or_removed" ordinal="10" />
+            <column datatype="integer" name="employment_screened" ordinal="11" />
+            <column datatype="integer" name="facet_layoffs" ordinal="12" />
+            <column datatype="integer" name="facet_hiring_conditions" ordinal="13" />
+            <column datatype="integer" name="facet_ai_work_change" ordinal="14" />
+            <column datatype="integer" name="facet_corporate_restructuring" ordinal="15" />
+            <column datatype="integer" name="facet_economic_policy" ordinal="16" />
+            <column datatype="integer" name="facet_career_transition" ordinal="17" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>week_start</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[week_start]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>week_start</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>subreddit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subreddit]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>subreddit</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>kind</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kind]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>kind</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>in_shared_window</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_shared_window]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>in_shared_window</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[records]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>records</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>bot_records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bot_records]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>bot_records</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>unknown_author_records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[unknown_author_records]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>unknown_author_records</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>text_available</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[text_available]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>text_available</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>text_deleted_or_removed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[text_deleted_or_removed]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>text_deleted_or_removed</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>employment_screened</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[employment_screened]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>employment_screened</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>facet_layoffs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facet_layoffs]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>facet_layoffs</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>facet_hiring_conditions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facet_hiring_conditions]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>facet_hiring_conditions</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>facet_ai_work_change</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facet_ai_work_change]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>facet_ai_work_change</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>facet_corporate_restructuring</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facet_corporate_restructuring]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>facet_corporate_restructuring</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>facet_economic_policy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facet_economic_policy]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>facet_economic_policy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>facet_career_transition</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[facet_career_transition]</local-name>
+            <parent-name>[r1_daily_by_community.csv]</parent-name>
+            <remote-alias>facet_career_transition</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="Layoff share (non-bot)" datatype="real" default-format="p0.00%" name="[Calculation_1001000000000001]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM([facet_layoffs]) / (SUM([records]) - SUM([bot_records]))" />
+      </column>
+      <column aggregation="Sum" datatype="integer" name="[bot_records]" role="measure" type="quantitative" />
+      <column datatype="date" name="[date]" role="dimension" type="ordinal" />
+      <column aggregation="Sum" datatype="integer" name="[employment_screened]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[facet_ai_work_change]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[facet_career_transition]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[facet_corporate_restructuring]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[facet_economic_policy]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[facet_hiring_conditions]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[facet_layoffs]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[in_shared_window]" role="dimension" type="ordinal" />
+      <column datatype="string" name="[kind]" role="dimension" type="nominal" />
+      <column datatype="string" name="[month]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[records]" role="measure" type="quantitative" />
+      <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[text_available]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[text_deleted_or_removed]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[unknown_author_records]" role="measure" type="quantitative" />
+      <column datatype="date" name="[week_start]" role="dimension" type="ordinal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[none:subreddit:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"cscareerquestions"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"programming"</bucket>
+            </map>
+            <map to="#e15759">
+              <bucket>"technology"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption="R1 threads" inline="true" name="federated.r1_threads" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r1_threads" name="textscan.r1_threads">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r1_threads.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r1_threads" name="r1_threads.csv" table="[r1_threads#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="thread_id" ordinal="0" />
+            <column datatype="string" name="subreddit" ordinal="1" />
+            <column datatype="string" name="first_month" ordinal="2" />
+            <column datatype="integer" name="in_shared_window" ordinal="3" />
+            <column datatype="integer" name="comments" ordinal="4" />
+            <column datatype="integer" name="distinct_authors" ordinal="5" />
+            <column datatype="string" name="size_band" ordinal="6" />
+            <column datatype="integer" name="layoff_comments" ordinal="7" />
+            <column datatype="integer" name="employment_comments" ordinal="8" />
+            <column datatype="integer" name="ai_work_comments" ordinal="9" />
+            <column datatype="real" name="layoff_share" ordinal="10" />
+            <column datatype="integer" name="has_layoff_talk" ordinal="11" />
+            <column datatype="real" name="active_hours" ordinal="12" />
+            <column datatype="integer" name="post_in_database" ordinal="13" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>thread_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[thread_id]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>thread_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>subreddit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subreddit]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>subreddit</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>first_month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[first_month]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>first_month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>in_shared_window</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_shared_window]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>in_shared_window</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>distinct_authors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[distinct_authors]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>distinct_authors</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>size_band</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[size_band]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>size_band</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>layoff_comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[layoff_comments]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>layoff_comments</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>employment_comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[employment_comments]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>employment_comments</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>ai_work_comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ai_work_comments]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>ai_work_comments</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>layoff_share</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[layoff_share]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>layoff_share</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>has_layoff_talk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[has_layoff_talk]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>has_layoff_talk</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>active_hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[active_hours]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>active_hours</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>post_in_database</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[post_in_database]</local-name>
+            <parent-name>[r1_threads.csv]</parent-name>
+            <remote-alias>post_in_database</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="Thread size" datatype="string" name="[Calculation_1002000000000001]" role="dimension" type="nominal">
+        <calculation class="tableau" formula="CASE [size_band] WHEN &quot;1-9&quot; THEN &quot;1) 1-9 comments&quot; WHEN &quot;10-49&quot; THEN &quot;2) 10-49&quot; WHEN &quot;50-199&quot; THEN &quot;3) 50-199&quot; WHEN &quot;200-999&quot; THEN &quot;4) 200-999&quot; WHEN &quot;1000+&quot; THEN &quot;5) 1000+&quot; ELSE [size_band] END" />
+      </column>
+      <column caption="Share of threads with layoff talk" datatype="real" default-format="p0.0%" name="[Calculation_1002000000000002]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="AVG([has_layoff_talk])" />
+      </column>
+      <column aggregation="Sum" datatype="real" name="[active_hours]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[ai_work_comments]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[comments]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[distinct_authors]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[employment_comments]" role="measure" type="quantitative" />
+      <column datatype="string" name="[first_month]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[has_layoff_talk]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[in_shared_window]" role="dimension" type="ordinal" />
+      <column aggregation="Sum" datatype="integer" name="[layoff_comments]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[layoff_share]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[post_in_database]" role="measure" type="quantitative" />
+      <column datatype="string" name="[size_band]" role="dimension" type="nominal" />
+      <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+      <column datatype="string" name="[thread_id]" role="dimension" type="nominal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[none:subreddit:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"cscareerquestions"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"programming"</bucket>
+            </map>
+            <map to="#e15759">
+              <bucket>"technology"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption="R2 cross-posters (same author)" inline="true" name="federated.r2_cross" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r2_cross_posters_same_author" name="textscan.r2_cross">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r2_cross_posters_same_author.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r2_cross" name="r2_cross_posters_same_author.csv" table="[r2_cross_posters_same_author#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="author_id" ordinal="0" />
+            <column datatype="string" name="subreddit" ordinal="1" />
+            <column datatype="integer" name="employment_comments" ordinal="2" />
+            <column datatype="real" name="rate_own_layoff_story" ordinal="3" />
+            <column datatype="real" name="rate_mentions_execs" ordinal="4" />
+            <column datatype="real" name="rate_mentions_offshore_visa" ordinal="5" />
+            <column datatype="real" name="rate_ethnic_reference" ordinal="6" />
+            <column datatype="real" name="rate_blames_workers" ordinal="7" />
+            <column datatype="real" name="rate_ai_is_excuse" ordinal="8" />
+            <column datatype="real" name="rate_ai_will_replace" ordinal="9" />
+            <column datatype="real" name="rate_mentions_ai" ordinal="10" />
+            <column datatype="real" name="rate_macro_economy" ordinal="11" />
+            <column datatype="real" name="rate_overhiring" ordinal="12" />
+            <column datatype="real" name="rate_consequences" ordinal="13" />
+            <column datatype="real" name="rate_doom" ordinal="14" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>author_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[author_id]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>author_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>subreddit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subreddit]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>subreddit</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>employment_comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[employment_comments]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>employment_comments</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_own_layoff_story</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_own_layoff_story]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_own_layoff_story</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_mentions_execs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_mentions_execs]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_mentions_execs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_mentions_offshore_visa</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_mentions_offshore_visa]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_mentions_offshore_visa</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_ethnic_reference</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_ethnic_reference]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_ethnic_reference</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_blames_workers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_blames_workers]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_blames_workers</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_ai_is_excuse</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_ai_is_excuse]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_ai_is_excuse</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_ai_will_replace</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_ai_will_replace]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_ai_will_replace</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_mentions_ai</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_mentions_ai]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_mentions_ai</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_macro_economy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_macro_economy]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_macro_economy</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_overhiring</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_overhiring]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_overhiring</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_consequences</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_consequences]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_consequences</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate_doom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate_doom]</local-name>
+            <parent-name>[r2_cross_posters_same_author.csv]</parent-name>
+            <remote-alias>rate_doom</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column datatype="string" name="[author_id]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[employment_comments]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_ai_is_excuse]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_ai_will_replace]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_blames_workers]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_consequences]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_doom]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_ethnic_reference]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_macro_economy]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_mentions_ai]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_mentions_execs]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_mentions_offshore_visa]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_overhiring]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_own_layoff_story]" role="measure" type="quantitative" />
+      <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[none:subreddit:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"cscareerquestions"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"programming"</bucket>
+            </map>
+            <map to="#e15759">
+              <bucket>"technology"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption="R2 marker rates (long)" inline="true" name="federated.r2_rates" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r2_marker_rates_long" name="textscan.r2_rates">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r2_marker_rates_long.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r2_rates" name="r2_marker_rates_long.csv" table="[r2_marker_rates_long#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="subreddit" ordinal="0" />
+            <column datatype="string" name="month" ordinal="1" />
+            <column datatype="integer" name="in_shared_window" ordinal="2" />
+            <column datatype="string" name="base" ordinal="3" />
+            <column datatype="string" name="marker" ordinal="4" />
+            <column datatype="integer" name="hits" ordinal="5" />
+            <column datatype="integer" name="base_comments" ordinal="6" />
+            <column datatype="real" name="rate" ordinal="7" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>subreddit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subreddit]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>subreddit</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>in_shared_window</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[in_shared_window]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>in_shared_window</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>base</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[base]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>base</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>marker</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[marker]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>marker</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>hits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>hits</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>base_comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[base_comments]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>base_comments</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rate]</local-name>
+            <parent-name>[r2_marker_rates_long.csv]</parent-name>
+            <remote-alias>rate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="Marker rate" datatype="real" default-format="p0.0%" name="[Calculation_1003000000000001]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM([hits]) / SUM([base_comments])" />
+      </column>
+      <column datatype="string" name="[base]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[base_comments]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[hits]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[in_shared_window]" role="dimension" type="ordinal" />
+      <column datatype="string" name="[marker]" role="dimension" type="nominal" />
+      <column datatype="string" name="[month]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[rate]" role="measure" type="quantitative" />
+      <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[none:subreddit:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"cscareerquestions"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"programming"</bucket>
+            </map>
+            <map to="#e15759">
+              <bucket>"technology"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption="R3 reply-type lift" inline="true" name="federated.r3_lift" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r3_reply_type_lift" name="textscan.r3_lift">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r3_reply_type_lift.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r3_lift" name="r3_reply_type_lift.csv" table="[r3_reply_type_lift#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="parent_type" ordinal="0" />
+            <column datatype="string" name="reply_type" ordinal="1" />
+            <column datatype="integer" name="replies" ordinal="2" />
+            <column datatype="integer" name="hits" ordinal="3" />
+            <column datatype="real" name="pct" ordinal="4" />
+            <column datatype="real" name="baseline_pct_none" ordinal="5" />
+            <column datatype="real" name="lift_vs_none" ordinal="6" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>parent_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[parent_type]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>parent_type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>reply_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reply_type]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>reply_type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>replies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[replies]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>replies</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>hits</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hits]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>hits</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>pct</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>baseline_pct_none</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[baseline_pct_none]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>baseline_pct_none</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>lift_vs_none</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lift_vs_none]</local-name>
+            <parent-name>[r3_reply_type_lift.csv]</parent-name>
+            <remote-alias>lift_vs_none</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column aggregation="Sum" datatype="real" name="[baseline_pct_none]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[hits]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[lift_vs_none]" role="measure" type="quantitative" />
+      <column datatype="string" name="[parent_type]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[pct]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[replies]" role="measure" type="quantitative" />
+      <column datatype="string" name="[reply_type]" role="dimension" type="nominal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+    </datasource>
+    <datasource caption="R4 centrality by type" inline="true" name="federated.r4_cent" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r4_centrality_by_type" name="textscan.r4_cent">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r4_centrality_by_type.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r4_cent" name="r4_centrality_by_type.csv" table="[r4_centrality_by_type#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="type" ordinal="0" />
+            <column datatype="string" name="measure" ordinal="1" />
+            <column datatype="integer" name="n" ordinal="2" />
+            <column datatype="real" name="median" ordinal="3" />
+            <column datatype="real" name="ci95_lo" ordinal="4" />
+            <column datatype="real" name="ci95_hi" ordinal="5" />
+            <column datatype="real" name="mean" ordinal="6" />
+            <column datatype="real" name="pct_zero" ordinal="7" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>measure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[measure]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>measure</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>n</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[n]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>n</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>median</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[median]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>median</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>ci95_lo</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ci95_lo]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>ci95_lo</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>ci95_hi</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ci95_hi]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>ci95_hi</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>mean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mean]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>mean</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>pct_zero</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_zero]</local-name>
+            <parent-name>[r4_centrality_by_type.csv]</parent-name>
+            <remote-alias>pct_zero</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="Median (95% CI)" datatype="string" name="[Calculation_1004000000000001]" role="measure" type="nominal">
+        <calculation class="tableau" formula="STR(ROUND(SUM([median]), 3)) + &quot; (&quot; + STR(ROUND(SUM([ci95_lo]), 3)) + &quot; to &quot; + STR(ROUND(SUM([ci95_hi]), 3)) + &quot;)&quot;" />
+      </column>
+      <column aggregation="Sum" datatype="real" name="[ci95_hi]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[ci95_lo]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[mean]" role="measure" type="quantitative" />
+      <column datatype="string" name="[measure]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[median]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[n]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[pct_zero]" role="measure" type="quantitative" />
+      <column datatype="string" name="[type]" role="dimension" type="nominal" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[none:type:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"blame-talker"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"helper"</bucket>
+            </map>
+            <map to="#e15759">
+              <bucket>"other"</bucket>
+            </map>
+            <map to="#76b7b2">
+              <bucket>"story-sharer"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption="R4 type flows" inline="true" name="federated.r4_flows" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r4_type_flows" name="textscan.r4_flows">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r4_type_flows.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r4_flows" name="r4_type_flows.csv" table="[r4_type_flows#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="reply_function" ordinal="0" />
+            <column datatype="string" name="replier_type" ordinal="1" />
+            <column datatype="string" name="parent_author_type" ordinal="2" />
+            <column datatype="integer" name="replies" ordinal="3" />
+            <column datatype="real" name="lift_vs_random_mixing" ordinal="4" />
+            <column datatype="real" name="pct_of_cell" ordinal="5" />
+            <column datatype="real" name="ci95_lo" ordinal="6" />
+            <column datatype="real" name="ci95_hi" ordinal="7" />
+            <column datatype="real" name="overall_pct" ordinal="8" />
+            <column datatype="real" name="share_lift" ordinal="9" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>reply_function</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[reply_function]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>reply_function</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>replier_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[replier_type]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>replier_type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>parent_author_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[parent_author_type]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>parent_author_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>replies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[replies]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>replies</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>lift_vs_random_mixing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lift_vs_random_mixing]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>lift_vs_random_mixing</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>pct_of_cell</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_of_cell]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>pct_of_cell</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>ci95_lo</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ci95_lo]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>ci95_lo</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>ci95_hi</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ci95_hi]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>ci95_hi</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>overall_pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[overall_pct]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>overall_pct</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>share_lift</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_lift]</local-name>
+            <parent-name>[r4_type_flows.csv]</parent-name>
+            <remote-alias>share_lift</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column aggregation="Sum" datatype="real" name="[ci95_hi]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[ci95_lo]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[lift_vs_random_mixing]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[overall_pct]" role="measure" type="quantitative" />
+      <column datatype="string" name="[parent_author_type]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[pct_of_cell]" role="measure" type="quantitative" />
+      <column datatype="string" name="[replier_type]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[replies]" role="measure" type="quantitative" />
+      <column datatype="string" name="[reply_function]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[share_lift]" role="measure" type="quantitative" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+    </datasource>
+    <datasource caption="R4 network core nodes" inline="true" name="federated.r4_nodes" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r4_network_core_nodes" name="textscan.r4_nodes">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r4_network_core_nodes.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r4_nodes" name="r4_network_core_nodes.csv" table="[r4_network_core_nodes#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="node_id" ordinal="0" />
+            <column datatype="real" name="x" ordinal="1" />
+            <column datatype="real" name="y" ordinal="2" />
+            <column datatype="string" name="type" ordinal="3" />
+            <column datatype="integer" name="cluster" ordinal="4" />
+            <column datatype="integer" name="community" ordinal="5" />
+            <column datatype="integer" name="comments" ordinal="6" />
+            <column datatype="integer" name="degree_in_core" ordinal="7" />
+            <column datatype="real" name="pagerank" ordinal="8" />
+            <column datatype="real" name="betweenness" ordinal="9" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>node_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[node_id]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>node_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>x</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[x]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>x</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>y</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[y]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>y</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>cluster</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cluster]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>cluster</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>community</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[community]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>community</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>comments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>degree_in_core</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[degree_in_core]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>degree_in_core</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>pagerank</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pagerank]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>pagerank</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>betweenness</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[betweenness]</local-name>
+            <parent-name>[r4_network_core_nodes.csv]</parent-name>
+            <remote-alias>betweenness</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="Size (sqrt pagerank)" datatype="real" name="[Calculation_1005000000000001]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SQRT(SUM([pagerank]))" />
+      </column>
+      <column aggregation="Sum" datatype="real" name="[betweenness]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[cluster]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[comments]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[community]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[degree_in_core]" role="measure" type="quantitative" />
+      <column datatype="string" name="[node_id]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[pagerank]" role="measure" type="quantitative" />
+      <column datatype="string" name="[type]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[x]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[y]" role="measure" type="quantitative" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[none:type:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"blame-talker"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"helper"</bucket>
+            </map>
+            <map to="#e15759">
+              <bucket>"other"</bucket>
+            </map>
+            <map to="#76b7b2">
+              <bucket>"story-sharer"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption="R5 marker precision" inline="true" name="federated.r5_prec" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r5_marker_precision" name="textscan.r5_prec">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r5_marker_precision.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r5_prec" name="r5_marker_precision.csv" table="[r5_marker_precision#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="group" ordinal="0" />
+            <column datatype="integer" name="n" ordinal="1" />
+            <column datatype="integer" name="R" ordinal="2" />
+            <column datatype="integer" name="P" ordinal="3" />
+            <column datatype="integer" name="N" ordinal="4" />
+            <column datatype="real" name="precision_R_percent" ordinal="5" />
+          </columns>
+        </relation>
+        <cols>
+          <map key="[N (not relevant)]" value="[r5_marker_precision.csv].[N]" />
+          <map key="[P]" value="[r5_marker_precision.csv].[P]" />
+          <map key="[R]" value="[r5_marker_precision.csv].[R]" />
+          <map key="[group]" value="[r5_marker_precision.csv].[group]" />
+          <map key="[n]" value="[r5_marker_precision.csv].[n]" />
+          <map key="[precision_R_percent]" value="[r5_marker_precision.csv].[precision_R_percent]" />
+        </cols>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[group]</local-name>
+            <parent-name>[r5_marker_precision.csv]</parent-name>
+            <remote-alias>group</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>n</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[n]</local-name>
+            <parent-name>[r5_marker_precision.csv]</parent-name>
+            <remote-alias>n</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>R</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[R]</local-name>
+            <parent-name>[r5_marker_precision.csv]</parent-name>
+            <remote-alias>R</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>P</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[P]</local-name>
+            <parent-name>[r5_marker_precision.csv]</parent-name>
+            <remote-alias>P</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>N</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[N (not relevant)]</local-name>
+            <parent-name>[r5_marker_precision.csv]</parent-name>
+            <remote-alias>N</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>precision_R_percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[precision_R_percent]</local-name>
+            <parent-name>[r5_marker_precision.csv]</parent-name>
+            <remote-alias>precision_R_percent</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column aggregation="Sum" datatype="integer" name="[N (not relevant)]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[P]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="integer" name="[R]" role="measure" type="quantitative" />
+      <column datatype="string" name="[group]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="integer" name="[n]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[precision_R_percent]" role="measure" type="quantitative" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+    </datasource>
+    <datasource caption="R5 robustness (long)" inline="true" name="federated.r5_rob" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="r5_robustness_long" name="textscan.r5_rob">
+            <connection class="textscan" directory="../outputs/16_tableau" filename="r5_robustness_long.csv" password="" server="" />
+          </named-connection>
+        </named-connections>
+        <relation connection="textscan.r5_rob" name="r5_robustness_long.csv" table="[r5_robustness_long#csv]" type="table">
+          <columns character-set="UTF-8" header="yes" locale="en_US" separator=",">
+            <column datatype="string" name="source" ordinal="0" />
+            <column datatype="string" name="check" ordinal="1" />
+            <column datatype="string" name="variant" ordinal="2" />
+            <column datatype="string" name="statistic" ordinal="3" />
+            <column datatype="real" name="value" ordinal="4" />
+            <column datatype="real" name="lo" ordinal="5" />
+            <column datatype="real" name="hi" ordinal="6" />
+            <column datatype="real" name="n" ordinal="7" />
+            <column datatype="real" name="z" ordinal="8" />
+            <column datatype="real" name="p_emp" ordinal="9" />
+            <column datatype="real" name="lift" ordinal="10" />
+            <column datatype="real" name="lift_30_150_words" ordinal="11" />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="column">
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>check</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[check]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>check</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>variant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[variant]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>variant</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>statistic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[statistic]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>statistic</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag="0" name="LEN_RUS" />
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[value]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>value</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>lo</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lo]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>lo</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>hi</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hi]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>hi</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>n</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[n]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>n</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>z</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[z]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>z</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>p_emp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[p_emp]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>p_emp</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>lift</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lift]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>lift</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>lift_30_150_words</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lift_30_150_words]</local-name>
+            <parent-name>[r5_robustness_long.csv]</parent-name>
+            <remote-alias>lift_30_150_words</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes" />
+      <column caption="Variant (short)" datatype="string" name="[Calculation_1006000000000001]" role="dimension" type="nominal">
+        <calculation class="tableau" formula="CASE [variant] WHEN &quot;top 1% threads (&gt;= 305 comments, 112 threads, 18.3% of comments)&quot; THEN &quot;top 1% threads dropped&quot; WHEN &quot;drop 10% of hits + add missed hits = 0% of observed (10 reps)&quot; THEN &quot;noise: drop 10%&quot; WHEN &quot;drop 25% of hits + add missed hits = 0% of observed (10 reps)&quot; THEN &quot;noise: drop 25%&quot; WHEN &quot;drop 0% of hits + add missed hits = 25% of observed (10 reps)&quot; THEN &quot;noise: add 25%&quot; WHEN &quot;drop 0% of hits + add missed hits = 50% of observed (10 reps)&quot; THEN &quot;noise: add 50%&quot; WHEN &quot;drop 25% of hits + add missed hits = 25% of observed (10 reps)&quot; THEN &quot;noise: drop 25% + add 25%&quot; ELSE [variant] END" />
+      </column>
+      <column datatype="string" name="[check]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[hi]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[lift]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[lift_30_150_words]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[lo]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[n]" role="measure" type="quantitative" />
+      <column aggregation="Sum" datatype="real" name="[p_emp]" role="measure" type="quantitative" />
+      <column datatype="string" name="[source]" role="dimension" type="nominal" />
+      <column datatype="string" name="[statistic]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[value]" role="measure" type="quantitative" />
+      <column datatype="string" name="[variant]" role="dimension" type="nominal" />
+      <column aggregation="Sum" datatype="real" name="[z]" role="measure" type="quantitative" />
+      <layout dim-ordering="alphabetic" dim-percentage="0.5" measure-ordering="alphabetic" measure-percentage="0.4" show-structure="true" />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="R1a Weekly layoff share">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">cscq's layoff share beats r/technology's in all 24 weeks where both have data (2.45% vs 0.20%, Jan-Jun 2025)</run>
+            <run fontcolor="#666666" fontsize="9">
+Comments only, Jan-Jun 2025 (shared window). Share = layoff comments / non-bot comments. Keyword marker, not yet human-checked. First and last weeks are partial.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Comments only, Jan-Jun 2025 (shared window). Share = layoff comments / non-bot comments. Keyword marker, not yet human-checked. First and last weeks are partial.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R1/R5 daily volume by community" name="federated.r1_daily" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r1_daily">
+            <column caption="Layoff share (non-bot)" datatype="real" default-format="p0.00%" name="[Calculation_1001000000000001]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([facet_layoffs]) / (SUM([records]) - SUM([bot_records]))" />
+            </column>
+            <column aggregation="Sum" datatype="integer" name="[bot_records]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="integer" name="[facet_layoffs]" role="measure" type="quantitative" />
+            <column datatype="integer" name="[in_shared_window]" role="dimension" type="ordinal" />
+            <column datatype="string" name="[kind]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="integer" name="[records]" role="measure" type="quantitative" />
+            <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+            <column datatype="date" name="[week_start]" role="dimension" type="ordinal" />
+            <column-instance column="[in_shared_window]" derivation="None" name="[none:in_shared_window:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[kind]" derivation="None" name="[none:kind:nk]" pivot="key" type="nominal" />
+            <column-instance column="[subreddit]" derivation="None" name="[none:subreddit:nk]" pivot="key" type="nominal" />
+            <column-instance column="[week_start]" derivation="None" name="[none:week_start:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[bot_records]" derivation="Sum" name="[sum:bot_records:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[facet_layoffs]" derivation="Sum" name="[sum:facet_layoffs:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[records]" derivation="Sum" name="[sum:records:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Calculation_1001000000000001]" derivation="User" name="[usr:Calculation_1001000000000001:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r1_daily].[none:kind:nk]">
+            <groupfilter function="member" level="[none:kind:nk]" member="&quot;comments&quot;" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <filter class="categorical" column="[federated.r1_daily].[none:in_shared_window:ok]">
+            <groupfilter function="member" level="[none:in_shared_window:ok]" member="1" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <slices>
+            <column>[federated.r1_daily].[none:kind:nk]</column>
+            <column>[federated.r1_daily].[none:in_shared_window:ok]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[federated.r1_daily].[none:subreddit:nk]" />
+              <tooltip column="[federated.r1_daily].[sum:facet_layoffs:qk]" />
+              <tooltip column="[federated.r1_daily].[sum:records:qk]" />
+              <tooltip column="[federated.r1_daily].[sum:bot_records:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="false" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r1_daily].[usr:Calculation_1001000000000001:qk]</rows>
+        <cols>[federated.r1_daily].[none:week_start:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R1b Threads with layoff talk">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">cscq threads of every size are far more likely to contain layoff talk</run>
+            <run fontcolor="#666666" fontsize="9">
+Share of threads with at least one layoff comment, by thread size. Threads that started Jan-Jun 2025. Bigger threads are more likely to contain any keyword.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Share of threads with at least one layoff comment, by thread size. Threads that started Jan-Jun 2025. Bigger threads are more likely to contain any keyword.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R1 threads" name="federated.r1_threads" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r1_threads">
+            <column caption="Thread size" datatype="string" name="[Calculation_1002000000000001]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="CASE [size_band] WHEN &quot;1-9&quot; THEN &quot;1) 1-9 comments&quot; WHEN &quot;10-49&quot; THEN &quot;2) 10-49&quot; WHEN &quot;50-199&quot; THEN &quot;3) 50-199&quot; WHEN &quot;200-999&quot; THEN &quot;4) 200-999&quot; WHEN &quot;1000+&quot; THEN &quot;5) 1000+&quot; ELSE [size_band] END" />
+            </column>
+            <column caption="Share of threads with layoff talk" datatype="real" default-format="p0.0%" name="[Calculation_1002000000000002]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="AVG([has_layoff_talk])" />
+            </column>
+            <column aggregation="Sum" datatype="integer" name="[has_layoff_talk]" role="measure" type="quantitative" />
+            <column datatype="integer" name="[in_shared_window]" role="dimension" type="ordinal" />
+            <column datatype="string" name="[size_band]" role="dimension" type="nominal" />
+            <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+            <column-instance column="[Calculation_1002000000000001]" derivation="None" name="[none:Calculation_1002000000000001:nk]" pivot="key" type="nominal" />
+            <column-instance column="[in_shared_window]" derivation="None" name="[none:in_shared_window:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[subreddit]" derivation="None" name="[none:subreddit:nk]" pivot="key" type="nominal" />
+            <column-instance column="[has_layoff_talk]" derivation="Sum" name="[sum:has_layoff_talk:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Calculation_1002000000000002]" derivation="User" name="[usr:Calculation_1002000000000002:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r1_threads].[none:in_shared_window:ok]">
+            <groupfilter function="member" level="[none:in_shared_window:ok]" member="1" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <slices>
+            <column>[federated.r1_threads].[none:in_shared_window:ok]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <color column="[federated.r1_threads].[none:subreddit:nk]" />
+              <text column="[federated.r1_threads].[usr:Calculation_1002000000000002:qk]" />
+              <tooltip column="[federated.r1_threads].[sum:has_layoff_talk:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.r1_threads].[none:Calculation_1002000000000001:nk] / [federated.r1_threads].[none:subreddit:nk])</rows>
+        <cols>[federated.r1_threads].[usr:Calculation_1002000000000002:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R2a Marker rates by community">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">How each community frames employment talk: marker rates</run>
+            <run fontcolor="#666666" fontsize="9">
+Base = employment_core comments, Jan-Jun 2025. Rate = SUM(hits)/SUM(base). Topic markers, not stance; a comment can carry several markers.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Base = employment_core comments, Jan-Jun 2025. Rate = SUM(hits)/SUM(base). Topic markers, not stance; a comment can carry several markers.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R2 marker rates (long)" name="federated.r2_rates" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r2_rates">
+            <column caption="Marker rate" datatype="real" default-format="p0.0%" name="[Calculation_1003000000000001]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([hits]) / SUM([base_comments])" />
+            </column>
+            <column datatype="string" name="[base]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="integer" name="[base_comments]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="integer" name="[hits]" role="measure" type="quantitative" />
+            <column datatype="integer" name="[in_shared_window]" role="dimension" type="ordinal" />
+            <column datatype="string" name="[marker]" role="dimension" type="nominal" />
+            <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+            <column-instance column="[base]" derivation="None" name="[none:base:nk]" pivot="key" type="nominal" />
+            <column-instance column="[in_shared_window]" derivation="None" name="[none:in_shared_window:ok]" pivot="key" type="ordinal" />
+            <column-instance column="[marker]" derivation="None" name="[none:marker:nk]" pivot="key" type="nominal" />
+            <column-instance column="[subreddit]" derivation="None" name="[none:subreddit:nk]" pivot="key" type="nominal" />
+            <column-instance column="[base_comments]" derivation="Sum" name="[sum:base_comments:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[hits]" derivation="Sum" name="[sum:hits:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Calculation_1003000000000001]" derivation="User" name="[usr:Calculation_1003000000000001:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r2_rates].[none:base:nk]">
+            <groupfilter function="member" level="[none:base:nk]" member="&quot;employment_core&quot;" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <filter class="categorical" column="[federated.r2_rates].[none:in_shared_window:ok]">
+            <groupfilter function="member" level="[none:in_shared_window:ok]" member="1" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <slices>
+            <column>[federated.r2_rates].[none:base:nk]</column>
+            <column>[federated.r2_rates].[none:in_shared_window:ok]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <color column="[federated.r2_rates].[none:subreddit:nk]" />
+              <text column="[federated.r2_rates].[usr:Calculation_1003000000000001:qk]" />
+              <tooltip column="[federated.r2_rates].[sum:hits:qk]" />
+              <tooltip column="[federated.r2_rates].[sum:base_comments:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r2_rates].[none:marker:nk]</rows>
+        <cols>([federated.r2_rates].[none:subreddit:nk] / [federated.r2_rates].[usr:Calculation_1003000000000001:qk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R2b Same authors two communities">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Same people, two communities: the exec-mention gap vanishes, the AI gap stays</run>
+            <run fontcolor="#666666" fontsize="9">
+152 authors active in both cscq and r/technology (Jan-Jun 2025). Mean of per-author rates. 152 here vs 160 in D1 (career_transition-only comments excluded).</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">152 authors active in both cscq and r/technology (Jan-Jun 2025). Mean of per-author rates. 152 here vs 160 in D1 (career_transition-only comments excluded).</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R2 cross-posters (same author)" name="federated.r2_cross" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r2_cross">
+            <column aggregation="Sum" datatype="integer" name="[employment_comments]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_mentions_ai]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" default-format="p0.0%" name="[rate_mentions_execs]" role="measure" type="quantitative" />
+            <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+            <column-instance column="[rate_mentions_ai]" derivation="Avg" name="[avg:rate_mentions_ai:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[rate_mentions_execs]" derivation="Avg" name="[avg:rate_mentions_execs:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[subreddit]" derivation="None" name="[none:subreddit:nk]" pivot="key" type="nominal" />
+            <column-instance column="[employment_comments]" derivation="Sum" name="[sum:employment_comments:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <color column="[federated.r2_cross].[none:subreddit:nk]" />
+              <tooltip column="[federated.r2_cross].[sum:employment_comments:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r2_cross].[none:subreddit:nk]</rows>
+        <cols>([federated.r2_cross].[avg:rate_mentions_execs:qk] + [federated.r2_cross].[avg:rate_mentions_ai:qk])</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R3 Reply-type lift">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Personal layoff stories get 2.8x more sympathy replies than unmarked comments</run>
+            <run fontcolor="#666666" fontsize="9">
+cscq, all months (91,229 human reply pairs). Lift vs unmarked ('none') comments; blue &gt; 1 &gt; orange. Jan-Jun 2025 alone: 2.29x. Markers not yet human-checked.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">cscq, all months (91,229 human reply pairs). Lift vs unmarked ('none') comments; blue &gt; 1 &gt; orange. Jan-Jun 2025 alone: 2.29x. Markers not yet human-checked.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R3 reply-type lift" name="federated.r3_lift" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r3_lift">
+            <column aggregation="Sum" datatype="integer" name="[hits]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" name="[lift_vs_none]" role="measure" type="quantitative" />
+            <column datatype="string" name="[parent_type]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="real" name="[pct]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="integer" name="[replies]" role="measure" type="quantitative" />
+            <column datatype="string" name="[reply_type]" role="dimension" type="nominal" />
+            <column-instance column="[parent_type]" derivation="None" name="[none:parent_type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[reply_type]" derivation="None" name="[none:reply_type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[hits]" derivation="Sum" name="[sum:hits:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[lift_vs_none]" derivation="Sum" name="[sum:lift_vs_none:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[pct]" derivation="Sum" name="[sum:pct:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[replies]" derivation="Sum" name="[sum:replies:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <encoding attr="color" center="1.0" field="[federated.r3_lift].[sum:lift_vs_none:qk]" max="2.0" min="0.0" palette="orange_blue_diverging_10_0" type="interpolated" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Square" />
+            <encodings>
+              <color column="[federated.r3_lift].[sum:lift_vs_none:qk]" />
+              <text column="[federated.r3_lift].[sum:lift_vs_none:qk]" />
+              <tooltip column="[federated.r3_lift].[sum:pct:qk]" />
+              <tooltip column="[federated.r3_lift].[sum:replies:qk]" />
+              <tooltip column="[federated.r3_lift].[sum:hits:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r3_lift].[none:parent_type:nk]</rows>
+        <cols>[federated.r3_lift].[none:reply_type:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R4a Who replies to whom">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Blame-talkers reply to each other 1.7x more than random mixing predicts</run>
+            <run fontcolor="#666666" fontsize="9">
+cscq reply network, Jan-Jun 2025, largest component. Rows = replier type, columns = type of the author replied to. Lift vs random mixing; blue &gt; 1 &gt; orange.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">cscq reply network, Jan-Jun 2025, largest component. Rows = replier type, columns = type of the author replied to. Lift vs random mixing; blue &gt; 1 &gt; orange.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R4 type flows" name="federated.r4_flows" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r4_flows">
+            <column aggregation="Sum" datatype="real" name="[lift_vs_random_mixing]" role="measure" type="quantitative" />
+            <column datatype="string" name="[parent_author_type]" role="dimension" type="nominal" />
+            <column datatype="string" name="[replier_type]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="integer" name="[replies]" role="measure" type="quantitative" />
+            <column datatype="string" name="[reply_function]" role="dimension" type="nominal" />
+            <column-instance column="[parent_author_type]" derivation="None" name="[none:parent_author_type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[replier_type]" derivation="None" name="[none:replier_type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[reply_function]" derivation="None" name="[none:reply_function:nk]" pivot="key" type="nominal" />
+            <column-instance column="[lift_vs_random_mixing]" derivation="Sum" name="[sum:lift_vs_random_mixing:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[replies]" derivation="Sum" name="[sum:replies:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r4_flows].[none:reply_function:nk]">
+            <groupfilter function="member" level="[none:reply_function:nk]" member="&quot;all&quot;" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <slices>
+            <column>[federated.r4_flows].[none:reply_function:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="mark">
+            <encoding attr="color" center="1.0" field="[federated.r4_flows].[sum:lift_vs_random_mixing:qk]" max="1.5" min="0.5" palette="orange_blue_diverging_10_0" type="interpolated" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Square" />
+            <encodings>
+              <color column="[federated.r4_flows].[sum:lift_vs_random_mixing:qk]" />
+              <text column="[federated.r4_flows].[sum:lift_vs_random_mixing:qk]" />
+              <tooltip column="[federated.r4_flows].[sum:replies:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r4_flows].[none:replier_type:nk]</rows>
+        <cols>[federated.r4_flows].[none:parent_author_type:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R4b Centrality by author type">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Story-sharers and blame-talkers sit more central than 'other' authors (measure: &lt;[federated.r4_cent].[none:measure:nk]&gt;)</run>
+            <run fontcolor="#666666" fontsize="9">
+Median per type with bootstrap 95% CI in the label. Choose the measure with the filter (default pagerank). Differences shrink once activity is held equal (N1).</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Median per type with bootstrap 95% CI in the label. Choose the measure with the filter (default pagerank). Differences shrink once activity is held equal (N1).</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R4 centrality by type" name="federated.r4_cent" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r4_cent">
+            <column caption="Median (95% CI)" datatype="string" name="[Calculation_1004000000000001]" role="measure" type="nominal">
+              <calculation class="tableau" formula="STR(ROUND(SUM([median]), 3)) + &quot; (&quot; + STR(ROUND(SUM([ci95_lo]), 3)) + &quot; to &quot; + STR(ROUND(SUM([ci95_hi]), 3)) + &quot;)&quot;" />
+            </column>
+            <column aggregation="Sum" datatype="real" name="[ci95_hi]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" name="[ci95_lo]" role="measure" type="quantitative" />
+            <column datatype="string" name="[measure]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="real" name="[median]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="integer" name="[n]" role="measure" type="quantitative" />
+            <column datatype="string" name="[type]" role="dimension" type="nominal" />
+            <column-instance column="[measure]" derivation="None" name="[none:measure:nk]" pivot="key" type="nominal" />
+            <column-instance column="[type]" derivation="None" name="[none:type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[ci95_hi]" derivation="Sum" name="[sum:ci95_hi:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[ci95_lo]" derivation="Sum" name="[sum:ci95_lo:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[median]" derivation="Sum" name="[sum:median:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[n]" derivation="Sum" name="[sum:n:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Calculation_1004000000000001]" derivation="User" name="[usr:Calculation_1004000000000001:nk]" pivot="key" type="nominal" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r4_cent].[none:measure:nk]">
+            <groupfilter function="member" level="[none:measure:nk]" member="&quot;pagerank&quot;" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <filter class="categorical" column="[federated.r4_cent].[none:type:nk]">
+            <groupfilter function="union" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate">
+              <groupfilter function="member" level="[none:type:nk]" member="&quot;story-sharer&quot;" />
+              <groupfilter function="member" level="[none:type:nk]" member="&quot;blame-talker&quot;" />
+              <groupfilter function="member" level="[none:type:nk]" member="&quot;helper&quot;" />
+              <groupfilter function="member" level="[none:type:nk]" member="&quot;other&quot;" />
+              <groupfilter function="member" level="[none:type:nk]" member="&quot;low-activity&quot;" />
+            </groupfilter>
+          </filter>
+          <sort class="computed" column="[federated.r4_cent].[none:type:nk]" direction="DESC" using="[federated.r4_cent].[sum:median:qk]" />
+          <slices>
+            <column>[federated.r4_cent].[none:measure:nk]</column>
+            <column>[federated.r4_cent].[none:type:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Circle" />
+            <encodings>
+              <color column="[federated.r4_cent].[none:type:nk]" />
+              <text column="[federated.r4_cent].[usr:Calculation_1004000000000001:nk]" />
+              <tooltip column="[federated.r4_cent].[sum:ci95_lo:qk]" />
+              <tooltip column="[federated.r4_cent].[sum:ci95_hi:qk]" />
+              <tooltip column="[federated.r4_cent].[sum:n:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r4_cent].[none:type:nk]</rows>
+        <cols>[federated.r4_cent].[sum:median:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R4c Network position map">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Network core: 1,500 most connected cscq authors, coloured by type</run>
+            <run fontcolor="#666666" fontsize="9">
+Force-directed x/y from the network step; size = square root of pagerank; edges omitted. Types are keyword-based author profiles (&gt;=5 comments).</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Force-directed x/y from the network step; size = square root of pagerank; edges omitted. Types are keyword-based author profiles (&gt;=5 comments).</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R4 network core nodes" name="federated.r4_nodes" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r4_nodes">
+            <column caption="Size (sqrt pagerank)" datatype="real" name="[Calculation_1005000000000001]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SQRT(SUM([pagerank]))" />
+            </column>
+            <column aggregation="Sum" datatype="integer" name="[comments]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="integer" name="[degree_in_core]" role="measure" type="quantitative" />
+            <column datatype="string" name="[node_id]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="real" name="[pagerank]" role="measure" type="quantitative" />
+            <column datatype="string" name="[type]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="real" name="[x]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" name="[y]" role="measure" type="quantitative" />
+            <column-instance column="[node_id]" derivation="None" name="[none:node_id:nk]" pivot="key" type="nominal" />
+            <column-instance column="[type]" derivation="None" name="[none:type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[comments]" derivation="Sum" name="[sum:comments:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[degree_in_core]" derivation="Sum" name="[sum:degree_in_core:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[pagerank]" derivation="Sum" name="[sum:pagerank:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[x]" derivation="Sum" name="[sum:x:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[y]" derivation="Sum" name="[sum:y:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Calculation_1005000000000001]" derivation="User" name="[usr:Calculation_1005000000000001:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Circle" />
+            <encodings>
+              <color column="[federated.r4_nodes].[none:type:nk]" />
+              <size column="[federated.r4_nodes].[usr:Calculation_1005000000000001:qk]" />
+              <tooltip column="[federated.r4_nodes].[sum:pagerank:qk]" />
+              <tooltip column="[federated.r4_nodes].[sum:comments:qk]" />
+              <tooltip column="[federated.r4_nodes].[sum:degree_in_core:qk]" />
+              <lod column="[federated.r4_nodes].[none:node_id:nk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="false" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r4_nodes].[sum:y:qk]</rows>
+        <cols>[federated.r4_nodes].[sum:x:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R5a Coverage over time">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Coverage differs: r/technology comments stop Jun 2025, r/programming Dec 2025</run>
+            <run fontcolor="#666666" fontsize="9">
+Comments collected per week (sum of daily counts), all months. cscq runs to Sep 2026 and has no posts. Compare communities only inside Jan-Jun 2025.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Comments collected per week (sum of daily counts), all months. cscq runs to Sep 2026 and has no posts. Compare communities only inside Jan-Jun 2025.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R1/R5 daily volume by community" name="federated.r1_daily" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r1_daily">
+            <column aggregation="Sum" datatype="integer" name="[bot_records]" role="measure" type="quantitative" />
+            <column datatype="string" name="[kind]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="integer" name="[records]" role="measure" type="quantitative" />
+            <column datatype="string" name="[subreddit]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="integer" name="[text_deleted_or_removed]" role="measure" type="quantitative" />
+            <column datatype="date" name="[week_start]" role="dimension" type="ordinal" />
+            <column-instance column="[kind]" derivation="None" name="[none:kind:nk]" pivot="key" type="nominal" />
+            <column-instance column="[subreddit]" derivation="None" name="[none:subreddit:nk]" pivot="key" type="nominal" />
+            <column-instance column="[week_start]" derivation="None" name="[none:week_start:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[bot_records]" derivation="Sum" name="[sum:bot_records:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[records]" derivation="Sum" name="[sum:records:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[text_deleted_or_removed]" derivation="Sum" name="[sum:text_deleted_or_removed:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r1_daily].[none:kind:nk]">
+            <groupfilter function="member" level="[none:kind:nk]" member="&quot;comments&quot;" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <slices>
+            <column>[federated.r1_daily].[none:kind:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Line" />
+            <encodings>
+              <color column="[federated.r1_daily].[none:subreddit:nk]" />
+              <tooltip column="[federated.r1_daily].[sum:bot_records:qk]" />
+              <tooltip column="[federated.r1_daily].[sum:text_deleted_or_removed:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="false" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r1_daily].[sum:records:qk]</rows>
+        <cols>[federated.r1_daily].[none:week_start:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R5b Marker precision">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Screen precision (provisional): layoffs 95%, restructuring/policy 70-75%, rest under 30%</run>
+            <run fontcolor="#666666" fontsize="9">
+Share of sampled hits read as relevant by one reader; n = 20-40 per screen. Provisional until the human label check is finished.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">Share of sampled hits read as relevant by one reader; n = 20-40 per screen. Provisional until the human label check is finished.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R5 marker precision" name="federated.r5_prec" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r5_prec">
+            <column aggregation="Sum" datatype="integer" name="[P]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="integer" name="[R]" role="measure" type="quantitative" />
+            <column datatype="string" name="[group]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="integer" name="[n]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" name="[precision_R_percent]" role="measure" type="quantitative" />
+            <column-instance column="[group]" derivation="None" name="[none:group:nk]" pivot="key" type="nominal" />
+            <column-instance column="[P]" derivation="Sum" name="[sum:P:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[R]" derivation="Sum" name="[sum:R:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[n]" derivation="Sum" name="[sum:n:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[precision_R_percent]" derivation="Sum" name="[sum:precision_R_percent:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <sort class="computed" column="[federated.r5_prec].[none:group:nk]" direction="DESC" using="[federated.r5_prec].[sum:precision_R_percent:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+            <encodings>
+              <text column="[federated.r5_prec].[sum:precision_R_percent:qk]" />
+              <tooltip column="[federated.r5_prec].[sum:n:qk]" />
+              <tooltip column="[federated.r5_prec].[sum:R:qk]" />
+              <tooltip column="[federated.r5_prec].[sum:P:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.r5_prec].[none:group:nk]</rows>
+        <cols>[federated.r5_prec].[sum:precision_R_percent:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="R5c Robustness of a headline">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="13">Robustness of &lt;[federated.r5_rob].[none:statistic:nk]&gt; (default: blame-talker clustering, lift 1.69)</run>
+            <run fontcolor="#666666" fontsize="9">
+One statistic at a time (filter). This statistic has 11 rows (observed, megathreads dropped, label noise, threshold N); min = 1.28. Null-shuffle and activity checks use other statistics. Hover for the full variant text.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run fontcolor="#666666" fontsize="9">One statistic at a time (filter). This statistic has 11 rows (observed, megathreads dropped, label noise, threshold N); min = 1.28. Null-shuffle and activity checks use other statistics. Hover for the full variant text.</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="R5 robustness (long)" name="federated.r5_rob" />
+          </datasources>
+          <datasource-dependencies datasource="federated.r5_rob">
+            <column caption="Variant (short)" datatype="string" name="[Calculation_1006000000000001]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="CASE [variant] WHEN &quot;top 1% threads (&gt;= 305 comments, 112 threads, 18.3% of comments)&quot; THEN &quot;top 1% threads dropped&quot; WHEN &quot;drop 10% of hits + add missed hits = 0% of observed (10 reps)&quot; THEN &quot;noise: drop 10%&quot; WHEN &quot;drop 25% of hits + add missed hits = 0% of observed (10 reps)&quot; THEN &quot;noise: drop 25%&quot; WHEN &quot;drop 0% of hits + add missed hits = 25% of observed (10 reps)&quot; THEN &quot;noise: add 25%&quot; WHEN &quot;drop 0% of hits + add missed hits = 50% of observed (10 reps)&quot; THEN &quot;noise: add 50%&quot; WHEN &quot;drop 25% of hits + add missed hits = 25% of observed (10 reps)&quot; THEN &quot;noise: drop 25% + add 25%&quot; ELSE [variant] END" />
+            </column>
+            <column datatype="string" name="[check]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="real" name="[hi]" role="measure" type="quantitative" />
+            <column aggregation="Sum" datatype="real" name="[lo]" role="measure" type="quantitative" />
+            <column datatype="string" name="[statistic]" role="dimension" type="nominal" />
+            <column aggregation="Sum" datatype="real" name="[value]" role="measure" type="quantitative" />
+            <column datatype="string" name="[variant]" role="dimension" type="nominal" />
+            <column-instance column="[variant]" derivation="Attribute" name="[attr:variant:nk]" pivot="key" type="nominal" />
+            <column-instance column="[hi]" derivation="Avg" name="[avg:hi:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[lo]" derivation="Avg" name="[avg:lo:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[value]" derivation="Avg" name="[avg:value:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Calculation_1006000000000001]" derivation="None" name="[none:Calculation_1006000000000001:nk]" pivot="key" type="nominal" />
+            <column-instance column="[check]" derivation="None" name="[none:check:nk]" pivot="key" type="nominal" />
+            <column-instance column="[statistic]" derivation="None" name="[none:statistic:nk]" pivot="key" type="nominal" />
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.r5_rob].[none:statistic:nk]">
+            <groupfilter function="member" level="[none:statistic:nk]" member="&quot;lift_blame-talker-&gt;blame-talker&quot;" user:ui-domain="database" user:ui-enumeration="inclusive" user:ui-marker="enumerate" />
+          </filter>
+          <slices>
+            <column>[federated.r5_rob].[none:statistic:nk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="cols" value="true" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Circle" />
+            <encodings>
+              <text column="[federated.r5_rob].[avg:value:qk]" />
+              <tooltip column="[federated.r5_rob].[avg:lo:qk]" />
+              <tooltip column="[federated.r5_rob].[avg:hi:qk]" />
+              <tooltip column="[federated.r5_rob].[attr:variant:nk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.r5_rob].[none:check:nk] / [federated.r5_rob].[none:Calculation_1006000000000001:nk])</rows>
+        <cols>[federated.r5_rob].[avg:value:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="1 Where disruption talk lives">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="16">1. Where disruption talk lives (R1)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <size sizing-mode="automatic" />
+      <datasources>
+        <datasource caption="R1/R5 daily volume by community" name="federated.r1_daily" />
+        <datasource caption="R1 threads" name="federated.r1_threads" />
+      </datasources>
+      <zones>
+        <zone h="100000" id="1" type="layout-basic" w="100000" x="0" y="0">
+          <zone h="5500" id="2" type="title" w="100000" x="0" y="0" />
+          <zone h="5500" id="3" type="text" w="100000" x="0" y="5500">
+            <formatted-text>
+              <run fontcolor="#333333" fontsize="11">cscareerquestions carries most of the layoff talk: 2.45% of non-bot comments vs 0.20% (r/technology) and 0.32% (r/programming), Jan-Jun 2025. Its threads of every size carry more layoff talk.</run>
+            </formatted-text>
+          </zone>
+          <zone h="3500" id="4" type="text" w="100000" x="0" y="11000">
+            <formatted-text>
+              <run fontcolor="#666666" fontsize="10">Colours: </run>
+              <run bold="true" fontcolor="#4e79a7" fontsize="10">■ cscareerquestions   </run>
+              <run bold="true" fontcolor="#f28e2b" fontsize="10">■ programming   </run>
+              <run bold="true" fontcolor="#e15759" fontsize="10">■ technology   </run>
+            </formatted-text>
+          </zone>
+          <zone h="42750" id="5" name="R1a Weekly layoff share" show-title="true" w="60000" x="0" y="14500" />
+          <zone h="42750" id="6" name="R5a Coverage over time" show-title="true" w="60000" x="0" y="57250" />
+          <zone h="85500" id="7" name="R1b Threads with layoff talk" show-title="true" w="40000" x="60000" y="14500" />
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="2 How communities frame it">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="16">2. How communities frame it (R2)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <size sizing-mode="automatic" />
+      <datasources>
+        <datasource caption="R2 cross-posters (same author)" name="federated.r2_cross" />
+        <datasource caption="R2 marker rates (long)" name="federated.r2_rates" />
+      </datasources>
+      <zones>
+        <zone h="100000" id="1" type="layout-basic" w="100000" x="0" y="0">
+          <zone h="5500" id="2" type="title" w="100000" x="0" y="0" />
+          <zone h="5500" id="3" type="text" w="100000" x="0" y="5500">
+            <formatted-text>
+              <run fontcolor="#333333" fontsize="11">Rates of topic markers in employment comments. For the same 152 people the exec-mention gap disappears, but AI mentions stay higher on r/technology.</run>
+            </formatted-text>
+          </zone>
+          <zone h="3500" id="4" type="text" w="100000" x="0" y="11000">
+            <formatted-text>
+              <run fontcolor="#666666" fontsize="10">Colours: </run>
+              <run bold="true" fontcolor="#4e79a7" fontsize="10">■ cscareerquestions   </run>
+              <run bold="true" fontcolor="#f28e2b" fontsize="10">■ programming   </run>
+              <run bold="true" fontcolor="#e15759" fontsize="10">■ technology   </run>
+            </formatted-text>
+          </zone>
+          <zone h="85500" id="5" name="R2a Marker rates by community" show-title="true" w="58000" x="0" y="14500" />
+          <zone h="85500" id="6" name="R2b Same authors two communities" show-title="true" w="42000" x="58000" y="14500" />
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="3 Who replies to whom">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="16">3. Who replies to whom (R3, R4)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <size sizing-mode="automatic" />
+      <datasources>
+        <datasource caption="R3 reply-type lift" name="federated.r3_lift" />
+        <datasource caption="R4 type flows" name="federated.r4_flows" />
+        <datasource caption="R4 network core nodes" name="federated.r4_nodes" />
+      </datasources>
+      <zones>
+        <zone h="100000" id="1" type="layout-basic" w="100000" x="0" y="0">
+          <zone h="5500" id="2" type="title" w="100000" x="0" y="0" />
+          <zone h="5500" id="3" type="text" w="100000" x="0" y="5500">
+            <formatted-text>
+              <run fontcolor="#333333" fontsize="11">Stories draw sympathy (x2.82); blame-talkers cluster together (x1.69). Colour scales are centred on lift = 1 (blue above, orange below).</run>
+            </formatted-text>
+          </zone>
+          <zone h="3500" id="4" type="text" w="100000" x="0" y="11000">
+            <formatted-text>
+              <run fontcolor="#666666" fontsize="10">Colours: </run>
+              <run bold="true" fontcolor="#4e79a7" fontsize="10">■ blame-talker   </run>
+              <run bold="true" fontcolor="#f28e2b" fontsize="10">■ helper   </run>
+              <run bold="true" fontcolor="#e15759" fontsize="10">■ other   </run>
+              <run bold="true" fontcolor="#76b7b2" fontsize="10">■ story-sharer   </run>
+              <run fontcolor="#666666" fontsize="10">|  heatmaps: blue = lift above 1, orange = below 1</run>
+            </formatted-text>
+          </zone>
+          <zone h="47880" id="5" name="R3 Reply-type lift" show-title="true" w="50000" x="0" y="14500" />
+          <zone h="47880" id="6" name="R4a Who replies to whom" show-title="true" w="50000" x="50000" y="14500" />
+          <zone h="37620" id="7" name="R4c Network position map" show-title="true" w="100000" x="0" y="62380" />
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="4 Can we trust the numbers">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="16">4. Can we trust the numbers (R5)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <size sizing-mode="automatic" />
+      <datasources>
+        <datasource caption="R1/R5 daily volume by community" name="federated.r1_daily" />
+        <datasource caption="R5 marker precision" name="federated.r5_prec" />
+        <datasource caption="R5 robustness (long)" name="federated.r5_rob" />
+      </datasources>
+      <datasource-dependencies datasource="federated.r5_rob">
+        <column datatype="string" name="[statistic]" role="dimension" type="nominal" />
+        <column-instance column="[statistic]" derivation="None" name="[none:statistic:nk]" pivot="key" type="nominal" />
+      </datasource-dependencies>
+      <zones>
+        <zone h="100000" id="1" type="layout-basic" w="100000" x="0" y="0">
+          <zone h="5500" id="2" type="title" w="100000" x="0" y="0" />
+          <zone h="5500" id="3" type="text" w="100000" x="0" y="5500">
+            <formatted-text>
+              <run fontcolor="#333333" fontsize="11">Coverage differs by community, so comparisons use Jan-Jun 2025 only. Keyword screens are provisional (one reader). Blame-talker clustering stays above 1 under label noise, thresholds, megathread removal.</run>
+            </formatted-text>
+          </zone>
+          <zone h="3500" id="4" type="text" w="100000" x="0" y="11000">
+            <formatted-text>
+              <run fontcolor="#666666" fontsize="10">Colours: </run>
+              <run bold="true" fontcolor="#4e79a7" fontsize="10">■ cscareerquestions   </run>
+              <run bold="true" fontcolor="#f28e2b" fontsize="10">■ programming   </run>
+              <run bold="true" fontcolor="#e15759" fontsize="10">■ technology   </run>
+            </formatted-text>
+          </zone>
+          <zone h="37620" id="5" name="R5a Coverage over time" show-title="true" w="45000" x="0" y="14500" />
+          <zone h="37620" id="6" name="R5b Marker precision" show-title="true" w="55000" x="45000" y="14500" />
+          <zone h="6000" id="7" mode="dropdown" name="R5c Robustness of a headline" param="[federated.r5_rob].[none:statistic:nk]" show-null-ctrls="false" type="filter" values="relevant" w="100000" x="0" y="52120" />
+          <zone h="41880" id="8" name="R5c Robustness of a headline" show-title="true" w="100000" x="0" y="58120" />
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="Solidarity or Blame (story)" type="storyboard">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold="true" fontcolor="#1b1b1b" fontsize="16">Solidarity or Blame: how Reddit communities discuss disruption in tech employment</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <size maxheight="768" maxwidth="1366" minheight="768" minwidth="1366" />
+      <zones>
+        <zone h="100000" id="2" type="layout-basic" w="100000" x="0" y="0">
+          <zone h="100000" id="1" param="vert" removable="false" type="layout-flow" w="100000" x="0" y="0">
+            <zone h="4453" id="3" type="title" w="100000" x="0" y="0" />
+            <zone fixed-size="125" h="16869" id="4" is-fixed="true" paired-zone-id="5" removable="false" type="flipboard-nav" w="100000" x="0" y="4453" />
+            <zone h="78678" id="5" paired-zone-id="4" removable="false" type="flipboard" w="100000" x="0" y="21322">
+              <flipboard active-id="1" nav-type="caption" show-nav-arrows="true">
+                <story-points>
+                  <story-point caption="R1: layoff talk lives in cscareerquestions (2.45% vs 0.20%)" captured-sheet="1 Where disruption talk lives" id="1" />
+                  <story-point caption="R2: same people, different frames; the AI gap persists" captured-sheet="2 How communities frame it" id="2" />
+                  <story-point caption="R3/R4: stories get sympathy, blame-talkers cluster" captured-sheet="3 Who replies to whom" id="3" />
+                  <story-point caption="R5: coverage, precision and robustness caveats" captured-sheet="4 Can we trust the numbers" id="4" />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height="30">
+    <window class="worksheet" name="R1a Weekly layoff share">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card pane-specification-id="0" param="[federated.r1_daily].[none:subreddit:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R1b Threads with layoff talk">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card pane-specification-id="0" param="[federated.r1_threads].[none:subreddit:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R2a Marker rates by community">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card mode="dropdown" param="[federated.r2_rates].[none:base:nk]" type="filter" />
+            <card pane-specification-id="0" param="[federated.r2_rates].[none:subreddit:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R2b Same authors two communities">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card pane-specification-id="0" param="[federated.r2_cross].[none:subreddit:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R3 Reply-type lift">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card pane-specification-id="0" param="[federated.r3_lift].[sum:lift_vs_none:qk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R4a Who replies to whom">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card mode="dropdown" param="[federated.r4_flows].[none:reply_function:nk]" type="filter" />
+            <card pane-specification-id="0" param="[federated.r4_flows].[sum:lift_vs_random_mixing:qk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R4b Centrality by author type">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card mode="dropdown" param="[federated.r4_cent].[none:measure:nk]" type="filter" />
+            <card pane-specification-id="0" param="[federated.r4_cent].[none:type:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R4c Network position map">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card pane-specification-id="0" param="[federated.r4_nodes].[none:type:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R5a Coverage over time">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card pane-specification-id="0" param="[federated.r1_daily].[none:subreddit:nk]" type="color" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R5b Marker precision">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="worksheet" name="R5c Robustness of a headline">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="31">
+            <card type="columns" />
+          </strip>
+          <strip size="31">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+        <edge name="right">
+          <strip size="160">
+            <card mode="dropdown" param="[federated.r5_rob].[none:statistic:nk]" type="filter" />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class="dashboard" name="1 Where disruption talk lives">
+      <viewpoints>
+        <viewpoint name="R1a Weekly layoff share">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R5a Coverage over time">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R1b Threads with layoff talk">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" name="2 How communities frame it">
+      <viewpoints>
+        <viewpoint name="R2a Marker rates by community">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R2b Same authors two communities">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" name="3 Who replies to whom">
+      <viewpoints>
+        <viewpoint name="R3 Reply-type lift">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R4a Who replies to whom">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R4c Network position map">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" name="4 Can we trust the numbers">
+      <viewpoints>
+        <viewpoint name="R5a Coverage over time">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R5b Marker precision">
+          <zoom type="entire-view" />
+        </viewpoint>
+        <viewpoint name="R5c Robustness of a headline">
+          <zoom type="entire-view" />
+        </viewpoint>
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" maximized="true" name="Solidarity or Blame (story)">
+      <viewpoints />
+      <active id="-1" />
+    </window>
+  </windows>
+</workbook>

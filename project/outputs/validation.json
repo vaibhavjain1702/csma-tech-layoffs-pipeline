@@ -1,0 +1,81 @@
+{
+  "posts.csv.gz": {
+    "rows": 115213,
+    "fully_parsed": true
+  },
+  "comments.csv.gz": {
+    "rows": 2859037,
+    "fully_parsed": true
+  },
+  "threads.csv": {
+    "rows": 164271,
+    "fully_parsed": true
+  },
+  "reply_edges.csv.gz": {
+    "rows": 2859037,
+    "fully_parsed": true
+  },
+  "disruption_candidates.csv.gz": {
+    "rows": 177808,
+    "fully_parsed": true
+  },
+  "05_sample/employment": {
+    "records": 200,
+    "unique_records": 200
+  },
+  "preprocessing_audit": "passed",
+  "gephi/exports/authors_keyword-comments_direct": {
+    "unique_nodes": 14507,
+    "unique_edges": 15427,
+    "dangling_endpoints": 0
+  },
+  "gephi/exports/conversations_keyword-posts_direct": {
+    "unique_nodes": 13866,
+    "unique_edges": 13206,
+    "dangling_endpoints": 0
+  },
+  "eda_figures": {
+    "source_hashes": "passed",
+    "figures": {
+      "01_monthly_coverage": {
+        "png_dimensions": [
+          2040,
+          1360
+        ],
+        "svg_parsed": true
+      },
+      "02_text_availability": {
+        "png_dimensions": [
+          2040,
+          1020
+        ],
+        "svg_parsed": true
+      },
+      "03_direct_layoff_shares": {
+        "png_dimensions": [
+          2040,
+          935
+        ],
+        "svg_parsed": true
+      },
+      "04_broader_candidates": {
+        "png_dimensions": [
+          2040,
+          1020
+        ],
+        "svg_parsed": true
+      },
+      "05_score_distribution": {
+        "png_dimensions": [
+          2040,
+          1020
+        ],
+        "svg_parsed": true
+      }
+    },
+    "source_tables": {
+      "score_bands.csv": "passed",
+      "text_availability.csv": "passed"
+    }
+  }
+}

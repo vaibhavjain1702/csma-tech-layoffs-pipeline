@@ -1,0 +1,9 @@
+parent_type,parents,replies,pct_with_any_reply,replies_per_parent,median_words,median_parent_score,pct_parent_score_below_0
+experience,2045,1232,38.8,0.6,76,2.0,1.5
+mentions_execs,4300,3315,42.2,0.77,104,2.0,3.7
+mentions_offshore,13466,11256,48.7,0.84,67,2.0,6.8
+blames_workers,1393,1151,46.6,0.83,108,2.0,6.7
+ai_excuse,1071,1001,43.8,0.93,84,2.0,4.8
+ai_replaces,1104,828,43.0,0.75,91,1.0,6.6
+doom,1743,1307,44.9,0.75,82,2.0,5.5
+none,111498,72747,42.0,0.65,60,2.0,4.2

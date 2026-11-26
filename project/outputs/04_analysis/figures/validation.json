@@ -1,0 +1,44 @@
+{
+  "source_hashes": "passed",
+  "figures": {
+    "01_monthly_coverage": {
+      "png_dimensions": [
+        2040,
+        1360
+      ],
+      "svg_parsed": true
+    },
+    "02_text_availability": {
+      "png_dimensions": [
+        2040,
+        1020
+      ],
+      "svg_parsed": true
+    },
+    "03_direct_layoff_shares": {
+      "png_dimensions": [
+        2040,
+        935
+      ],
+      "svg_parsed": true
+    },
+    "04_broader_candidates": {
+      "png_dimensions": [
+        2040,
+        1020
+      ],
+      "svg_parsed": true
+    },
+    "05_score_distribution": {
+      "png_dimensions": [
+        2040,
+        1020
+      ],
+      "svg_parsed": true
+    }
+  },
+  "source_tables": {
+    "score_bands.csv": "passed",
+    "text_availability.csv": "passed"
+  }
+}

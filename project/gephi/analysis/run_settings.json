@@ -1,0 +1,16 @@
+{
+  "source": "User report in this chat, 5 October 2026",
+  "user_report": "Mostly default settings, edge weights on. A resolution value of 1 was mentioned in connection with PageRank.",
+  "weights_reported_enabled": true,
+  "resolution_value_mentioned": 1,
+  "resolution_metric_association_confirmed": false,
+  "modularity_resolution_exact": null,
+  "pagerank_probability_exact": 0.85,
+  "pagerank_epsilon_exact": 0.001,
+  "gephi_version": null,
+  "distance_directed_confirmed": false,
+  "distance_normalization_confirmed": false,
+  "clustering_direction_confirmed": false,
+  "modularity_randomization_confirmed": false,
+  "note": "The user subsequently confirmed PageRank probability 0.85 and epsilon 0.001. Resolution is a Modularity parameter. Unrecorded settings remain unconfirmed; imported centrality values are preserved."
+}

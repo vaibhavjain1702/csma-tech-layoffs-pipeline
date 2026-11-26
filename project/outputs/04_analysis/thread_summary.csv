@@ -1,0 +1,6 @@
+subreddit,post_present,threads,collected_comments,mean_collected_comments,largest_collected_thread,mean_max_resolved_depth,deepest_resolved_branch,comments_with_unresolved_depth,direct_matching_posts,threads_with_direct_matching_comments
+cscareerquestions,0,46403,962337,20.739,1416,3.028,65,12159,,6162
+programming,0,2007,4414,2.199,91,1.155,14,2614,,7
+programming,1,38431,234386,6.099,1950,3.029,62,303,53,254
+technology,0,648,6471,9.986,1474,1.289,23,3012,,10
+technology,1,76782,1651429,21.508,8732,4.842,91,3107,601,879

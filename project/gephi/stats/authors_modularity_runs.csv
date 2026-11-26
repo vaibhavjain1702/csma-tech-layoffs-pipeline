@@ -1,0 +1,4 @@
+run,resolution,use_weight,randomize,Q_gephi,classes,visible_nodes,visible_edges,top5
+r050,0.5,true,false,0.809408,113,9330,12360,"class 25: 345 (3.70%); class 6: 181 (1.94%); class 64: 169 (1.81%); class 1: 164 (1.76%); class 79: 149 (1.60%)"
+r150,1.5,true,false,0.810157,49,9330,12360,"class 48: 550 (5.89%); class 22: 519 (5.56%); class 7: 432 (4.63%); class 46: 399 (4.28%); class 8: 343 (3.68%)"
+r100_baseline,1.0,true,false,0.812773,66,9330,12360,"class 6: 361 (3.87%); class 0: 341 (3.65%); class 24: 270 (2.89%); class 16: 251 (2.69%); class 15: 250 (2.68%)"

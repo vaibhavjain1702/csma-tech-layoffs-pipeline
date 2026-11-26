@@ -1,0 +1,30 @@
+{
+  "source_hashes_unchanged": true,
+  "output_counts_reconciled": true,
+  "rankings_rows": 180,
+  "rankings_metrics": 9,
+  "spearman_independent_pandas_check": "passed on 5 October 2026",
+  "unit_tests_passed": 18,
+  "figures": {
+    "reply_concentration.png": {
+      "width": 1205,
+      "height": 771,
+      "visually_reviewed": true
+    },
+    "components_and_groups.png": {
+      "width": 1851,
+      "height": 765,
+      "visually_reviewed": true
+    },
+    "centrality_correlations.png": {
+      "width": 1304,
+      "height": 1143,
+      "visually_reviewed": true
+    },
+    "reply_roles.png": {
+      "width": 1342,
+      "height": 747,
+      "visually_reviewed": true
+    }
+  }
+}

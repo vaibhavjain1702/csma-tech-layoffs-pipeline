@@ -1,0 +1,13 @@
+Id,Label,side,In-Degree,Out-Degree,Degree,Weighted In-Degree,Weighted Out-Degree,Weighted Degree
+P:ai_excuse,ai excuse,comment,0,4,4,0,3.7600000000000002,3.7600000000000002
+P:ai_replaces,ai replaces,comment,0,4,4,0,3.95,3.95
+P:blames_workers,blames workers,comment,0,4,4,0,4.58,4.58
+P:doom,doom,comment,0,4,4,0,4.46,4.46
+P:experience,experience,comment,0,4,4,0,5.47,5.47
+P:mentions_execs,mentions execs,comment,0,4,4,0,3.87,3.87
+P:mentions_offshore,mentions offshore,comment,0,4,4,0,3.5300000000000002,3.5300000000000002
+P:none,none,comment,0,4,4,0,4,4
+R:advice,advice reply,reply,8,0,8,7.11,0,7.11
+R:agree,agree reply,reply,8,0,8,9.16,0,9.16
+R:challenge,challenge reply,reply,8,0,8,8.34,0,8.34
+R:sympathy,sympathy reply,reply,8,0,8,9.01,0,9.01

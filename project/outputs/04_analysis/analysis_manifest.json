@@ -1,0 +1,17 @@
+{
+  "generated_utc": "2026-10-03T21:33:30.864463+00:00",
+  "match": "direct",
+  "top_terms_per_group_and_ngram": 100,
+  "minimum_document_frequency": 3,
+  "lexical_text": "Post title and own_text; line-prefixed quotations and URLs excluded; lowercase; no stemming; conservative function-word stoplist; negation retained.",
+  "quantiles": "Linear interpolation over observed non-null scores, using exact frequency histograms.",
+  "interpretation": "Keyword counts are not validated relevance. Monthly changes reflect changing collection coverage. Thread metrics describe collected comments only.",
+  "output_rows": {
+    "monthly_summary": 81,
+    "preprocessing_audit": 2,
+    "reply_quality": 9,
+    "thread_summary": 5,
+    "engagement_summary": 10,
+    "lexical_terms": 912
+  }
+}

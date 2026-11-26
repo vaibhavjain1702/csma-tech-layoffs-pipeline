@@ -1,0 +1,64 @@
+subreddit,feature,share_with_feature_pct,mean_pct_with,mean_pct_without
+cscareerquestions,first_person_singular,63.7,0.429,0.446
+cscareerquestions,second_person,56.2,0.432,0.439
+cscareerquestions,question,19.8,0.407,0.442
+cscareerquestions,number_or_amount,45.0,0.443,0.429
+cscareerquestions,profanity,8.0,0.465,0.433
+cscareerquestions,certainty,19.3,0.438,0.434
+cscareerquestions,hedging,25.1,0.429,0.437
+cscareerquestions,humour_marker,3.7,0.421,0.436
+cscareerquestions,has_link,2.2,0.38,0.436
+cscareerquestions,early_arrival,22.2,0.677,0.366
+cscareerquestions,reply_to_post,47.7,0.433,0.437
+cscareerquestions,length_decile_1 (3-18 words),9.1,0.422,
+cscareerquestions,length_decile_2 (18-28 words),10.2,0.431,
+cscareerquestions,length_decile_3 (28-39 words),10.3,0.437,
+cscareerquestions,length_decile_4 (39-49 words),10.4,0.438,
+cscareerquestions,length_decile_5 (49-61 words),9.7,0.441,
+cscareerquestions,length_decile_6 (61-78 words),10.3,0.443,
+cscareerquestions,length_decile_7 (78-98 words),9.9,0.44,
+cscareerquestions,length_decile_8 (98-128 words),9.9,0.435,
+cscareerquestions,length_decile_9 (128-184 words),10.3,0.434,
+cscareerquestions,length_decile_10 (184-1867 words),10.0,0.428,
+technology,first_person_singular,49.7,0.436,0.446
+technology,second_person,39.7,0.421,0.454
+technology,question,22.9,0.41,0.45
+technology,number_or_amount,34.9,0.456,0.433
+technology,profanity,12.9,0.481,0.435
+technology,certainty,16.8,0.448,0.44
+technology,hedging,18.7,0.424,0.445
+technology,humour_marker,2.8,0.396,0.442
+technology,has_link,3.1,0.449,0.441
+technology,early_arrival,19.8,0.644,0.391
+technology,reply_to_post,30.2,0.408,0.455
+technology,length_decile_1 (3-16 words),9.0,0.401,
+technology,length_decile_2 (16-24 words),10.6,0.431,
+technology,length_decile_3 (24-33 words),9.9,0.438,
+technology,length_decile_4 (33-45 words),10.4,0.446,
+technology,length_decile_5 (45-57 words),10.1,0.452,
+technology,length_decile_6 (57-73 words),9.7,0.452,
+technology,length_decile_7 (73-94 words),10.2,0.452,
+technology,length_decile_8 (94-126 words),10.0,0.465,
+technology,length_decile_9 (126-193 words),10.2,0.443,
+technology,length_decile_10 (193-1449 words),10.0,0.427,
+programming,first_person_singular,67.4,0.462,0.476
+programming,second_person,52.6,0.45,0.485
+programming,question,22.7,0.448,0.472
+programming,number_or_amount,36.5,0.472,0.464
+programming,profanity,12.0,0.518,0.46
+programming,certainty,22.9,0.469,0.466
+programming,hedging,29.7,0.446,0.475
+programming,humour_marker,1.9,0.397,0.468
+programming,has_link,3.9,0.389,0.47
+programming,early_arrival,21.9,0.685,0.405
+programming,reply_to_post,30.7,0.463,0.468
+programming,length_decile_1 (3-24 words),9.9,0.457,
+programming,length_decile_2 (24-35 words),9.3,0.482,
+programming,length_decile_3 (35-49 words),10.2,0.471,
+programming,length_decile_4 (49-63 words),10.3,0.491,
+programming,length_decile_5 (63-80 words),10.2,0.445,
+programming,length_decile_6 (80-101 words),9.8,0.474,
+programming,length_decile_7 (101-130 words),10.1,0.487,
+programming,length_decile_8 (130-171 words),10.2,0.469,
+programming,length_decile_9 (171-243 words),10.0,0.442,
+programming,length_decile_10 (243-1644 words),10.0,0.449,

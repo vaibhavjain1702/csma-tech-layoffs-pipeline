@@ -1,0 +1,32 @@
+mode=authors toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+authors full: nodes=14507 edges=15427 weightSum=15977 directed=true
+  Average Degree (Gephi, directed report) = 1.0634
+  report -> stats/authors_full_average_degree_report.html (3 images)
+  Average Weighted Degree (Gephi) = 1.1013
+  report -> stats/authors_full_weighted_degree_report.html (3 images)
+  Connected Components: weak=2199 largest=9330 (64.31%) twoUserComponents=1771
+  report -> stats/authors_full_connected_components_report.html (1 images)
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=1, scaling=10.0, gravity=1.00, strongGravity=false, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 600 iterations, then preventOverlap(adjustSizes=true) 0 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  nodes table -> gephi/stats/nodes_full_metrics.csv rows=14507
+  edges table -> gephi/stats/edges_full.csv rows=15427
+  Giant Component filter: visible nodes=9330 visible edges=12360
+authors LWCC workspace: nodes=9330 edges=12360 weightSum=12845
+  LWCC check: weak components=1
+  Modularity r050: resolution=0.5 useWeight=true randomize=false Q=0.8094 classes=113 visibleNodes=9330 visibleEdges=12360 top: class 25: 345 (3.70%); class 6: 181 (1.94%); class 64: 169 (1.81%); class 1: 164 (1.76%); class 79: 149 (1.60%)
+  report -> stats/authors_lwcc_modularity_r050_report.html (1 images)
+  nodes table -> gephi/stats/nodes_largest_component_modularity_r050.csv rows=9330
+  Modularity r150: resolution=1.5 useWeight=true randomize=false Q=0.8102 classes=49 visibleNodes=9330 visibleEdges=12360 top: class 48: 550 (5.89%); class 22: 519 (5.56%); class 7: 432 (4.63%); class 46: 399 (4.28%); class 8: 343 (3.68%)
+  report -> stats/authors_lwcc_modularity_r150_report.html (1 images)
+  nodes table -> gephi/stats/nodes_largest_component_modularity_r150.csv rows=9330
+  Modularity r100_baseline: resolution=1.0 useWeight=true randomize=false Q=0.8128 classes=66 visibleNodes=9330 visibleEdges=12360 top: class 6: 361 (3.87%); class 0: 341 (3.65%); class 24: 270 (2.89%); class 16: 251 (2.69%); class 15: 250 (2.68%)
+  report -> stats/authors_lwcc_modularity_r1_report.html (1 images)
+  nodes table -> gephi/stats/nodes_largest_component_modularity_r1.csv rows=9330
+  edges table -> gephi/stats/edges_largest_component.csv rows=12360
+  size ranking InWeightRetained min=0 max=300 -> 5..30
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=1, scaling=100.0, gravity=1.00, strongGravity=false, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1500 iterations, then preventOverlap(adjustSizes=true) 300 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  figure -> figures/largest_component_communities.pdf page 1000x1000 pt
+  figure -> figures/largest_component_communities.svg
+  gexf -> gephi/projects/author_replies_largest_component.gexf
+  project saved -> gephi/projects/author_replies.gephi (1772446 bytes)
+CHECK nodes_full_metrics rows=14507 edges_full rows=15427 lwcc rows=9330
+done in 448 s

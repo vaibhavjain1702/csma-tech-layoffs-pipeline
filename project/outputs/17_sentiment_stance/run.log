@@ -1,0 +1,12 @@
+[     1s] scores: sentiment 300,946  stance 67,219  reply stance 162,722  models cardiffnlp/twitter-roberta-base-sentiment-latest / MoritzLaurer/deberta-v3-base-zeroshot-v2.0
+[    15s] employment comments with scores: 67,122
+[    15s] S1 done; VADER vs RoBERTa {'n': 67122, 'pct_both_negative': np.float64(24.66), 'pct_vader_only': np.float64(8.21), 'pct_model_only': np.float64(26.26), 'corr_vader_vs_model_pos_minus_neg': 0.437}
+[    19s] window comments 302,881
+[    30s] R4 rebuilt: LWCC 30,976 authors; types story-sharer 233, blame-talker 577, helper 1,770, other 8,198, low-activity 20,198
+[    36s] reply edges with both scores: 162,722
+[    37s] S2 done
+[    38s] S3 done
+[    38s] T1 done
+[    39s] T2 done; cross-posters 152
+[    41s] T3 done
+[    41s] done

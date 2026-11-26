@@ -1,0 +1,8 @@
+mode=layout_conv_full toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+conv full workspace: nodes=13866 edges=13206 before x extent 0.0 .. 0.0, nodes at (0,0) = 13866
+conv figure workspace before: x extent -3900.6758 .. 3619.2725, nodes at (0,0) = 0
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=1.0, gravity=8.00, strongGravity=false, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 2000 iterations, then preventOverlap(adjustSizes=true) 200 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  after layout x extent -7398.892 .. 5343.6924, nodes at (0,0) = 0
+conv figure workspace after (must be unchanged): x extent -3900.6758 .. 3619.2725, nodes at (0,0) = 0
+  project saved -> gephi/projects/conversations.gephi (1817498 bytes)
+done in 65 s

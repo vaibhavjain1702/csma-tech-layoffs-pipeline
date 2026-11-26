@@ -1,0 +1,10 @@
+subreddit,parent_kind,depth_status,replies,missing_parents,unknown_child_authors,unknown_parent_authors,cross_thread_parents,negative_reply_delays
+cscareerquestions,comments,missing_parent,12159,7212,2265,9275,0,0
+cscareerquestions,comments,resolved,558894,0,14494,31405,0,0
+cscareerquestions,posts,resolved,391284,391284,28702,391284,0,
+programming,comments,missing_parent,2917,2029,82,2029,0,0
+programming,comments,resolved,170228,0,750,10,0,0
+programming,posts,resolved,65655,1539,1240,1569,0,0
+technology,comments,missing_parent,6119,3071,349,3077,0,0
+technology,comments,resolved,1085979,0,57728,656,0,0
+technology,posts,resolved,565802,2062,48383,2200,0,0

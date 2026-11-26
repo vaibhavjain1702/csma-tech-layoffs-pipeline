@@ -1,0 +1,34 @@
+{
+  "nodes": 14507,
+  "edges": 15427,
+  "total_retained_replies": 15977,
+  "edge_direction": "replying author -> author of parent comment/submission",
+  "weight": "Number of selected observed replies from Source to Target",
+  "quality_counts_overlapping": {
+    "selected_comments": 28077,
+    "missing_parent": 12032,
+    "unknown_child_author": 0,
+    "unknown_parent_author": 12033,
+    "self_replies": 67,
+    "cross_thread_parent": 0
+  },
+  "minimum_pair_weight": 1,
+  "excluded": "Unknown authors, absent parent content, different-thread parents, self-replies, pairs below minimum weight; isolated nodes are not included.",
+  "network": "authors",
+  "scope": "keyword-comments",
+  "match": "direct",
+  "subreddit": null,
+  "start_inclusive_utc": null,
+  "end_exclusive_utc": null,
+  "selected_threads": 7312,
+  "selected_comments": 28077,
+  "validation": {
+    "unique_nodes": 14507,
+    "unique_edges": 15427,
+    "dangling_endpoints": 0
+  },
+  "encoding": "UTF-8",
+  "separator": ",",
+  "relevance": "Keyword scopes are retrieval heuristics, not validated layoff relevance.",
+  "created_utc": "2026-10-03T21:33:49.228220+00:00"
+}

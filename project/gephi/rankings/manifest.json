@@ -1,0 +1,40 @@
+{
+  "source": "gephi/exports/authors_keyword-comments_direct/nodes.csv",
+  "source_sha256": "e1da99af435ebc17e4f0b5bff7e952e5a67895510db4e8729b565e2eb6dde046",
+  "source_nodes": 14507,
+  "requested_top": 20,
+  "scope": "Nodes supplied in the input CSV; default input is the full retained author network.",
+  "tie_rule": "Metric descending, then Id ascending. Position is row order; tied values are not substantive differences.",
+  "metrics": "Retained columns describe the original export, even if input nodes were later filtered in Gephi.",
+  "interpretation": "Reply attention and response activity, not verified influence, agreement, or total Reddit activity.",
+  "outputs": {
+    "top_received_replies.csv": {
+      "metric": "InWeightRetained",
+      "rows": 20,
+      "cutoff_value": 29,
+      "nodes_tied_at_cutoff_in_input": 1,
+      "nodes_tied_at_cutoff_included": 1
+    },
+    "top_sent_replies.csv": {
+      "metric": "OutWeightRetained",
+      "rows": 20,
+      "cutoff_value": 21,
+      "nodes_tied_at_cutoff_in_input": 4,
+      "nodes_tied_at_cutoff_included": 3
+    },
+    "top_distinct_replying_users.csv": {
+      "metric": "InDegreeRetained",
+      "rows": 20,
+      "cutoff_value": 26,
+      "nodes_tied_at_cutoff_in_input": 3,
+      "nodes_tied_at_cutoff_included": 1
+    },
+    "top_distinct_users_replied_to.csv": {
+      "metric": "OutDegreeRetained",
+      "rows": 20,
+      "cutoff_value": 19,
+      "nodes_tied_at_cutoff_in_input": 6,
+      "nodes_tied_at_cutoff_included": 1
+    }
+  }
+}

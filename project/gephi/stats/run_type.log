@@ -1,0 +1,11 @@
+mode=type toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+type network: nodes=12 edges=32
+  report -> stats/type_degree_report.html (3 images)
+  report -> stats/type_weighted_degree_report.html (3 images)
+  nodes table -> gephi/stats/type_network_nodes.csv rows=12
+  edges table -> gephi/stats/type_network_edges.csv rows=32
+  figure -> figures/type_network_lift.pdf page 900x750 pt
+  figure -> figures/type_network_lift.svg
+  gexf -> gephi/projects/type_network_lift.gexf
+  project saved -> gephi/projects/type_network_lift.gephi (4683 bytes)
+done in 1 s

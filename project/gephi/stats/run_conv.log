@@ -1,0 +1,14 @@
+mode=conv toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+conv: nodes=13866 edges=13206 missingEndpointEdges=0
+  report -> stats/conv_degree_report.html (3 images)
+  Average Degree = 0.9524
+  Connected Components: weak=660 largest=2190 (15.79%) top10=[421, 429, 444, 454, 460, 638, 658, 701, 1580, 2190]
+  report -> stats/conv_connected_components_report.html (1 images)
+  subreddit counts {=6, programming=2282, technology=11578} maxInDegree=891
+  nodes table -> gephi/stats/conv_nodes_gephi_metrics.csv rows=13866
+  figure workspace (30 largest components): nodes=12156 edges=12126
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=1, scaling=10.0, gravity=2.00, strongGravity=false, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1500 iterations, then preventOverlap(adjustSizes=true) 200 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  figure -> figures/conversation_largest_components.pdf page 1000x1000 pt
+  figure -> figures/conversation_largest_components.svg
+  project saved -> gephi/projects/conversations.gephi (1657297 bytes)
+done in 173 s

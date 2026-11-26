@@ -1,0 +1,7 @@
+mode=relayout_conv toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+relayout conv figure workspace: nodes=12156 edges=12126
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=1.0, gravity=8.00, strongGravity=false, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 2000 iterations, then preventOverlap(adjustSizes=true) 200 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  figure -> figures/conversation_largest_components.pdf page 1000x1000 pt
+  figure -> figures/conversation_largest_components.svg
+  project saved -> gephi/projects/conversations.gephi (1661930 bytes)
+done in 35 s

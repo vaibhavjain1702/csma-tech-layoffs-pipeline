@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-11-26">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="side" title="side" type="string"/>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted indegree" title="Weighted In-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Weighted Out-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="pct" title="pct" type="double"/>
+      <attribute id="replies" title="replies" type="integer"/>
+      <attribute id="lift_band" title="lift_band" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="P:experience" label="experience">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="5.47"/>
+          <attvalue for="weighted degree" value="5.47"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="385.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:mentions_execs" label="mentions execs">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3.87"/>
+          <attvalue for="weighted degree" value="3.87"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="275.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:mentions_offshore" label="mentions offshore">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3.5300000000000002"/>
+          <attvalue for="weighted degree" value="3.5300000000000002"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="165.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:blames_workers" label="blames workers">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="4.58"/>
+          <attvalue for="weighted degree" value="4.58"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="55.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:ai_excuse" label="ai excuse">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3.7600000000000002"/>
+          <attvalue for="weighted degree" value="3.7600000000000002"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="-55.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:ai_replaces" label="ai replaces">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="3.95"/>
+          <attvalue for="weighted degree" value="3.95"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="-165.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:doom" label="doom">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="4.46"/>
+          <attvalue for="weighted degree" value="4.46"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="-275.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="P:none" label="none">
+        <attvalues>
+          <attvalue for="side" value="comment"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="4.0"/>
+          <attvalue for="weighted degree" value="4.0"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="-520.0" y="-385.0"/>
+        <viz:color r="77" g="77" b="77"/>
+      </node>
+      <node id="R:sympathy" label="sympathy reply">
+        <attvalues>
+          <attvalue for="side" value="reply"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="weighted indegree" value="9.01"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="9.01"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="520.0" y="385.0"/>
+        <viz:color r="0" g="158" b="115"/>
+      </node>
+      <node id="R:advice" label="advice reply">
+        <attvalues>
+          <attvalue for="side" value="reply"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="weighted indegree" value="7.11"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="7.11"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="520.0" y="128.33333"/>
+        <viz:color r="0" g="158" b="115"/>
+      </node>
+      <node id="R:agree" label="agree reply">
+        <attvalues>
+          <attvalue for="side" value="reply"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="weighted indegree" value="9.16"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="9.16"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="520.0" y="-128.33333"/>
+        <viz:color r="0" g="158" b="115"/>
+      </node>
+      <node id="R:challenge" label="challenge reply">
+        <attvalues>
+          <attvalue for="side" value="reply"/>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="weighted indegree" value="8.34"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="8.34"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="520.0" y="-385.0"/>
+        <viz:color r="0" g="158" b="115"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="e0" source="P:experience" target="R:sympathy" weight="2.82">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="5.11"/>
+          <attvalue for="replies" value="1232"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e1" source="P:experience" target="R:advice" weight="0.96">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="5.52"/>
+          <attvalue for="replies" value="1232"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e2" source="P:experience" target="R:agree" weight="1.06">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="7.31"/>
+          <attvalue for="replies" value="1232"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e3" source="P:experience" target="R:challenge" weight="0.63">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="3.08"/>
+          <attvalue for="replies" value="1232"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e4" source="P:mentions_execs" target="R:sympathy" weight="0.81">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="1.48"/>
+          <attvalue for="replies" value="3315"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e5" source="P:mentions_execs" target="R:advice" weight="0.62">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="3.56"/>
+          <attvalue for="replies" value="3315"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e6" source="P:mentions_execs" target="R:agree" weight="1.26">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="8.72"/>
+          <attvalue for="replies" value="3315"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e7" source="P:mentions_execs" target="R:challenge" weight="1.18">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="5.79"/>
+          <attvalue for="replies" value="3315"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e8" source="P:mentions_offshore" target="R:sympathy" weight="0.77">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="1.39"/>
+          <attvalue for="replies" value="11256"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e9" source="P:mentions_offshore" target="R:advice" weight="0.64">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="3.7"/>
+          <attvalue for="replies" value="11256"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e10" source="P:mentions_offshore" target="R:agree" weight="1.05">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="7.26"/>
+          <attvalue for="replies" value="11256"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e11" source="P:mentions_offshore" target="R:challenge" weight="1.07">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="5.24"/>
+          <attvalue for="replies" value="11256"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e12" source="P:blames_workers" target="R:sympathy" weight="1.29">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="2.35"/>
+          <attvalue for="replies" value="1151"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e13" source="P:blames_workers" target="R:advice" weight="1.08">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="6.26"/>
+          <attvalue for="replies" value="1151"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e14" source="P:blames_workers" target="R:agree" weight="1.13">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="7.82"/>
+          <attvalue for="replies" value="1151"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e15" source="P:blames_workers" target="R:challenge" weight="1.08">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="5.3"/>
+          <attvalue for="replies" value="1151"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e16" source="P:ai_excuse" target="R:sympathy" weight="0.77">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="1.4"/>
+          <attvalue for="replies" value="1001"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e17" source="P:ai_excuse" target="R:advice" weight="0.64">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="3.7"/>
+          <attvalue for="replies" value="1001"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e18" source="P:ai_excuse" target="R:agree" weight="1.29">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="8.89"/>
+          <attvalue for="replies" value="1001"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e19" source="P:ai_excuse" target="R:challenge" weight="1.06">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="5.19"/>
+          <attvalue for="replies" value="1001"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e20" source="P:ai_replaces" target="R:sympathy" weight="0.67">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="1.21"/>
+          <attvalue for="replies" value="828"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e21" source="P:ai_replaces" target="R:advice" weight="0.79">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="4.59"/>
+          <attvalue for="replies" value="828"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e22" source="P:ai_replaces" target="R:agree" weight="1.26">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="8.7"/>
+          <attvalue for="replies" value="828"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e23" source="P:ai_replaces" target="R:challenge" weight="1.23">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="6.04"/>
+          <attvalue for="replies" value="828"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e24" source="P:doom" target="R:sympathy" weight="0.88">
+        <viz:color r="218" g="218" b="218"/>
+        <attvalues>
+          <attvalue for="pct" value="1.61"/>
+          <attvalue for="replies" value="1307"/>
+          <attvalue for="lift_band" value="&lt;1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="e25" source="P:doom" target="R:advice" weight="1.38">
+        <viz:color r="213" g="94" b="0"/>
+        <attvalues>
+          <attvalue for="pct" value="7.96"/>
+          <attvalue for="replies" value="1307"/>
+          <attvalue for="lift_band" value=">=1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e26" source="P:doom" target="R:agree" weight="1.11">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="7.65"/>
+          <attvalue for="replies" value="1307"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e27" source="P:doom" target="R:challenge" weight="1.09">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="5.36"/>
+          <attvalue for="replies" value="1307"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e28" source="P:none" target="R:sympathy">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="1.82"/>
+          <attvalue for="replies" value="72747"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e29" source="P:none" target="R:advice">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="5.78"/>
+          <attvalue for="replies" value="72747"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e30" source="P:none" target="R:agree">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="6.91"/>
+          <attvalue for="replies" value="72747"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+      <edge id="e31" source="P:none" target="R:challenge">
+        <viz:color r="140" g="140" b="140"/>
+        <attvalues>
+          <attvalue for="pct" value="4.92"/>
+          <attvalue for="replies" value="72747"/>
+          <attvalue for="lift_band" value="1.0-1.2"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

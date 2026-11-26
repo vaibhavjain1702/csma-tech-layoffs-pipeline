@@ -1,0 +1,6 @@
+marker,n,mean_pct,sd_pct,top_decile_pct,bottom_decile_pct,negative_score_pct
+offshore_h1b,12980,0.461,0.343,12.9,22.7,7.0
+ethnic_ref,4373,0.466,0.349,14.3,23.4,6.8
+ai_pretext,1061,0.472,0.355,16.4,24.6,4.8
+exec_blame,4226,0.465,0.353,14.6,25.9,3.7
+all_candidates,129336,0.435,0.353,12.9,30.7,4.6

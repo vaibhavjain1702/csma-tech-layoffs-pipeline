@@ -1,0 +1,5 @@
+cluster,n,log_comments,rate_experience,rate_mentions_execs,rate_mentions_offshore,rate_ai_excuse,rate_doom,gave_sympathy,gave_advice,gave_agree,gave_challenge,log_recv_given,raw_log_comments,raw_rate_experience,raw_rate_mentions_execs,raw_rate_mentions_offshore,raw_rate_ai_excuse,raw_rate_doom,raw_gave_sympathy,raw_gave_advice,raw_gave_agree,raw_gave_challenge,raw_log_recv_given
+0,151,-0.181,5.031,-0.076,-0.137,-0.101,0.116,-0.077,-0.173,-0.058,-0.189,-0.101,2.8887,0.3467,0.0244,0.0761,0.0021,0.0151,0.0144,0.0432,0.0547,0.0296,-0.03
+1,4477,0.029,-0.157,-0.243,-0.019,-0.105,-0.013,-0.002,0.01,-0.005,-0.009,-0.004,3.0719,0.003,0.0073,0.0999,0.0019,0.0085,0.0188,0.0629,0.0603,0.0456,0.0261
+2,329,-0.243,-0.185,3.128,0.249,-0.104,0.118,0.065,0.006,0.075,0.186,0.071,2.8322,0.0011,0.355,0.1546,0.002,0.0153,0.0229,0.0627,0.069,0.0631,0.0706
+3,70,-0.348,0.034,0.938,0.35,7.443,0.053,0.007,-0.266,0.116,0.107,0.14,2.7427,0.0156,0.1289,0.1747,0.331,0.0119,0.0194,0.0332,0.0732,0.0559,0.1098

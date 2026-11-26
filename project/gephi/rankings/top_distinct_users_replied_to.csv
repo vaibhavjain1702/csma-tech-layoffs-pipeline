@@ -1,0 +1,21 @@
+Position,RankingMetric,Id,Label,ScopeCommentCount,OutDegreeRetained,InDegreeRetained,OutWeightRetained,InWeightRetained
+1,OutDegreeRetained,u_92d7611bdd880b7acc7fab2b,Reader 92d7611b,210,88,80,89,89
+2,OutDegreeRetained,u_c1d71a3b1c09c5deb5f4af56,Reader c1d71a3b,95,75,71,81,76
+3,OutDegreeRetained,u_fe9bb49e6c9fb001cda38186,Reader fe9bb49e,94,69,20,76,20
+4,OutDegreeRetained,u_5c71fd2c08ecccda904e3279,Reader 5c71fd2c,76,65,49,68,52
+5,OutDegreeRetained,u_8c69eec1b26686e4934a9c0e,Reader 8c69eec1,59,40,30,47,32
+6,OutDegreeRetained,u_1d8392cf2efa04646fec7983,Reader 1d8392cf,52,32,30,33,30
+7,OutDegreeRetained,u_7f1d82c543509dc2ba79e720,Reader 7f1d82c5,77,31,39,31,41
+8,OutDegreeRetained,u_ea78b236a1467a7ee6275fa3,Reader ea78b236,148,31,16,31,16
+9,OutDegreeRetained,u_ec8c114f85134589de88bad1,Reader ec8c114f,43,28,5,28,5
+10,OutDegreeRetained,u_0eee3fbdc751086e4a7f3f4f,Reader 0eee3fbd,34,27,6,27,6
+11,OutDegreeRetained,u_8c8ddd4646ad136090d44d53,Reader 8c8ddd46,28,27,36,28,36
+12,OutDegreeRetained,u_8c838c916f0b39cb012fccff,Reader 8c838c91,26,23,15,25,17
+13,OutDegreeRetained,u_fe3824d62f797f42258ce215,Reader fe3824d6,51,22,26,43,40
+14,OutDegreeRetained,u_3f8e37b3afc6527d71e40e70,Reader 3f8e37b3,45,21,12,21,12
+15,OutDegreeRetained,u_427b5feeecf4e0801a6adb42,Reader 427b5fee,28,21,3,24,6
+16,OutDegreeRetained,u_7300c05b663b614514bfd55e,Reader 7300c05b,26,21,4,21,4
+17,OutDegreeRetained,u_ab14b18d1b5a545756e91704,Reader ab14b18d,48,21,13,43,14
+18,OutDegreeRetained,u_75a82ba9a83c36ce07eb8b60,Reader 75a82ba9,21,20,11,20,12
+19,OutDegreeRetained,u_d51ed5771126676fac0ddba9,Reader d51ed577,41,20,28,23,29
+20,OutDegreeRetained,u_0ea95c3581a907a819eed56b,Reader 0ea95c35,80,19,14,19,15

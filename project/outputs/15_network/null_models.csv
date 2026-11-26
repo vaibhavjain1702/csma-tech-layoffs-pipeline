@@ -1,0 +1,37 @@
+null,statistic,observed,null_mean,null_sd,z,p_emp
+stub_shuffle,assortativity_all,0.0223,-0.0003,0.0014,16.8,0.0
+stub_shuffle,assortativity_typed,0.0294,-0.0005,0.002,14.9,0.0
+stub_shuffle,lift story-sharer->story-sharer,1.346,0.986,0.072,5.0,0.0
+stub_shuffle,lift story-sharer->blame-talker,0.793,0.999,0.041,-5.1,1.0
+stub_shuffle,lift story-sharer->helper,1.093,1.004,0.031,2.9,0.005
+stub_shuffle,lift story-sharer->other,0.985,1.0,0.012,-1.4,0.895
+stub_shuffle,lift blame-talker->story-sharer,0.8,0.998,0.043,-4.5,1.0
+stub_shuffle,lift blame-talker->blame-talker,1.685,0.999,0.025,27.1,0.0
+stub_shuffle,lift blame-talker->helper,0.858,1.001,0.019,-7.5,1.0
+stub_shuffle,lift blame-talker->other,0.953,1.0,0.007,-7.0,1.0
+stub_shuffle,lift helper->story-sharer,1.098,1.002,0.03,3.2,0.0
+stub_shuffle,lift helper->blame-talker,0.844,0.997,0.02,-7.7,1.0
+stub_shuffle,lift helper->helper,1.083,0.996,0.014,6.2,0.0
+stub_shuffle,lift helper->other,1.004,1.001,0.005,0.6,0.26
+stub_shuffle,lift other->story-sharer,0.982,1.0,0.011,-1.6,0.935
+stub_shuffle,lift other->blame-talker,0.964,1.001,0.008,-4.9,1.0
+stub_shuffle,lift other->helper,0.996,1.0,0.005,-0.8,0.795
+stub_shuffle,lift other->other,1.012,1.0,0.002,7.1,0.0
+within_thread,assortativity_all,0.0223,0.016,0.0015,4.3,0.0
+within_thread,assortativity_typed,0.0294,0.0216,0.0021,3.8,0.0
+within_thread,lift story-sharer->story-sharer,1.346,1.285,0.07,0.9,0.195
+within_thread,lift story-sharer->blame-talker,0.793,0.898,0.038,-2.7,0.99
+within_thread,lift story-sharer->helper,1.093,1.058,0.032,1.1,0.105
+within_thread,lift story-sharer->other,0.985,0.995,0.011,-0.9,0.84
+within_thread,lift blame-talker->story-sharer,0.8,0.921,0.042,-2.9,1.0
+within_thread,lift blame-talker->blame-talker,1.685,1.462,0.028,8.0,0.0
+within_thread,lift blame-talker->helper,0.858,0.894,0.018,-2.0,0.98
+within_thread,lift blame-talker->other,0.953,0.967,0.006,-2.2,0.98
+within_thread,lift helper->story-sharer,1.098,1.038,0.034,1.8,0.05
+within_thread,lift helper->blame-talker,0.844,0.888,0.017,-2.7,1.0
+within_thread,lift helper->helper,1.083,1.069,0.016,0.8,0.185
+within_thread,lift helper->other,1.004,1.004,0.005,0.0,0.485
+within_thread,lift other->story-sharer,0.982,0.993,0.011,-0.9,0.84
+within_thread,lift other->blame-talker,0.964,0.973,0.007,-1.3,0.895
+within_thread,lift other->helper,0.996,0.995,0.005,0.2,0.45
+within_thread,lift other->other,1.012,1.008,0.002,2.1,0.035

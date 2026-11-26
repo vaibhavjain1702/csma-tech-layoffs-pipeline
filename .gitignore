@@ -6,3 +6,18 @@ venv/
 data/raw/
 data/processed/
 logs/
+
+# --- analysis project (project/) ---
+# over GitHub's 100 MB per-file limit, or full-corpus data: shipped in the course submission's data zip
+project/data/
+project/outputs/03_tables/
+raw_data/
+# third-party binary, downloaded and SHA-checked by project/gephi/toolkit/run.sh
+project/gephi/toolkit/lib/*.jar
+# verbatim comment excerpts, kept private by project rule
+project/outputs/15_network/examples.txt
+project/outputs/17_sentiment_stance/examples.txt
+# Tableau lock/recovery files, local caches
+*.twbr
+.~*
+.venv*/

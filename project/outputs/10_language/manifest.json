@@ -1,0 +1,179 @@
+{
+  "script": "scripts/explore_language.py",
+  "database": "read-only",
+  "seed": 20261115,
+  "candidate_definition": "(d.layoffs=1 or d.hiring_conditions=1 or d.ai_work_change=1 or d.corporate_restructuring=1 or d.economic_policy=1)",
+  "method": "Fightin' Words: log-odds with informative Dirichlet prior (pooled, 10% weight); terms with z>|1.96| differ at ~5% (no multiple-comparison correction; use as ranking).",
+  "summary": {
+    "A_cscareerquestions": {
+      "comments": 40950,
+      "tokens": 2069574,
+      "rest_tokens": 1457087,
+      "top": [
+        "job",
+        "resume",
+        "experience",
+        "cs",
+        "interview",
+        "market",
+        "interviews",
+        "recruiter",
+        "job market",
+        "recruiters",
+        "offer",
+        "swe",
+        "career",
+        "degree",
+        "projects"
+      ]
+    },
+    "A_programming": {
+      "comments": 4091,
+      "tokens": 268906,
+      "rest_tokens": 3257755,
+      "top": [
+        "code",
+        "developers",
+        "ai",
+        "programmers",
+        "llms",
+        "llm",
+        "programming",
+        "tools",
+        "developer",
+        "write",
+        "language",
+        "programmer",
+        "vibe",
+        "rust",
+        "tests"
+      ]
+    },
+    "A_technology": {
+      "comments": 22081,
+      "tokens": 1188181,
+      "rest_tokens": 2338480,
+      "top": [
+        "dei",
+        "ai",
+        "trump",
+        "government",
+        "workers",
+        "tariffs",
+        "employees",
+        "white",
+        "china",
+        "manufacturing",
+        "federal",
+        "musk",
+        "economy",
+        "elon",
+        "human"
+      ]
+    },
+    "B": {
+      "comments_2025": 108173,
+      "comments_2026": 92500,
+      "tokens_2026": 2162235,
+      "tokens_2025": 2544874,
+      "top_2026": [
+        "ai",
+        "claude",
+        "code",
+        "models",
+        "agents",
+        "slop",
+        "review",
+        "tokens",
+        "agent",
+        "llm",
+        "output",
+        "claude code"
+      ],
+      "top_2025": [
+        "h1b",
+        "degree",
+        "american",
+        "trump",
+        "india",
+        "amazon",
+        "experience",
+        "jobs",
+        "americans",
+        "college",
+        "indian",
+        "salary"
+      ]
+    },
+    "C": {
+      "upvoted_comments": 16176,
+      "downvoted_comments": 5869,
+      "tokens_up": 773539,
+      "tokens_down": 253953,
+      "top_up": [
+        "interviews",
+        "yoe",
+        "company",
+        "resume",
+        "laid",
+        "years",
+        "experience",
+        "months",
+        "management",
+        "boss",
+        "started",
+        "manager"
+      ],
+      "top_down": [
+        "h1b",
+        "american",
+        "americans",
+        "immigrants",
+        "cope",
+        "workers",
+        "ai",
+        "worker",
+        "country",
+        "immigration",
+        "argument",
+        "visa"
+      ]
+    },
+    "D": {
+      "months": 21,
+      "snapshot_comments_jan_jun_2025": {
+        "cscareerquestions": 288266,
+        "technology": 1652724,
+        "programming": 116655
+      }
+    }
+  },
+  "vocabulary_patterns": {
+    "Market mood": {
+      "\"cooked\"": "\\bcooked\\b",
+      "doom / doomer": "\\bdoom\\w*\\b",
+      "cope / copium": "\\b(cope|copium|coping)\\b",
+      "ghosted": "\\bghost(ed|ing)\\b"
+    },
+    "Explanations": {
+      "AI-washing / AI as excuse": "\\bai[- ]?wash\\w*\\b|\\b(excuse|scapegoat\\w*|pretext|cover)\\b[^.!?]{0,60}\\bai\\b|\\bai\\b[^.!?]{0,60}\\b(excuse|scapegoat\\w*|pretext)\\b",
+      "offshoring / outsourcing": "\\boffshor\\w*\\b|\\boutsourc\\w*\\b",
+      "H-1B": "\\bh-?1-?bs?\\b",
+      "ZIRP / interest rates / 174": "\\bzirp\\b|\\binterest rates?\\b|\\bsection 174\\b",
+      "overhiring": "\\bover-?\\s?hir\\w*\\b"
+    },
+    "AI at work": {
+      "vibe coding": "\\bvibe[- ]?cod\\w*\\b",
+      "agents / agentic": "\\bagent(s|ic)\\b",
+      "named AI tools": "\\b(chatgpt|copilot|cursor|claude|codex|gemini)\\b",
+      "mandate(d)": "\\bmandat\\w*\\b",
+      "slop": "\\bslop\\w*\\b"
+    },
+    "Career moves": {
+      "layoff / laid off": "\\blay-?offs?\\b|\\blaid off\\b",
+      "new grad / entry level / junior": "\\bnew grads?\\b|\\bentry[- ]level\\b|\\bjuniors?\\b",
+      "leave tech / trades / career change": "\\btrade schools?\\b|\\bthe trades\\b|\\bleav\\w* (the )?(field|industry|tech)\\b|\\bget(ting)? out of (tech|the field|the industry)\\b|\\bcareer (change|switch)\\b|\\bswitch\\w* careers?\\b",
+      "union(ize)": "(?<!soviet )(?<!european )(?<!credit )\\bunion(s|i[sz]\\w*)?\\b"
+    }
+  }
+}

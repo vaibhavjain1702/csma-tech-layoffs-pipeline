@@ -1,0 +1,84 @@
+{
+  "n_records": 200,
+  "overall": {
+    "blame-leaning": 35,
+    "mixed": 16,
+    "no lexical signal": 118,
+    "solidarity-leaning": 31
+  },
+  "by_group": {
+    "ai_work_change": {
+      "blame-leaning": 4,
+      "mixed": 2,
+      "no lexical signal": 17,
+      "solidarity-leaning": 7
+    },
+    "background": {
+      "blame-leaning": 3,
+      "mixed": 1,
+      "no lexical signal": 24,
+      "solidarity-leaning": 2
+    },
+    "career_transition": {
+      "blame-leaning": 4,
+      "mixed": 1,
+      "no lexical signal": 12,
+      "solidarity-leaning": 3
+    },
+    "corporate_restructuring": {
+      "blame-leaning": 7,
+      "mixed": 3,
+      "no lexical signal": 10
+    },
+    "economic_policy": {
+      "blame-leaning": 1,
+      "mixed": 2,
+      "no lexical signal": 15,
+      "solidarity-leaning": 2
+    },
+    "hiring_conditions": {
+      "blame-leaning": 3,
+      "mixed": 6,
+      "no lexical signal": 16,
+      "solidarity-leaning": 15
+    },
+    "layoffs": {
+      "blame-leaning": 13,
+      "mixed": 1,
+      "no lexical signal": 24,
+      "solidarity-leaning": 2
+    }
+  },
+  "by_subreddit": {
+    "cscareerquestions": {
+      "blame-leaning": 12,
+      "mixed": 3,
+      "no lexical signal": 30,
+      "solidarity-leaning": 9
+    },
+    "programming": {
+      "blame-leaning": 15,
+      "mixed": 9,
+      "no lexical signal": 39,
+      "solidarity-leaning": 13
+    },
+    "technology": {
+      "blame-leaning": 8,
+      "mixed": 4,
+      "no lexical signal": 49,
+      "solidarity-leaning": 9
+    }
+  },
+  "method": {
+    "unit": "200-record employment reading sample",
+    "text_fields": [
+      "title",
+      "own_body",
+      "raw_body"
+    ],
+    "label_rule": "solidarity-leaning if at least one solidarity term and no blame term; blame-leaning if at least one blame term and no solidarity term; mixed if both; no lexical signal otherwise",
+    "solidarity_lexicon_size": 42,
+    "blame_lexicon_size": 44,
+    "interpretation": "Exploratory retrieval aid only. It does not infer sentiment, stance, author identity, or causal responsibility, and requires human validation."
+  }
+}

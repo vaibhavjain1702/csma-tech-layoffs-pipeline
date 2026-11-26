@@ -1,0 +1,913 @@
+subreddit,kind,ngram,term,document_count,occurrence_count,matching_documents,document_percent
+cscareerquestions,comments,1,off,12584,15183,23836,52.794
+cscareerquestions,comments,1,laid,10237,11439,23836,42.948
+cscareerquestions,comments,1,layoffs,10101,11472,23836,42.377
+cscareerquestions,comments,1,not,8297,12977,23836,34.809
+cscareerquestions,comments,1,job,6513,10502,23836,27.324
+cscareerquestions,comments,1,people,6234,9666,23836,26.154
+cscareerquestions,comments,1,it's,5988,8746,23836,25.122
+cscareerquestions,comments,1,like,5373,7433,23836,22.542
+cscareerquestions,comments,1,company,5009,7234,23836,21.014
+cscareerquestions,comments,1,work,4861,7253,23836,20.394
+cscareerquestions,comments,1,years,4504,5968,23836,18.896
+cscareerquestions,comments,1,don't,4492,5948,23836,18.845
+cscareerquestions,comments,1,now,4372,5654,23836,18.342
+cscareerquestions,comments,1,companies,4338,6150,23836,18.199
+cscareerquestions,comments,1,time,3909,5185,23836,16.4
+cscareerquestions,comments,1,even,3783,4774,23836,15.871
+cscareerquestions,comments,1,i'm,3683,5404,23836,15.451
+cscareerquestions,comments,1,tech,3654,5281,23836,15.33
+cscareerquestions,comments,1,one,3582,4659,23836,15.028
+cscareerquestions,comments,1,layoff,3442,3770,23836,14.44
+cscareerquestions,comments,1,think,3240,4169,23836,13.593
+cscareerquestions,comments,1,year,3060,3910,23836,12.838
+cscareerquestions,comments,1,after,3015,3598,23836,12.649
+cscareerquestions,comments,1,good,3013,3883,23836,12.641
+cscareerquestions,comments,1,still,2942,3588,23836,12.343
+cscareerquestions,comments,1,new,2892,3704,23836,12.133
+cscareerquestions,comments,1,jobs,2860,3846,23836,11.999
+cscareerquestions,comments,1,getting,2743,3180,23836,11.508
+cscareerquestions,comments,1,only,2705,3162,23836,11.348
+cscareerquestions,comments,1,you're,2674,3883,23836,11.218
+cscareerquestions,comments,1,market,2668,3480,23836,11.193
+cscareerquestions,comments,1,know,2571,3147,23836,10.786
+cscareerquestions,comments,1,months,2496,3075,23836,10.472
+cscareerquestions,comments,1,make,2486,2998,23836,10.43
+cscareerquestions,comments,1,lot,2431,3078,23836,10.199
+cscareerquestions,comments,1,that's,2332,2740,23836,9.784
+cscareerquestions,comments,1,i've,2304,3055,23836,9.666
+cscareerquestions,comments,1,doing,2243,2676,23836,9.41
+cscareerquestions,comments,1,right,2227,2634,23836,9.343
+cscareerquestions,comments,1,back,2218,2647,23836,9.305
+cscareerquestions,comments,1,need,2210,2712,23836,9.272
+cscareerquestions,comments,1,want,2127,2696,23836,8.923
+cscareerquestions,comments,1,last,2110,2362,23836,8.852
+cscareerquestions,comments,1,same,2103,2446,23836,8.823
+cscareerquestions,comments,1,big,2068,2543,23836,8.676
+cscareerquestions,comments,1,before,2047,2314,23836,8.588
+cscareerquestions,comments,1,take,2046,2399,23836,8.584
+cscareerquestions,comments,1,well,2029,2336,23836,8.512
+cscareerquestions,comments,1,way,2025,2337,23836,8.496
+cscareerquestions,comments,1,experience,1976,2505,23836,8.29
+cscareerquestions,comments,1,hiring,1975,2458,23836,8.286
+cscareerquestions,comments,1,better,1972,2336,23836,8.273
+cscareerquestions,comments,1,too,1926,2212,23836,8.08
+cscareerquestions,comments,1,first,1920,2222,23836,8.055
+cscareerquestions,comments,1,working,1911,2251,23836,8.017
+cscareerquestions,comments,1,pay,1881,2339,23836,7.891
+cscareerquestions,comments,1,find,1870,2145,23836,7.845
+cscareerquestions,comments,1,money,1837,2403,23836,7.707
+cscareerquestions,comments,1,few,1829,2113,23836,7.673
+cscareerquestions,comments,1,see,1814,2090,23836,7.61
+cscareerquestions,comments,1,things,1784,2297,23836,7.484
+cscareerquestions,comments,1,team,1782,2519,23836,7.476
+cscareerquestions,comments,1,never,1759,2026,23836,7.38
+cscareerquestions,comments,1,something,1745,2035,23836,7.321
+cscareerquestions,comments,1,less,1633,1944,23836,6.851
+cscareerquestions,comments,1,actually,1610,1904,23836,6.754
+cscareerquestions,comments,1,since,1607,1817,23836,6.742
+cscareerquestions,comments,1,bad,1597,1874,23836,6.7
+cscareerquestions,comments,1,another,1543,1741,23836,6.473
+cscareerquestions,comments,1,why,1538,1822,23836,6.452
+cscareerquestions,comments,1,keep,1509,1752,23836,6.331
+cscareerquestions,comments,1,doesn't,1508,1701,23836,6.327
+cscareerquestions,comments,1,thing,1485,1659,23836,6.23
+cscareerquestions,comments,1,isn't,1479,1683,23836,6.205
+cscareerquestions,comments,1,there's,1474,1739,23836,6.184
+cscareerquestions,comments,1,industry,1460,1833,23836,6.125
+cscareerquestions,comments,1,always,1457,1708,23836,6.113
+cscareerquestions,comments,1,didn't,1434,1702,23836,6.016
+cscareerquestions,comments,1,probably,1434,1612,23836,6.016
+cscareerquestions,comments,1,can't,1431,1618,23836,6.004
+cscareerquestions,comments,1,software,1427,2076,23836,5.987
+cscareerquestions,comments,1,engineers,1423,1903,23836,5.97
+cscareerquestions,comments,1,sure,1414,1568,23836,5.932
+cscareerquestions,comments,1,long,1407,1635,23836,5.903
+cscareerquestions,comments,1,everyone,1370,1549,23836,5.748
+cscareerquestions,comments,1,level,1369,1736,23836,5.743
+cscareerquestions,comments,1,career,1366,1679,23836,5.731
+cscareerquestions,comments,1,they're,1343,1635,23836,5.634
+cscareerquestions,comments,1,enough,1342,1523,23836,5.63
+cscareerquestions,comments,1,hard,1319,1495,23836,5.534
+cscareerquestions,comments,1,someone,1308,1519,23836,5.487
+cscareerquestions,comments,1,lay,1302,1403,23836,5.462
+cscareerquestions,comments,1,worked,1300,1525,23836,5.454
+cscareerquestions,comments,1,point,1288,1472,23836,5.404
+cscareerquestions,comments,1,around,1281,1419,23836,5.374
+cscareerquestions,comments,1,looking,1256,1401,23836,5.269
+cscareerquestions,comments,1,start,1253,1442,23836,5.257
+cscareerquestions,comments,1,though,1249,1372,23836,5.24
+cscareerquestions,comments,1,feel,1247,1451,23836,5.232
+cscareerquestions,comments,1,employees,1241,1563,23836,5.206
+cscareerquestions,comments,2,laid off,10185,11296,23836,42.729
+cscareerquestions,comments,2,right now,1174,1335,23836,4.925
+cscareerquestions,comments,2,it's not,1083,1175,23836,4.544
+cscareerquestions,comments,2,laying off,919,956,23836,3.856
+cscareerquestions,comments,2,big tech,879,1055,23836,3.688
+cscareerquestions,comments,2,lay off,857,902,23836,3.595
+cscareerquestions,comments,2,getting laid,799,810,23836,3.352
+cscareerquestions,comments,2,i'm not,729,802,23836,3.058
+cscareerquestions,comments,2,job market,717,805,23836,3.008
+cscareerquestions,comments,2,years ago,598,634,23836,2.509
+cscareerquestions,comments,2,new job,585,633,23836,2.454
+cscareerquestions,comments,2,mass layoffs,582,602,23836,2.442
+cscareerquestions,comments,2,few years,557,598,23836,2.337
+cscareerquestions,comments,2,last year,540,564,23836,2.265
+cscareerquestions,comments,2,don't think,530,570,23836,2.224
+cscareerquestions,comments,2,tech companies,500,560,23836,2.098
+cscareerquestions,comments,2,feel like,487,535,23836,2.043
+cscareerquestions,comments,2,don't know,479,518,23836,2.01
+cscareerquestions,comments,2,no one,464,507,23836,1.947
+cscareerquestions,comments,2,i've seen,352,368,23836,1.477
+cscareerquestions,comments,2,few months,349,369,23836,1.464
+cscareerquestions,comments,2,don't want,345,373,23836,1.447
+cscareerquestions,comments,2,you're not,345,373,23836,1.447
+cscareerquestions,comments,2,not sure,333,347,23836,1.397
+cscareerquestions,comments,2,another job,330,355,23836,1.384
+cscareerquestions,comments,2,long term,325,365,23836,1.363
+cscareerquestions,comments,2,off people,321,328,23836,1.347
+cscareerquestions,comments,2,entry level,307,363,23836,1.288
+cscareerquestions,comments,2,full time,300,349,23836,1.259
+cscareerquestions,comments,2,sounds like,284,301,23836,1.191
+cscareerquestions,comments,2,job security,273,302,23836,1.145
+cscareerquestions,comments,2,software engineers,271,328,23836,1.137
+cscareerquestions,comments,2,that's not,271,286,23836,1.137
+cscareerquestions,comments,2,mid level,267,296,23836,1.12
+cscareerquestions,comments,2,lay offs,263,279,23836,1.103
+cscareerquestions,comments,2,no longer,262,282,23836,1.099
+cscareerquestions,comments,2,think it's,258,265,23836,1.082
+cscareerquestions,comments,2,tech company,257,290,23836,1.078
+cscareerquestions,comments,2,interest rates,256,325,23836,1.074
+cscareerquestions,comments,2,new grads,256,287,23836,1.074
+cscareerquestions,comments,2,not even,252,261,23836,1.057
+cscareerquestions,comments,2,there's no,251,267,23836,1.053
+cscareerquestions,comments,2,doing layoffs,248,255,23836,1.04
+cscareerquestions,comments,2,don't need,243,254,23836,1.019
+cscareerquestions,comments,2,software engineering,234,268,23836,0.982
+cscareerquestions,comments,2,first job,229,242,23836,0.961
+cscareerquestions,comments,2,even though,225,235,23836,0.944
+cscareerquestions,comments,2,make sure,222,247,23836,0.931
+cscareerquestions,comments,2,two years,221,236,23836,0.927
+cscareerquestions,comments,2,months ago,216,222,23836,0.906
+cscareerquestions,comments,2,current job,215,227,23836,0.902
+cscareerquestions,comments,2,software engineer,214,240,23836,0.898
+cscareerquestions,comments,2,new grad,212,247,23836,0.889
+cscareerquestions,comments,2,seems like,212,224,23836,0.889
+cscareerquestions,comments,2,off last,209,209,23836,0.877
+cscareerquestions,comments,2,last years,208,215,23836,0.873
+cscareerquestions,comments,2,feels like,203,212,23836,0.852
+cscareerquestions,comments,2,months later,200,209,23836,0.839
+cscareerquestions,comments,2,use ai,200,223,23836,0.839
+cscareerquestions,comments,2,same time,199,209,23836,0.835
+cscareerquestions,comments,2,job search,197,219,23836,0.826
+cscareerquestions,comments,2,short term,190,209,23836,0.797
+cscareerquestions,comments,2,using ai,190,203,23836,0.797
+cscareerquestions,comments,2,work life,190,210,23836,0.797
+cscareerquestions,comments,2,i've worked,187,196,23836,0.785
+cscareerquestions,comments,2,tech layoffs,186,191,23836,0.78
+cscareerquestions,comments,2,good luck,183,185,23836,0.768
+cscareerquestions,comments,2,i'm sure,176,180,23836,0.738
+cscareerquestions,comments,2,life balance,173,191,23836,0.726
+cscareerquestions,comments,2,massive layoffs,173,174,23836,0.726
+cscareerquestions,comments,2,doesn't mean,167,174,23836,0.701
+cscareerquestions,comments,2,find another,167,172,23836,0.701
+cscareerquestions,comments,2,same thing,164,167,23836,0.688
+cscareerquestions,comments,2,long time,161,166,23836,0.675
+cscareerquestions,comments,2,people off,161,175,23836,0.675
+cscareerquestions,comments,2,don't see,160,166,23836,0.671
+cscareerquestions,comments,2,no idea,160,168,23836,0.671
+cscareerquestions,comments,2,job after,159,165,23836,0.667
+cscareerquestions,comments,2,off after,157,160,23836,0.659
+cscareerquestions,comments,2,past years,155,158,23836,0.65
+cscareerquestions,comments,2,everyone else,154,159,23836,0.646
+cscareerquestions,comments,2,after years,153,161,23836,0.642
+cscareerquestions,comments,2,now i'm,153,156,23836,0.642
+cscareerquestions,comments,2,something like,152,158,23836,0.638
+cscareerquestions,comments,2,non tech,149,177,23836,0.625
+cscareerquestions,comments,2,they're not,149,152,23836,0.625
+cscareerquestions,comments,2,couple years,148,152,23836,0.621
+cscareerquestions,comments,2,cs degree,142,160,23836,0.596
+cscareerquestions,comments,2,don't care,141,150,23836,0.592
+cscareerquestions,comments,2,don't even,141,144,23836,0.592
+cscareerquestions,comments,2,not saying,141,147,23836,0.592
+cscareerquestions,comments,2,things like,141,145,23836,0.592
+cscareerquestions,comments,2,it's hard,140,143,23836,0.587
+cscareerquestions,comments,2,during covid,139,143,23836,0.583
+cscareerquestions,comments,2,white collar,139,159,23836,0.583
+cscareerquestions,comments,2,tech industry,138,154,23836,0.579
+cscareerquestions,comments,2,good enough,133,146,23836,0.558
+cscareerquestions,comments,2,last few,133,137,23836,0.558
+cscareerquestions,comments,2,no matter,133,137,23836,0.558
+cscareerquestions,comments,2,that's why,133,136,23836,0.558
+programming,comments,1,off,402,465,839,47.914
+programming,comments,1,layoffs,376,437,839,44.815
+programming,comments,1,not,312,503,839,37.187
+programming,comments,1,people,238,371,839,28.367
+programming,comments,1,laid,235,257,839,28.01
+programming,comments,1,it's,216,320,839,25.745
+programming,comments,1,companies,191,263,839,22.765
+programming,comments,1,like,182,247,839,21.692
+programming,comments,1,work,154,223,839,18.355
+programming,comments,1,company,150,218,839,17.878
+programming,comments,1,now,142,175,839,16.925
+programming,comments,1,don't,141,178,839,16.806
+programming,comments,1,even,140,175,839,16.687
+programming,comments,1,tech,140,206,839,16.687
+programming,comments,1,job,128,191,839,15.256
+programming,comments,1,one,124,152,839,14.779
+programming,comments,1,think,122,151,839,14.541
+programming,comments,1,time,112,143,839,13.349
+programming,comments,1,years,111,138,839,13.23
+programming,comments,1,i'm,106,161,839,12.634
+programming,comments,1,good,96,137,839,11.442
+programming,comments,1,layoff,96,103,839,11.442
+programming,comments,1,doing,94,112,839,11.204
+programming,comments,1,lay,93,102,839,11.085
+programming,comments,1,that's,93,110,839,11.085
+programming,comments,1,hiring,91,115,839,10.846
+programming,comments,1,make,90,112,839,10.727
+programming,comments,1,only,90,108,839,10.727
+programming,comments,1,lot,87,113,839,10.369
+programming,comments,1,jobs,86,119,839,10.25
+programming,comments,1,way,82,95,839,9.774
+programming,comments,1,laying,81,86,839,9.654
+programming,comments,1,new,78,93,839,9.297
+programming,comments,1,right,78,87,839,9.297
+programming,comments,1,you're,75,109,839,8.939
+programming,comments,1,getting,74,82,839,8.82
+programming,comments,1,code,73,116,839,8.701
+programming,comments,1,money,73,105,839,8.701
+programming,comments,1,things,73,103,839,8.701
+programming,comments,1,why,73,94,839,8.701
+programming,comments,1,workers,73,106,839,8.701
+programming,comments,1,can't,72,85,839,8.582
+programming,comments,1,need,72,92,839,8.582
+programming,comments,1,same,72,87,839,8.582
+programming,comments,1,see,72,95,839,8.582
+programming,comments,1,actually,71,81,839,8.462
+programming,comments,1,engineers,71,114,839,8.462
+programming,comments,1,they're,71,93,839,8.462
+programming,comments,1,industry,70,90,839,8.343
+programming,comments,1,never,70,79,839,8.343
+programming,comments,1,year,70,85,839,8.343
+programming,comments,1,after,68,70,839,8.105
+programming,comments,1,developers,68,83,839,8.105
+programming,comments,1,know,68,85,839,8.105
+programming,comments,1,still,67,83,839,7.986
+programming,comments,1,big,65,72,839,7.747
+programming,comments,1,well,65,80,839,7.747
+programming,comments,1,back,64,73,839,7.628
+programming,comments,1,software,64,95,839,7.628
+programming,comments,1,better,63,71,839,7.509
+programming,comments,1,want,63,78,839,7.509
+programming,comments,1,doesn't,62,70,839,7.39
+programming,comments,1,last,62,65,839,7.39
+programming,comments,1,i've,61,85,839,7.271
+programming,comments,1,enough,60,68,839,7.151
+programming,comments,1,find,60,67,839,7.151
+programming,comments,1,market,60,89,839,7.151
+programming,comments,1,something,60,68,839,7.151
+programming,comments,1,team,60,78,839,7.151
+programming,comments,1,isn't,59,70,839,7.032
+programming,comments,1,keep,59,71,839,7.032
+programming,comments,1,first,58,61,839,6.913
+programming,comments,1,less,58,67,839,6.913
+programming,comments,1,too,58,69,839,6.913
+programming,comments,1,pay,57,76,839,6.794
+programming,comments,1,take,57,61,839,6.794
+programming,comments,1,working,57,69,839,6.794
+programming,comments,1,before,55,62,839,6.555
+programming,comments,1,long,54,62,839,6.436
+programming,comments,1,problem,54,67,839,6.436
+programming,comments,1,someone,54,65,839,6.436
+programming,comments,1,employees,53,77,839,6.317
+programming,comments,1,hire,53,62,839,6.317
+programming,comments,1,sure,53,58,839,6.317
+programming,comments,1,always,52,63,839,6.198
+programming,comments,1,microsoft,51,67,839,6.079
+programming,comments,1,point,51,62,839,6.079
+programming,comments,1,bad,49,59,839,5.84
+programming,comments,1,didn't,49,64,839,5.84
+programming,comments,1,everyone,49,58,839,5.84
+programming,comments,1,mass,49,55,839,5.84
+programming,comments,1,saying,49,64,839,5.84
+programming,comments,1,making,48,54,839,5.721
+programming,comments,1,thing,48,58,839,5.721
+programming,comments,1,though,48,51,839,5.721
+programming,comments,1,aren't,47,56,839,5.602
+programming,comments,1,due,46,49,839,5.483
+programming,comments,1,there's,46,52,839,5.483
+programming,comments,1,few,45,52,839,5.364
+programming,comments,1,probably,45,47,839,5.364
+programming,comments,2,laid off,235,254,839,28.01
+programming,comments,2,laying off,77,82,839,9.178
+programming,comments,2,lay off,71,75,839,8.462
+programming,comments,2,it's not,42,46,839,5.006
+programming,comments,2,mass layoffs,38,39,839,4.529
+programming,comments,2,right now,33,37,839,3.933
+programming,comments,2,i'm not,29,32,839,3.456
+programming,comments,2,tech companies,29,34,839,3.456
+programming,comments,2,don't think,22,22,839,2.622
+programming,comments,2,no one,21,25,839,2.503
+programming,comments,2,big tech,19,19,839,2.265
+programming,comments,2,lay offs,19,21,839,2.265
+programming,comments,2,that's not,19,20,839,2.265
+programming,comments,2,don't know,18,19,839,2.145
+programming,comments,2,getting laid,18,18,839,2.145
+programming,comments,2,using ai,17,17,839,2.026
+programming,comments,2,few years,16,16,839,1.907
+programming,comments,2,tech workers,16,20,839,1.907
+programming,comments,2,years ago,16,16,839,1.907
+programming,comments,2,doing layoffs,15,15,839,1.788
+programming,comments,2,during covid,15,19,839,1.788
+programming,comments,2,job market,15,20,839,1.788
+programming,comments,2,off people,15,16,839,1.788
+programming,comments,2,interest rates,13,17,839,1.549
+programming,comments,2,not saying,13,13,839,1.549
+programming,comments,2,off developers,13,13,839,1.549
+programming,comments,2,long term,12,15,839,1.43
+programming,comments,2,not sure,12,13,839,1.43
+programming,comments,2,don't need,11,12,839,1.311
+programming,comments,2,don't want,11,11,839,1.311
+programming,comments,2,even though,11,12,839,1.311
+programming,comments,2,massive layoffs,11,11,839,1.311
+programming,comments,2,no longer,11,11,839,1.311
+programming,comments,2,not like,11,13,839,1.311
+programming,comments,2,software engineers,11,12,839,1.311
+programming,comments,2,sounds like,11,12,839,1.311
+programming,comments,2,tech industry,11,13,839,1.311
+programming,comments,2,things like,11,11,839,1.311
+programming,comments,2,think it's,11,11,839,1.311
+programming,comments,2,that's why,10,10,839,1.192
+programming,comments,2,white collar,10,11,839,1.192
+programming,comments,2,ai isn't,9,9,839,1.073
+programming,comments,2,ai tools,9,10,839,1.073
+programming,comments,2,don't understand,9,9,839,1.073
+programming,comments,2,no idea,9,12,839,1.073
+programming,comments,2,not even,9,9,839,1.073
+programming,comments,2,same time,9,9,839,1.073
+programming,comments,2,short term,9,10,839,1.073
+programming,comments,2,there's no,9,9,839,1.073
+programming,comments,2,two years,9,10,839,1.073
+programming,comments,2,doesn't mean,8,8,839,0.954
+programming,comments,2,feel like,8,8,839,0.954
+programming,comments,2,i'm seeing,8,9,839,0.954
+programming,comments,2,i've seen,8,8,839,0.954
+programming,comments,2,last year,8,8,839,0.954
+programming,comments,2,no reason,8,8,839,0.954
+programming,comments,2,off devs,8,8,839,0.954
+programming,comments,2,off thousands,8,8,839,0.954
+programming,comments,2,seems like,8,8,839,0.954
+programming,comments,2,software engineer,8,8,839,0.954
+programming,comments,2,stock price,8,9,839,0.954
+programming,comments,2,tech layoffs,8,8,839,0.954
+programming,comments,2,they're not,8,8,839,0.954
+programming,comments,2,blog post,7,7,839,0.834
+programming,comments,2,companies aren't,7,7,839,0.834
+programming,comments,2,cost cutting,7,7,839,0.834
+programming,comments,2,couple years,7,7,839,0.834
+programming,comments,2,either way,7,7,839,0.834
+programming,comments,2,last few,7,7,839,0.834
+programming,comments,2,layoffs happen,7,7,839,0.834
+programming,comments,2,looks like,7,7,839,0.834
+programming,comments,2,not true,7,7,839,0.834
+programming,comments,2,off workers,7,7,839,0.834
+programming,comments,2,post covid,7,7,839,0.834
+programming,comments,2,prevent layoffs,7,8,839,0.834
+programming,comments,2,software development,7,7,839,0.834
+programming,comments,2,tech sector,7,8,839,0.834
+programming,comments,2,vibe coding,7,13,839,0.834
+programming,comments,2,ai bubble,6,6,839,0.715
+programming,comments,2,ai replacing,6,6,839,0.715
+programming,comments,2,american workers,6,7,839,0.715
+programming,comments,2,don't see,6,6,839,0.715
+programming,comments,2,even worse,6,6,839,0.715
+programming,comments,2,everyone else,6,7,839,0.715
+programming,comments,2,first place,6,6,839,0.715
+programming,comments,2,hiring during,6,6,839,0.715
+programming,comments,2,job security,6,8,839,0.715
+programming,comments,2,last two,6,7,839,0.715
+programming,comments,2,last years,6,6,839,0.715
+programming,comments,2,long time,6,7,839,0.715
+programming,comments,2,make sure,6,8,839,0.715
+programming,comments,2,mass layoff,6,6,839,0.715
+programming,comments,2,no matter,6,6,839,0.715
+programming,comments,2,off due,6,7,839,0.715
+programming,comments,2,performance based,6,6,839,0.715
+programming,comments,2,senior engineers,6,7,839,0.715
+programming,comments,2,software engineering,6,6,839,0.715
+programming,comments,2,stock buybacks,6,8,839,0.715
+programming,comments,2,tech debt,6,6,839,0.715
+programming,comments,2,tech worker,6,6,839,0.715
+programming,posts,1,layoffs,35,39,53,66.038
+programming,posts,1,tech,24,39,53,45.283
+programming,posts,1,off,18,22,53,33.962
+programming,posts,1,i'm,17,24,53,32.075
+programming,posts,1,not,15,32,53,28.302
+programming,posts,1,it's,13,25,53,24.528
+programming,posts,1,laid,12,12,53,22.642
+programming,posts,1,people,12,26,53,22.642
+programming,posts,1,companies,11,14,53,20.755
+programming,posts,1,company,11,24,53,20.755
+programming,posts,1,now,11,16,53,20.755
+programming,posts,1,still,11,14,53,20.755
+programming,posts,1,why,11,14,53,20.755
+programming,posts,1,like,10,24,53,18.868
+programming,posts,1,think,10,21,53,18.868
+programming,posts,1,big,9,10,53,16.981
+programming,posts,1,code,9,12,53,16.981
+programming,posts,1,don't,9,14,53,16.981
+programming,posts,1,job,9,13,53,16.981
+programming,posts,1,know,9,15,53,16.981
+programming,posts,1,software,9,14,53,16.981
+programming,posts,1,work,9,18,53,16.981
+programming,posts,1,developers,8,18,53,15.094
+programming,posts,1,jobs,8,16,53,15.094
+programming,posts,1,lot,8,10,53,15.094
+programming,posts,1,right,8,9,53,15.094
+programming,posts,1,time,8,10,53,15.094
+programming,posts,1,understand,8,9,53,15.094
+programming,posts,1,use,8,8,53,15.094
+programming,posts,1,years,8,16,53,15.094
+programming,posts,1,actually,7,11,53,13.208
+programming,posts,1,after,7,9,53,13.208
+programming,posts,1,back,7,9,53,13.208
+programming,posts,1,i've,7,11,53,13.208
+programming,posts,1,layoff,7,10,53,13.208
+programming,posts,1,microsoft,7,14,53,13.208
+programming,posts,1,never,7,11,53,13.208
+programming,posts,1,one,7,9,53,13.208
+programming,posts,1,since,7,9,53,13.208
+programming,posts,1,you're,7,8,53,13.208
+programming,posts,1,engineering,6,8,53,11.321
+programming,posts,1,few,6,7,53,11.321
+programming,posts,1,market,6,6,53,11.321
+programming,posts,1,new,6,9,53,11.321
+programming,posts,1,real,6,6,53,11.321
+programming,posts,1,same,6,9,53,11.321
+programming,posts,1,sure,6,8,53,11.321
+programming,posts,1,take,6,7,53,11.321
+programming,posts,1,there's,6,8,53,11.321
+programming,posts,1,tools,6,9,53,11.321
+programming,posts,1,trying,6,7,53,11.321
+programming,posts,1,way,6,8,53,11.321
+programming,posts,1,well,6,6,53,11.321
+programming,posts,1,working,6,7,53,11.321
+programming,posts,1,across,5,5,53,9.434
+programming,posts,1,article,5,5,53,9.434
+programming,posts,1,doing,5,8,53,9.434
+programming,posts,1,engineer,5,7,53,9.434
+programming,posts,1,engineers,5,6,53,9.434
+programming,posts,1,even,5,11,53,9.434
+programming,posts,1,experience,5,5,53,9.434
+programming,posts,1,future,5,5,53,9.434
+programming,posts,1,i'd,5,6,53,9.434
+programming,posts,1,industry,5,6,53,9.434
+programming,posts,1,instead,5,5,53,9.434
+programming,posts,1,laying,5,5,53,9.434
+programming,posts,1,make,5,7,53,9.434
+programming,posts,1,mass,5,5,53,9.434
+programming,posts,1,next,5,5,53,9.434
+programming,posts,1,nothing,5,6,53,9.434
+programming,posts,1,product,5,8,53,9.434
+programming,posts,1,see,5,10,53,9.434
+programming,posts,1,short,5,5,53,9.434
+programming,posts,1,support,5,7,53,9.434
+programming,posts,1,thinking,5,6,53,9.434
+programming,posts,1,using,5,5,53,9.434
+programming,posts,1,video,5,5,53,9.434
+programming,posts,1,workers,5,9,53,9.434
+programming,posts,1,world,5,6,53,9.434
+programming,posts,1,age,4,4,53,7.547
+programming,posts,1,already,4,5,53,7.547
+programming,posts,1,based,4,4,53,7.547
+programming,posts,1,before,4,4,53,7.547
+programming,posts,1,both,4,4,53,7.547
+programming,posts,1,built,4,4,53,7.547
+programming,posts,1,devs,4,5,53,7.547
+programming,posts,1,different,4,4,53,7.547
+programming,posts,1,due,4,6,53,7.547
+programming,posts,1,enough,4,4,53,7.547
+programming,posts,1,entire,4,4,53,7.547
+programming,posts,1,finally,4,4,53,7.547
+programming,posts,1,google,4,4,53,7.547
+programming,posts,1,government,4,5,53,7.547
+programming,posts,1,hear,4,4,53,7.547
+programming,posts,1,high,4,4,53,7.547
+programming,posts,1,hiring,4,4,53,7.547
+programming,posts,1,less,4,8,53,7.547
+programming,posts,1,let,4,6,53,7.547
+programming,posts,1,life,4,4,53,7.547
+programming,posts,1,long,4,4,53,7.547
+programming,posts,2,laid off,12,12,53,22.642
+programming,posts,2,i'm not,7,7,53,13.208
+programming,posts,2,ai tools,5,6,53,9.434
+programming,posts,2,big tech,5,5,53,9.434
+programming,posts,2,laying off,5,5,53,9.434
+programming,posts,2,right now,5,5,53,9.434
+programming,posts,2,jake wharton,3,3,53,5.66
+programming,posts,2,not sure,3,3,53,5.66
+programming,posts,2,tech workers,3,5,53,5.66
+programming,posts,2,use ai,3,3,53,5.66
+programming,posts,2,widespread corruption,3,3,53,5.66
+programming,posts,2,wrongful terminations,3,3,53,5.66
+technology,comments,1,off,1649,1921,3402,48.471
+technology,comments,1,layoffs,1480,1646,3402,43.504
+technology,comments,1,laid,1039,1126,3402,30.541
+technology,comments,1,people,966,1427,3402,28.395
+technology,comments,1,not,898,1306,3402,26.396
+technology,comments,1,it's,728,1048,3402,21.399
+technology,comments,1,like,604,797,3402,17.754
+technology,comments,1,company,580,804,3402,17.049
+technology,comments,1,work,527,699,3402,15.491
+technology,comments,1,companies,511,705,3402,15.021
+technology,comments,1,don't,466,594,3402,13.698
+technology,comments,1,now,450,558,3402,13.228
+technology,comments,1,tech,430,575,3402,12.64
+technology,comments,1,employees,422,548,3402,12.404
+technology,comments,1,layoff,411,452,3402,12.081
+technology,comments,1,even,393,506,3402,11.552
+technology,comments,1,job,374,513,3402,10.994
+technology,comments,1,one,372,477,3402,10.935
+technology,comments,1,years,368,441,3402,10.817
+technology,comments,1,lay,362,377,3402,10.641
+technology,comments,1,time,353,437,3402,10.376
+technology,comments,1,workers,338,442,3402,9.935
+technology,comments,1,make,327,397,3402,9.612
+technology,comments,1,think,310,361,3402,9.112
+technology,comments,1,i'm,303,387,3402,8.907
+technology,comments,1,after,298,336,3402,8.76
+technology,comments,1,only,293,343,3402,8.613
+technology,comments,1,money,287,372,3402,8.436
+technology,comments,1,year,283,335,3402,8.319
+technology,comments,1,way,281,321,3402,8.26
+technology,comments,1,jobs,280,377,3402,8.23
+technology,comments,1,they're,272,328,3402,7.995
+technology,comments,1,laying,270,286,3402,7.937
+technology,comments,1,that's,267,326,3402,7.848
+technology,comments,1,know,263,294,3402,7.731
+technology,comments,1,new,263,338,3402,7.731
+technology,comments,1,still,263,317,3402,7.731
+technology,comments,1,why,253,294,3402,7.437
+technology,comments,1,doing,246,276,3402,7.231
+technology,comments,1,good,246,296,3402,7.231
+technology,comments,1,last,242,267,3402,7.113
+technology,comments,1,need,242,277,3402,7.113
+technology,comments,1,getting,241,276,3402,7.084
+technology,comments,1,same,234,286,3402,6.878
+technology,comments,1,right,229,253,3402,6.731
+technology,comments,1,back,214,245,3402,6.29
+technology,comments,1,mass,208,217,3402,6.114
+technology,comments,1,see,208,244,3402,6.114
+technology,comments,1,want,206,237,3402,6.055
+technology,comments,1,before,202,233,3402,5.938
+technology,comments,1,well,202,222,3402,5.938
+technology,comments,1,actually,201,222,3402,5.908
+technology,comments,1,pay,192,223,3402,5.644
+technology,comments,1,lot,190,221,3402,5.585
+technology,comments,1,already,187,209,3402,5.497
+technology,comments,1,first,185,203,3402,5.438
+technology,comments,1,thing,185,200,3402,5.438
+technology,comments,1,everyone,184,206,3402,5.409
+technology,comments,1,doesn't,179,196,3402,5.262
+technology,comments,1,can't,178,192,3402,5.232
+technology,comments,1,big,177,211,3402,5.203
+technology,comments,1,never,174,201,3402,5.115
+technology,comments,1,another,173,190,3402,5.085
+technology,comments,1,too,170,188,3402,4.997
+technology,comments,1,less,168,211,3402,4.938
+technology,comments,1,isn't,167,181,3402,4.909
+technology,comments,1,working,166,207,3402,4.879
+technology,comments,1,things,165,198,3402,4.85
+technology,comments,1,you're,164,198,3402,4.821
+technology,comments,1,bad,163,182,3402,4.791
+technology,comments,1,didn't,162,183,3402,4.762
+technology,comments,1,trump,161,217,3402,4.733
+technology,comments,1,without,161,190,3402,4.733
+technology,comments,1,sure,159,166,3402,4.674
+technology,comments,1,take,159,178,3402,4.674
+technology,comments,1,team,159,195,3402,4.674
+technology,comments,1,few,157,170,3402,4.615
+technology,comments,1,probably,157,178,3402,4.615
+technology,comments,1,months,156,179,3402,4.586
+technology,comments,1,shit,156,177,3402,4.586
+technology,comments,1,business,155,193,3402,4.556
+technology,comments,1,market,155,192,3402,4.556
+technology,comments,1,making,153,163,3402,4.497
+technology,comments,1,point,153,173,3402,4.497
+technology,comments,1,enough,151,169,3402,4.439
+technology,comments,1,government,151,203,3402,4.439
+technology,comments,1,performance,151,195,3402,4.439
+technology,comments,1,since,151,178,3402,4.439
+technology,comments,1,cut,146,172,3402,4.292
+technology,comments,1,something,143,157,3402,4.203
+technology,comments,1,find,140,159,3402,4.115
+technology,comments,1,i've,140,167,3402,4.115
+technology,comments,1,better,139,160,3402,4.086
+technology,comments,1,hiring,139,168,3402,4.086
+technology,comments,1,long,139,153,3402,4.086
+technology,comments,1,use,139,164,3402,4.086
+technology,comments,1,next,138,152,3402,4.056
+technology,comments,1,there's,138,153,3402,4.056
+technology,comments,1,used,138,146,3402,4.056
+technology,comments,1,industry,136,171,3402,3.998
+technology,comments,2,laid off,1036,1118,3402,30.453
+technology,comments,2,lay off,294,305,3402,8.642
+technology,comments,2,laying off,255,264,3402,7.496
+technology,comments,2,mass layoffs,159,161,3402,4.674
+technology,comments,2,it's not,129,138,3402,3.792
+technology,comments,2,tech companies,86,97,3402,2.528
+technology,comments,2,off people,78,80,3402,2.293
+technology,comments,2,right now,76,83,3402,2.234
+technology,comments,2,last year,72,76,3402,2.116
+technology,comments,2,no one,69,75,3402,2.028
+technology,comments,2,getting laid,67,68,3402,1.969
+technology,comments,2,big tech,61,74,3402,1.793
+technology,comments,2,years ago,60,62,3402,1.764
+technology,comments,2,lay offs,57,58,3402,1.675
+technology,comments,2,massive layoffs,55,58,3402,1.617
+technology,comments,2,don't think,53,54,3402,1.558
+technology,comments,2,i'm not,53,58,3402,1.558
+technology,comments,2,few years,49,49,3402,1.44
+technology,comments,2,off employees,49,53,3402,1.44
+technology,comments,2,no longer,41,44,3402,1.205
+technology,comments,2,tech company,38,39,3402,1.117
+technology,comments,2,long term,37,37,3402,1.088
+technology,comments,2,off workers,37,37,3402,1.088
+technology,comments,2,tech layoffs,36,36,3402,1.058
+technology,comments,2,short term,35,35,3402,1.029
+technology,comments,2,i'm sure,34,34,3402,0.999
+technology,comments,2,tech industry,34,38,3402,0.999
+technology,comments,2,don't know,33,35,3402,0.97
+technology,comments,2,job market,33,35,3402,0.97
+technology,comments,2,off thousands,33,33,3402,0.97
+technology,comments,2,that's not,33,33,3402,0.97
+technology,comments,2,using ai,33,33,3402,0.97
+technology,comments,2,there's no,31,31,3402,0.911
+technology,comments,2,don't want,29,31,3402,0.852
+technology,comments,2,not even,29,29,3402,0.852
+technology,comments,2,low performers,28,31,3402,0.823
+technology,comments,2,think it's,28,28,3402,0.823
+technology,comments,2,feel like,27,28,3402,0.794
+technology,comments,2,performance based,27,29,3402,0.794
+technology,comments,2,social media,27,29,3402,0.794
+technology,comments,2,they're not,27,27,3402,0.794
+technology,comments,2,doing layoffs,26,26,3402,0.764
+technology,comments,2,don't need,26,27,3402,0.764
+technology,comments,2,looks like,26,26,3402,0.764
+technology,comments,2,new job,26,27,3402,0.764
+technology,comments,2,same thing,25,27,3402,0.735
+technology,comments,2,don't care,24,24,3402,0.705
+technology,comments,2,seems like,24,25,3402,0.705
+technology,comments,2,sounds like,24,25,3402,0.705
+technology,comments,2,tech workers,24,27,3402,0.705
+technology,comments,2,few months,23,24,3402,0.676
+technology,comments,2,stock price,23,25,3402,0.676
+technology,comments,2,that's why,23,24,3402,0.676
+technology,comments,2,companies like,22,22,3402,0.647
+technology,comments,2,not sure,22,22,3402,0.647
+technology,comments,2,off last,22,23,3402,0.647
+technology,comments,2,ai tools,21,24,3402,0.617
+technology,comments,2,even though,21,25,3402,0.617
+technology,comments,2,not like,21,22,3402,0.617
+technology,comments,2,people off,21,22,3402,0.617
+technology,comments,2,record profits,21,21,3402,0.617
+technology,comments,2,cost cutting,20,20,3402,0.588
+technology,comments,2,either way,20,20,3402,0.588
+technology,comments,2,federal government,20,21,3402,0.588
+technology,comments,2,make sure,20,22,3402,0.588
+technology,comments,2,months later,20,20,3402,0.588
+technology,comments,2,ai isn't,19,20,3402,0.558
+technology,comments,2,last week,19,21,3402,0.558
+technology,comments,2,long time,19,23,3402,0.558
+technology,comments,2,mass layoff,19,19,3402,0.558
+technology,comments,2,no idea,19,20,3402,0.558
+technology,comments,2,only way,19,19,3402,0.558
+technology,comments,2,same time,19,21,3402,0.558
+technology,comments,2,save money,19,20,3402,0.558
+technology,comments,2,stock market,19,23,3402,0.558
+technology,comments,2,don't understand,18,19,3402,0.529
+technology,comments,2,i've seen,18,21,3402,0.529
+technology,comments,2,large companies,18,19,3402,0.529
+technology,comments,2,last years,18,19,3402,0.529
+technology,comments,2,makes sense,18,19,3402,0.529
+technology,comments,2,people quit,18,18,3402,0.529
+technology,comments,2,tech sector,18,19,3402,0.529
+technology,comments,2,without having,18,18,3402,0.529
+technology,comments,2,doesn't matter,17,17,3402,0.5
+technology,comments,2,make money,17,18,3402,0.5
+technology,comments,2,things like,17,17,3402,0.5
+technology,comments,2,use ai,17,18,3402,0.5
+technology,comments,2,vast majority,17,17,3402,0.5
+technology,comments,2,you're not,17,17,3402,0.5
+technology,comments,2,elon musk,16,17,3402,0.47
+technology,comments,2,everyone else,16,17,3402,0.47
+technology,comments,2,federal workers,16,22,3402,0.47
+technology,comments,2,few weeks,16,16,3402,0.47
+technology,comments,2,layoffs without,16,16,3402,0.47
+technology,comments,2,remote work,16,19,3402,0.47
+technology,comments,2,soft layoffs,16,16,3402,0.47
+technology,comments,2,white collar,16,18,3402,0.47
+technology,comments,2,another job,15,16,3402,0.441
+technology,comments,2,i've worked,15,15,3402,0.441
+technology,comments,2,it's like,15,15,3402,0.441
+technology,posts,1,layoffs,362,369,601,60.233
+technology,posts,1,off,191,194,601,31.78
+technology,posts,1,workers,96,103,601,15.973
+technology,posts,1,tech,85,88,601,14.143
+technology,posts,1,employees,79,79,601,13.145
+technology,posts,1,laid,76,76,601,12.646
+technology,posts,1,meta,72,75,601,11.98
+technology,posts,1,jobs,63,64,601,10.483
+technology,posts,1,laying,60,60,601,9.983
+technology,posts,1,lay,55,55,601,9.151
+technology,posts,1,layoff,55,55,601,9.151
+technology,posts,1,ceo,53,53,601,8.819
+technology,posts,1,cuts,50,52,601,8.319
+technology,posts,1,microsoft,46,46,601,7.654
+technology,posts,1,after,45,45,601,7.488
+technology,posts,1,staff,42,43,601,6.988
+technology,posts,1,oracle,37,40,601,6.156
+technology,posts,1,hit,34,34,601,5.657
+technology,posts,1,xbox,34,37,601,5.657
+technology,posts,1,amid,31,31,601,5.158
+technology,posts,1,company,31,31,601,5.158
+technology,posts,1,mass,31,31,601,5.158
+technology,posts,1,amazon,30,30,601,4.992
+technology,posts,1,job,30,30,601,4.992
+technology,posts,1,cut,26,26,601,4.326
+technology,posts,1,thousands,24,24,601,3.993
+technology,posts,1,intel,23,24,601,3.827
+technology,posts,1,workforce,23,23,601,3.827
+technology,posts,1,companies,21,22,601,3.494
+technology,posts,1,why,21,22,601,3.494
+technology,posts,1,new,19,19,601,3.161
+technology,posts,1,people,19,21,601,3.161
+technology,posts,1,data,16,16,601,2.662
+technology,posts,1,plans,16,16,601,2.662
+technology,posts,1,wave,16,16,601,2.662
+technology,posts,1,years,16,16,601,2.662
+technology,posts,1,announces,15,15,601,2.496
+technology,posts,1,software,15,16,601,2.496
+technology,posts,1,zuckerberg,15,15,601,2.496
+technology,posts,1,across,14,14,601,2.329
+technology,posts,1,game,14,15,601,2.329
+technology,posts,1,not,14,14,601,2.329
+technology,posts,1,report,14,14,601,2.329
+technology,posts,1,reportedly,14,14,601,2.329
+technology,posts,1,team,14,15,601,2.329
+technology,posts,1,work,14,14,601,2.329
+technology,posts,1,year,14,14,601,2.329
+technology,posts,1,cutting,13,13,601,2.163
+technology,posts,1,employee,13,13,601,2.163
+technology,posts,1,games,13,14,601,2.163
+technology,posts,1,massive,13,13,601,2.163
+technology,posts,1,round,13,13,601,2.163
+technology,posts,1,google,12,13,601,1.997
+technology,posts,1,industry,12,13,601,1.997
+technology,posts,1,latest,12,12,601,1.997
+technology,posts,1,now,12,12,601,1.997
+technology,posts,1,used,12,12,601,1.997
+technology,posts,1,announced,11,11,601,1.83
+technology,posts,1,executives,11,11,601,1.83
+technology,posts,1,far,11,11,601,1.83
+technology,posts,1,next,11,12,601,1.83
+technology,posts,1,push,11,11,601,1.83
+technology,posts,1,studio,11,12,601,1.83
+technology,posts,1,business,10,10,601,1.664
+technology,posts,1,corporate,10,10,601,1.664
+technology,posts,1,major,10,10,601,1.664
+technology,posts,1,mark,10,11,601,1.664
+technology,posts,1,medical,10,10,601,1.664
+technology,posts,1,part,10,10,601,1.664
+technology,posts,1,replaced,10,10,601,1.664
+technology,posts,1,roles,10,10,601,1.664
+technology,posts,1,use,10,10,601,1.664
+technology,posts,1,using,10,10,601,1.664
+technology,posts,1,week,10,10,601,1.664
+technology,posts,1,behind,9,9,601,1.498
+technology,posts,1,bethesda,9,9,601,1.498
+technology,posts,1,biggest,9,9,601,1.498
+technology,posts,1,billion,9,9,601,1.498
+technology,posts,1,claims,9,9,601,1.498
+technology,posts,1,don't,9,11,601,1.498
+technology,posts,1,due,9,9,601,1.498
+technology,posts,1,email,9,9,601,1.498
+technology,posts,1,epic,9,12,601,1.498
+technology,posts,1,first,9,9,601,1.498
+technology,posts,1,hundreds,9,9,601,1.498
+technology,posts,1,lawsuit,9,9,601,1.498
+technology,posts,1,microsoft's,9,9,601,1.498
+technology,posts,1,nearly,9,9,601,1.498
+technology,posts,1,pay,9,9,601,1.498
+technology,posts,1,planning,9,9,601,1.498
+technology,posts,1,sector,9,9,601,1.498
+technology,posts,1,they're,9,9,601,1.498
+technology,posts,1,cloud,8,8,601,1.331
+technology,posts,1,doge,8,8,601,1.331
+technology,posts,1,engineers,8,8,601,1.331
+technology,posts,1,giant,8,8,601,1.331
+technology,posts,1,protections,8,8,601,1.331
+technology,posts,1,sam,8,8,601,1.331
+technology,posts,1,time,8,9,601,1.331
+technology,posts,1,again,7,7,601,1.165
+technology,posts,2,laid off,76,76,601,12.646
+technology,posts,2,laying off,60,60,601,9.983
+technology,posts,2,lay off,52,52,601,8.652
+technology,posts,2,tech layoffs,28,28,601,4.659
+technology,posts,2,mass layoffs,25,25,601,4.16
+technology,posts,2,off employees,20,20,601,3.328
+technology,posts,2,ai layoffs,18,18,601,2.995
+technology,posts,2,job cuts,16,16,601,2.662
+technology,posts,2,layoffs hit,15,15,601,2.496
+technology,posts,2,off workers,14,14,601,2.329
+technology,posts,2,xbox layoffs,13,13,601,2.163
+technology,posts,2,amid ai,10,10,601,1.664
+technology,posts,2,cut jobs,10,10,601,1.664
+technology,posts,2,mark zuckerberg,10,10,601,1.664
+technology,posts,2,epic games,8,8,601,1.331
+technology,posts,2,meta used,8,8,601,1.331
+technology,posts,2,microsoft layoffs,8,8,601,1.331
+technology,posts,2,off thousands,8,8,601,1.331
+technology,posts,2,oracle layoffs,8,8,601,1.331
+technology,posts,2,used ai,8,8,601,1.331
+technology,posts,2,after laying,7,7,601,1.165
+technology,posts,2,after layoffs,7,7,601,1.165
+technology,posts,2,cuts jobs,7,7,601,1.165
+technology,posts,2,id software,7,8,601,1.165
+technology,posts,2,lawsuit claims,7,7,601,1.165
+technology,posts,2,layoff protections,7,7,601,1.165
+technology,posts,2,tech workers,7,7,601,1.165
+technology,posts,2,ai boom,6,6,601,0.998
+technology,posts,2,biggest layoffs,6,6,601,0.998
+technology,posts,2,data centers,6,6,601,0.998
+technology,posts,2,layoffs announced,6,6,601,0.998
+technology,posts,2,layoffs lawsuit,6,6,601,0.998
+technology,posts,2,layoffs why,6,6,601,0.998
+technology,posts,2,medical conditions,6,6,601,0.998
+technology,posts,2,next week,6,6,601,0.998
+technology,posts,2,off staff,6,6,601,0.998
+technology,posts,2,target workers,6,6,601,0.998
+technology,posts,2,tech sector,6,6,601,0.998
+technology,posts,2,use ai,6,6,601,0.998
+technology,posts,2,why oracle,6,6,601,0.998
+technology,posts,2,ai agents,5,5,601,0.832
+technology,posts,2,ai data,5,5,601,0.832
+technology,posts,2,ai driven,5,5,601,0.832
+technology,posts,2,amazon layoffs,5,5,601,0.832
+technology,posts,2,demand layoff,5,5,601,0.832
+technology,posts,2,google workers,5,5,601,0.832
+technology,posts,2,layoffs after,5,5,601,0.832
+technology,posts,2,layoffs reveal,5,5,601,0.832
+technology,posts,2,massive layoff,5,5,601,0.832
+technology,posts,2,meta layoffs,5,5,601,0.832
+technology,posts,2,new round,5,5,601,0.832
+technology,posts,2,oracle cut,5,5,601,0.832
+technology,posts,2,profits soared,5,5,601,0.832
+technology,posts,2,protections amid,5,5,601,0.832
+technology,posts,2,sector layoffs,5,5,601,0.832
+technology,posts,2,tech companies,5,5,601,0.832
+technology,posts,2,tech industry,5,5,601,0.832
+technology,posts,2,workers demand,5,5,601,0.832
+technology,posts,2,ai costs,4,4,601,0.666
+technology,posts,2,ai push,4,4,601,0.666
+technology,posts,2,ai tools,4,4,601,0.666
+technology,posts,2,asha sharma,4,4,601,0.666
+technology,posts,2,blaming ai,4,4,601,0.666
+technology,posts,2,brutal layoffs,4,4,601,0.666
+technology,posts,2,ceo asha,4,4,601,0.666
+technology,posts,2,days after,4,4,601,0.666
+technology,posts,2,driven layoffs,4,4,601,0.666
+technology,posts,2,first wave,4,4,601,0.666
+technology,posts,2,foreign workers,4,4,601,0.666
+technology,posts,2,helped build,4,4,601,0.666
+technology,posts,2,jobs cut,4,4,601,0.666
+technology,posts,2,latest round,4,4,601,0.666
+technology,posts,2,layoff wave,4,4,601,0.666
+technology,posts,2,layoffs ceo,4,4,601,0.666
+technology,posts,2,massive layoffs,4,4,601,0.666
+technology,posts,2,meta employees,4,4,601,0.666
+technology,posts,2,off hundreds,4,4,601,0.666
+technology,posts,2,off people,4,4,601,0.666
+technology,posts,2,off percent,4,4,601,0.666
+technology,posts,2,sam altman,4,4,601,0.666
+technology,posts,2,sam altman's,4,4,601,0.666
+technology,posts,2,tech layoff,4,4,601,0.666
+technology,posts,2,tim sweeney,4,4,601,0.666
+technology,posts,2,toward ai,4,4,601,0.666
+technology,posts,2,xbox ceo,4,4,601,0.666
+technology,posts,2,after years,3,3,601,0.499
+technology,posts,2,ai laying,3,3,601,0.499
+technology,posts,2,ai layoff,3,3,601,0.499
+technology,posts,2,ai washing,3,3,601,0.499
+technology,posts,2,altman's eye,3,3,601,0.499
+technology,posts,2,announces layoffs,3,3,601,0.499
+technology,posts,2,bay area,3,3,601,0.499
+technology,posts,2,business insider,3,3,601,0.499
+technology,posts,2,candy crush,3,3,601,0.499
+technology,posts,2,co founder,3,3,601,0.499
+technology,posts,2,data center,3,3,601,0.499
+technology,posts,2,engine team,3,3,601,0.499
+technology,posts,2,expect ai,3,3,601,0.499
+technology,posts,2,eye scanning,3,3,601,0.499
+technology,posts,2,game cancellations,3,3,601,0.499

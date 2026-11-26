@@ -1,0 +1,17 @@
+replier_role,parent_author_role,replies
+mentions_offshore,mentions_offshore,9910
+neither,mentions_offshore,4802
+mentions_offshore,neither,4417
+mentions_offshore,both,3555
+both,mentions_offshore,3123
+neither,neither,2896
+neither,both,1946
+both,neither,1510
+both,both,1271
+experience,mentions_offshore,719
+mentions_offshore,experience,653
+neither,experience,498
+experience,neither,455
+experience,both,343
+both,experience,272
+experience,experience,101

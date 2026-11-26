@@ -1,0 +1,13 @@
+prior_activity_90d,first_story_got,authors,returned_within_90d_pct,ci95
+all,sympathy,36,55.6,"(38.9, 72.2)"
+all,reply_no_sympathy,439,77.2,"(73.3, 81.1)"
+all,no_reply,695,69.1,"(65.6, 72.5)"
+0 prior,sympathy,12,25.0,"(0.0, 50.0)"
+0 prior,reply_no_sympathy,102,50.0,"(40.2, 59.8)"
+0 prior,no_reply,223,38.6,"(32.3, 45.3)"
+1-5 prior,sympathy,14,57.1,"(28.6, 85.7)"
+1-5 prior,reply_no_sympathy,145,75.2,"(67.6, 82.1)"
+1-5 prior,no_reply,215,69.3,"(63.3, 75.3)"
+6+ prior,sympathy,10,90.0,"(70.0, 100.0)"
+6+ prior,reply_no_sympathy,192,93.2,"(89.6, 96.9)"
+6+ prior,no_reply,257,95.3,"(92.6, 97.7)"

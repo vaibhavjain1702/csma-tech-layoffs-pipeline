@@ -1,0 +1,56 @@
+{
+  "version": "employment-screen-v1",
+  "rule_fingerprint": "3f0cd8f0ff680e677fe2d7431a5fc2234f234c5fa30cf4bcd9e9dbda9250a969",
+  "screen_completed_utc": "2026-10-04T10:08:16.823199+00:00",
+  "generated_utc": "2026-10-04T10:08:38.139644+00:00",
+  "records_scanned": 2974250,
+  "candidate_records": 177808,
+  "file": "disruption_candidates.csv.gz",
+  "columns": [
+    "kind",
+    "id",
+    "thread_id",
+    "subreddit",
+    "created_utc",
+    "created_month",
+    "text_state",
+    "direct_layoff",
+    "broad_layoff",
+    "layoffs",
+    "hiring_conditions",
+    "ai_work_change",
+    "corporate_restructuring",
+    "economic_policy",
+    "career_transition",
+    "evidence_json"
+  ],
+  "text": "Post title and own_text separately; URLs and line-prefixed body quotations excluded.",
+  "rules": {
+    "layoffs": {
+      "pattern": "\\b(?:layoffs?|laid\\s+off|laying\\s+off|lay\\s+off|job\\s+cuts?|workforce\\s+reductions?|reduction\\s+in\\s+force|downsizing|furlough\\w*)\\b",
+      "requires_employment": false
+    },
+    "hiring_conditions": {
+      "pattern": "\\b(?:hiring\\s+freez\\w*|hiring\\s+slowdown|job\\s+(?:search\\w*|hunt\\w*|market|applications?|offers?)|looking\\s+for\\s+(?:a\\s+)?job|unemploy\\w*|recruit\\w*|interviews?|resumes?|hiring)\\b",
+      "requires_employment": true
+    },
+    "ai_work_change": {
+      "pattern": "\\b(?:ai|artificial\\s+intelligence|generative\\s+ai|chatgpt|llms?|automation|automat\\w*)\\b",
+      "requires_employment": true
+    },
+    "corporate_restructuring": {
+      "pattern": "\\b(?:restructur\\w*|reorgani[sz]\\w*|mergers?|acquisitions?|return\\s+to\\s+(?:the\\s+)?office|rto|offshor\\w*|outsourc\\w*)\\b",
+      "requires_employment": true
+    },
+    "economic_policy": {
+      "pattern": "\\b(?:recession\\w*|economy|economic|interest\\s+rates?|inflation|tariffs?|immigration|visas?|h[ -]?1b|labor\\s+market|labour\\s+market)\\b",
+      "requires_employment": true
+    },
+    "career_transition": {
+      "pattern": "\\b(?:career\\s+(?:chang\\w*|transition\\w*|switch\\w*)|chang\\w*\\s+careers?|switch\\w*\\s+careers?|reskill\\w*|upskill\\w*|retrain\\w*|leaving\\s+(?:the\\s+)?(?:tech|technology|industry)|quit\\w*|resign\\w*)\\b",
+      "requires_employment": true
+    }
+  },
+  "employment_anchor_pattern": "\\b(?:jobs?|employment|unemploy\\w*|employees?|workers?|workforce|hiring|hires?|hired|recruit\\w*|careers?|layoffs?|laid\\s+off|salaries|salary|wages?|engineers?|developers?)\\b",
+  "interpretation": "Overlapping lexical screens for review, not validated relevance, causes, experiences, emotions, or worker identity. Same-field co-occurrence may span sentences. Absence means no rule matched, not irrelevant. Sparse table stores matching records only."
+}

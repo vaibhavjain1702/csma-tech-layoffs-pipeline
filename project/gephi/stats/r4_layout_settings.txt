@@ -1,0 +1,2 @@
+ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=10.0, gravity=1.00, strongGravity=true, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1000 iterations, then preventOverlap(adjustSizes=true) 100 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+size = 4 + 36*sqrt((pagerank-min)/(max-min))

@@ -1,0 +1,2 @@
+ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=10.0, gravity=1.00, strongGravity=true, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1500 iterations, then preventOverlap(adjustSizes=true) 200 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+size = Ranking InWeightRetained linear 5..30; colour = modularity_class (resolution 1.0 baseline): 8 largest classes fixed palette, other 58 classes grey #C8C8C8 (recoloured in the fix round, positions unchanged)

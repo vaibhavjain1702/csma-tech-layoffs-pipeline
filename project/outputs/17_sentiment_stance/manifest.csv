@@ -1,0 +1,22 @@
+k,v
+sent_model,cardiffnlp/twitter-roberta-base-sentiment-latest
+nli_model,MoritzLaurer/deberta-v3-base-zeroshot-v2.0
+torch,2.15.0+cu132
+transformers,5.24.1
+window,2025-01..2025-06
+cutoff,0.5
+hyp_blames_execs,"The author blames company executives, management or shareholders for layoffs or the bad job market."
+hyp_blames_offshore,The author blames offshoring or foreign workers on visas such as H-1B for layoffs or the bad job market.
+hyp_blames_ai,The author blames AI for taking jobs.
+hyp_ai_is_excuse,The author says companies use AI as an excuse for layoffs.
+hyp_blames_macro,"The author blames the economy, interest rates or government policy for layoffs or the bad job market."
+hyp_blames_workers,"The author blames job seekers themselves, such as their skills or effort, for not finding work."
+hyp_own_job_loss,The author says they were laid off or lost their job.
+hyp_agrees,The reply agrees with the comment.
+hyp_disagrees,The reply disagrees with the comment.
+hyp_sympathy,The reply expresses sympathy or emotional support for the author of the comment.
+cut,0.5
+seed,20261126
+employment_comments,67122
+reply_edges,162722
+cross_posters,152

@@ -1,0 +1,48 @@
+# Python packages for the analysis pipeline in scripts/ and gephi/scripts/.
+#
+# Python: 3.12 (3.12.2 on the project Mac, where the versions below were read and the test suites run).
+#         Old bytecode caches in the project also show 3.14 (cpython-314.pyc files), so the scripts have been run on both;
+#         3.12 is the version this list was verified against.
+# Every version below is the exact version installed on the project Mac on 26 Nov 2026
+# (read with importlib.metadata), so `pip install -r requirements.txt` reproduces that environment.
+#
+# Install:   python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+# Light install (everything except the neural-network models): leave out the "optional heavy NLP" block.
+#
+# requirements-eda.txt (matplotlib only) is the older minimal list for plotting; it is kept unchanged.
+# The data-collection code has its own list: collection/requirements-collection.txt (unpinned, original).
+#
+# Scripts that import only the Python standard library and need none of these packages: profile_data, preprocess_data,
+# screen_disruption, sample_data, export_tables, summarize_*, preliminary_analysis, validate_outputs, run_pipeline,
+# build_share_package, check_interpretations, dataset, export_reading_packet, gephi/scripts/export_*.py, tests/test_research.py
+# and gephi/tests (analyze_gephi.py needs matplotlib only for its figures).
+# Needing pandas (and openpyxl for .xlsx): scripts/score_human_check.py, tests/test_score_human_check.py,
+# tableau/build_workbook.py, tableau/validate_twb.py. So the full `tests/` suite (34 tests) needs pandas and openpyxl.
+
+# --- core analysis (numerical work in scripts/explore_*.py, scripts/export_tableau.py, scripts/score_text_models.py) ---
+numpy==1.26.4
+pandas==2.2.3            # scripts/score_human_check.py, tableau/build_workbook.py, tableau/validate_twb.py, tests/test_score_human_check.py; also collection/src
+openpyxl==3.1.5          # writing the coder workbooks (scripts/build_human_check_workbooks.py) and reading them (scripts/score_human_check.py)
+Pillow==11.3.0           # gephi/toolkit/make_slides.py (slide-ready Gephi PNGs); also a matplotlib dependency for PNG output
+
+# --- network analysis (scripts/explore_network.py: clustering, shortest paths, components; scripts/export_tableau.py) ---
+networkx==3.3
+scipy==1.13.1
+scikit-learn==1.5.1
+
+# --- plots (scripts/plot_eda.py, scripts/explore_*.py, gephi/scripts/analyze_gephi.py) ---
+matplotlib==3.9.2
+
+# --- sentiment lexicon (scripts/score_text_models.py: VADER) ---
+vaderSentiment==3.3.2
+
+# --- optional heavy NLP: only scripts/score_text_models.py needs these (transformer sentiment/emotion models) ---
+# Large downloads (torch is several hundred MB to over 1 GB depending on the platform). The scores they produced are stored
+# in data/processed/model_scores.sqlite (full project only), so they are not needed to read or re-plot the results.
+torch==2.8.0
+transformers==5.2.0
+
+# --- optional: Gephi PDF to PNG rasterising (gephi/toolkit/pdf_to_png.py only) ---
+# The script's docstring says it was run with this version in a throwaway venv; the system Python on the project Mac has 1.27.2.3.
+# Not needed to read or re-plot results; only to re-render the Gephi PNGs from the Preview PDFs.
+pymupdf==1.24.10

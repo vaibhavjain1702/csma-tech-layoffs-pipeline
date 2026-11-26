@@ -1,0 +1,22 @@
+mode=r4 toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+r4: nodes=10778 edges=91657 weightSum=115171 directed=true
+  report -> stats/r4_degree_report.html (3 images)
+  Average Degree = 8.5041
+  report -> stats/r4_weighted_degree_report.html (3 images)
+  Average Weighted Degree = 10.6857
+  Connected Components: weak=49 largest=10730 (99.55%)
+  report -> stats/r4_connected_components_report.html (1 images)
+  Modularity r100: resolution=1.0 useWeight=true randomize=false Q=0.2723 classes=81 visibleNodes=10778 visibleEdges=91657 top: class 78: 704 (6.53%); class 40: 658 (6.11%); class 67: 648 (6.01%); class 53: 580 (5.38%); class 60: 577 (5.35%); class 37: 559 (5.19%); class 50: 528 (4.90%); class 69: 409 (3.79%)
+  report -> stats/r4_modularity_report.html (1 images)
+  report -> stats/r4_pagerank_report.html (1 images)
+  PageRank directed=true p=0.85 eps=0.001 useEdgeWeight=true
+  type counts {blame-talker=577, helper=1770, other=8198, story-sharer=233} pagerank min=1.4784384051918037E-5 max=0.006506941612090539
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=10.0, gravity=1.00, strongGravity=true, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1000 iterations, then preventOverlap(adjustSizes=true) 100 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  nodes table -> gephi/stats/r4_nodes_gephi_metrics.csv rows=10778
+  edges table -> gephi/stats/r4_edges.csv rows=91657
+  figure -> figures/r4_author_types.pdf page 1000x1000 pt
+  gexf -> gephi/projects/r4_cscq_author_types.gexf
+  duplicated workspace nodes=10778 edges=91657
+  figure -> figures/r4_modularity.pdf page 1000x1000 pt
+  project saved -> gephi/projects/r4_cscq_author_types.gephi (3534289 bytes)
+done in 2414 s

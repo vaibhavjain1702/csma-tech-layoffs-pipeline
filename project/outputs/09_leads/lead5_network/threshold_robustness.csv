@@ -1,0 +1,8 @@
+version,users,edges,components,largest,largest_pct
+full export,14507,15427,2199,9330,64.3
+both endpoints degree>=2,4721,7676,164,4336,91.8
+both endpoints degree>=3,2426,4606,33,2352,96.9
+both endpoints degree>=5,1013,2153,9,995,98.2
+both endpoints degree>=10,301,687,2,299,99.3
+repeated ties (weight>=2),674,446,273,29,4.3
+reciprocated ties only,1347,1718,488,121,9.0

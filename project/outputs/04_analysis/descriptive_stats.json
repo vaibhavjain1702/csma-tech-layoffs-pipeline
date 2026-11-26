@@ -1,0 +1,43 @@
+{
+  "scores": {
+    "posts": {
+      "known_scores": 115213,
+      "min_score": 0,
+      "max_score": 170974,
+      "mean_score": 655.2,
+      "zero_score": 25257,
+      "negative_score": 0,
+      "median": 1.0,
+      "p75": 38.0,
+      "p90": 713.0,
+      "p99": 16758.8
+    },
+    "comments": {
+      "known_scores": 2859037,
+      "min_score": -1462,
+      "max_score": 25076,
+      "mean_score": 13.61,
+      "zero_score": 134823,
+      "negative_score": 181668,
+      "median": 1.0,
+      "p75": 4.0,
+      "p90": 15.0,
+      "p99": 190.0
+    }
+  },
+  "direct_comment_linkage": {
+    "direct_comments": 28077,
+    "career_comments": 23836,
+    "with_post": 4221,
+    "with_direct_post": 929
+  },
+  "other_quality": {
+    "posts_without_title": 0,
+    "self_posts": 955,
+    "comments_missing_link_fields": 0
+  },
+  "parent_coverage": {
+    "replies_to_comments": 1836296,
+    "with_collected_parent": 1823984
+  }
+}

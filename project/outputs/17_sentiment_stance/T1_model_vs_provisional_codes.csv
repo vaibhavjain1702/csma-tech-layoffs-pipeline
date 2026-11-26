@@ -1,0 +1,14 @@
+code_file,code,counts_as_positive,n,model_label,pct_model_positive,mean_model_p
+offshore_blame_target_codes.csv,employer_or_system,False,21,blames_offshore,9.52,0.097
+offshore_blame_target_codes.csv,ethnicised_leadership_or_stereotype,False,7,blames_offshore,0.0,0.046
+offshore_blame_target_codes.csv,foreign_workers_as_problem,True,7,blames_offshore,14.29,0.157
+offshore_blame_target_codes.csv,off_topic_or_incidental,False,26,blames_offshore,0.0,0.007
+offshore_blame_target_codes.csv,pushback_against_blaming_immigrants,False,9,blames_offshore,11.11,0.123
+offshore_blame_target_codes.csv,SUMMARY,,70,blames_offshore,precision 0.25 recall 0.14 agreement 0.87,
+ai_pretext_codes.csv,asserts,True,15,ai_is_excuse,60.0,0.589
+ai_pretext_codes.csv,other_sense,False,13,ai_is_excuse,7.69,0.074
+ai_pretext_codes.csv,partial,False,2,ai_is_excuse,0.0,0.106
+ai_pretext_codes.csv,SUMMARY,,30,ai_is_excuse,precision 0.90 recall 0.60 agreement 0.77,
+first_person_layoff_codes.csv,partial,False,1,own_job_loss,100.0,0.962
+first_person_layoff_codes.csv,yes,True,39,own_job_loss,97.44,0.966
+first_person_layoff_codes.csv,SUMMARY,,40,own_job_loss,precision 0.97 recall 0.97 agreement 0.95,

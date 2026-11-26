@@ -1,0 +1,52 @@
+{
+  "generated_utc": "2026-10-04T18:06:17.783478+00:00",
+  "script": "scripts/plot_eda.py",
+  "python": "3.12.14",
+  "matplotlib": "3.11.2",
+  "sources": [
+    {
+      "file": "monthly_summary.csv",
+      "sha256": "d9260d9184e2ac45d6741c7e64e7009d28e0367bb3b754176d6d66b306b58f15"
+    },
+    {
+      "file": "coverage.csv",
+      "sha256": "8f0f5fce00aa0e5a10b8be141d5b960e503935d39ccffffc6ba11d29c83d0dbf"
+    },
+    {
+      "file": "disruption_summary.csv",
+      "sha256": "b04f6dc19beaaf5c043a124304c253a99cbd67a683967dc8075f8d064ccd1223"
+    },
+    {
+      "file": "descriptive_stats.json",
+      "sha256": "1b11eac379d91eb45bd7a66e93160ceb3bdc2188ff4b644c03adb97befc5b150"
+    }
+  ],
+  "database_source": "Score-band counts queried from records in data/processed/reddit.sqlite; exported to score_bands.csv.",
+  "figures": [
+    {
+      "stem": "01_monthly_coverage",
+      "note": "Absent months are gaps, not zeros. Boundary months can be partial. These are collected records, not Reddit-wide activity."
+    },
+    {
+      "stem": "02_text_availability",
+      "note": "Body states only; all stored posts have titles. Empty post bodies often reflect link posts. Labels below 5% are omitted."
+    },
+    {
+      "stem": "03_direct_layoff_shares",
+      "note": "Original direct layoff screen; not validated relevance. Communities cover different periods. Percentages are corpus descriptions."
+    },
+    {
+      "stem": "04_broader_candidates",
+      "note": "177,808 distinct candidates. Facets overlap; do not add bars. Lexical screens remain unvalidated and do not identify themes or causes."
+    },
+    {
+      "stem": "05_score_distribution",
+      "note": "Median scores: posts 1, comments 1. Means: 655.2 and 13.61. Scores are retrieval snapshots, not exposure or agreement."
+    }
+  ],
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "interpretation": "Descriptive EDA only; no significance tests, causal claims, validated themes, or Gephi analysis."
+}

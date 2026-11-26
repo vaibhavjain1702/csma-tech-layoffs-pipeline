@@ -1,0 +1,12 @@
+mode=recolor_authors toolkit=0.11.4 java=23.0.2 headless=true seed=20261126
+recolor LWCC: nodes=9330 edges=12360 classes=66 x extent -669.99207 .. 671.4946, nodes at (0,0) = 0
+  recoloured nodes=7161 (top-8 colour mismatches vs saved project=0)
+  figure -> figures/largest_component_communities.pdf page 1000x1000 pt
+  figure -> figures/largest_component_communities.svg
+  gexf -> gephi/projects/author_replies_largest_component.gexf
+  after export x extent -669.99207 .. 671.4946, nodes at (0,0) = 0
+full network workspace: nodes=14507 edges=15427 before x extent -23477.62 .. 23124.076, nodes at (0,0) = 0
+  layout: ForceAtlas2(BarnesHut theta=1.2, threads=4, scaling=10.0, gravity=1.00, strongGravity=true, linLog=false, edgeWeightInfluence=1.0, dissuadeHubs=false, jitterTolerance=1.0) 1500 iterations, then preventOverlap(adjustSizes=true) 200 iterations; initial positions java.util.Random(20261126) over nodes sorted by Id
+  after layout x extent -741.7122 .. 746.9613, nodes at (0,0) = 0
+  project saved -> gephi/projects/author_replies.gephi (1765387 bytes)
+done in 54 s

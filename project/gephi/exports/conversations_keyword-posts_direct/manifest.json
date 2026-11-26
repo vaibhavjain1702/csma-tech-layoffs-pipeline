@@ -1,0 +1,25 @@
+{
+  "nodes": 13866,
+  "edges": 13206,
+  "missing_placeholder_nodes": 6,
+  "edge_direction": "replying comment -> parent comment/submission",
+  "weight": "1 per observed reply relationship",
+  "context": "Immediate parent nodes and structural roots are included; keyword-comments scope is not a complete conversation tree. Missing records have Present=0. No inferred edges are added.",
+  "network": "conversations",
+  "scope": "keyword-posts",
+  "match": "direct",
+  "subreddit": null,
+  "start_inclusive_utc": null,
+  "end_exclusive_utc": null,
+  "selected_threads": 654,
+  "selected_comments": 13206,
+  "validation": {
+    "unique_nodes": 13866,
+    "unique_edges": 13206,
+    "dangling_endpoints": 0
+  },
+  "encoding": "UTF-8",
+  "separator": ",",
+  "relevance": "Keyword scopes are retrieval heuristics, not validated layoff relevance.",
+  "created_utc": "2026-10-03T21:33:52.487015+00:00"
+}

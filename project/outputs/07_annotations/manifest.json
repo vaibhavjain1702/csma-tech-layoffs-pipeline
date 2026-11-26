@@ -1,0 +1,8 @@
+{
+  "input": "/home/dividh/Projects/csma/annotations/reading_labels_employment.csv",
+  "records": 200,
+  "reviewed": 0,
+  "unreviewed": 200,
+  "method": "Human-provided codes only; semicolon-separated labels; one count per code per record.",
+  "interpretation": "This balanced reading sample is exploratory; counts are not population prevalence estimates."
+}

@@ -1,0 +1,13 @@
+Id,Label,side
+P:experience,experience,comment
+P:mentions_execs,mentions_execs,comment
+P:mentions_offshore,mentions_offshore,comment
+P:blames_workers,blames_workers,comment
+P:ai_excuse,ai_excuse,comment
+P:ai_replaces,ai_replaces,comment
+P:doom,doom,comment
+P:none,none,comment
+R:sympathy,sympathy reply,reply
+R:advice,advice reply,reply
+R:agree,agree reply,reply
+R:challenge,challenge reply,reply

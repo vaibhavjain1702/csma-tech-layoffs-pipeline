@@ -1,0 +1,6 @@
+measure,value,n
+"spearman(betweenness, distinct threads) all users",0.112,14507
+"spearman(betweenness, distinct threads) betweenness>0",0.568,2988
+"spearman(betweenness, degree) betweenness>0",0.638,2988
+"median distinct threads, top-20 betweenness",29.5,20
+"median distinct threads, all users",1.0,14507

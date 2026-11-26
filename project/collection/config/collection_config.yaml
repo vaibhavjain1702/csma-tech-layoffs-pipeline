@@ -1,0 +1,48 @@
+# Research Configuration
+
+subreddits:
+  - "technology"
+  - "cscareerquestions"
+  - "programming"
+  - "ExperiencedDevs"
+  - "antiwork"
+  - "jobs"
+  - "careerguidance"
+
+date_range:
+  start: "2025-01-01"
+  end: "2026-12-31"
+
+keywords:
+  - "layoff"
+  - "layoffs"
+  - "laid off"
+  - "job cuts"
+  - "job cut"
+  - "workforce reduction"
+  - "workforce reductions"
+  - "downsizing"
+  - "redundancies"
+  - "fired"
+  - "termination"
+  - "terminated"
+  - "let go"
+  - "lost my job"
+  - "tech layoffs"
+  - "software layoffs"
+  - "software engineer layoffs"
+  - "developer layoffs"
+  - "IT layoffs"
+  - "startup layoffs"
+  - "mass layoffs"
+  - "big tech layoffs"
+  - "AI layoffs"
+
+collection:
+  limit_per_request: 100
+  rate_limit_delay_seconds: 0.1 # Speeding this up!
+  max_retries: 5
+  retry_backoff_factor: 2
+
+privacy:
+  salt_env_var: "CSMA_SALT" # Used for pseudonymization
