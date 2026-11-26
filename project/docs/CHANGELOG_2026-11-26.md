@@ -58,6 +58,8 @@ Built with the **Gephi Toolkit 0.11.4** (the engine behind Gephi Desktop), run h
 - `docs/PROJECT_HANDBOOK.md` (+ `.html`, `.pdf`, `docs/handbook_img/`): a 104-page handbook covering the project story, data, every result, problems faced, Tableau and Gephi step by step, how to run everything, presentation prep and a glossary.
 - Wording correction: the provisional precision checks were an AI-assisted first pass (Claude), as `docs/PROJECT_REFERENCE.md` section 5 records ("Claude-provisional"), not a check by one human reader. The final report, slides, insights, the Tableau R5b caption and the dashboard 4 note now say "AI-assisted check, not yet human-validated". The copies inside the 26 Nov submission zips still say "one reader".
 
+- `team_extras/`: the scripts that build the final report, slides, insights and contribution-matrix draft (made runnable from the project), the images they use, and the Tableau check screenshots. Team-only; not part of the course submission.
+
 ## 6. Not changed
 
 - The database (`data/processed/*.sqlite`), `outputs/03_tables/`, every existing result table in `outputs/` (the only `outputs/` files edited are the notes and index files listed above), and the label sheets (not edited tonight) (`annotations/reading_labels_employment.csv`, `outputs/12_replies/check_sheet.csv`).

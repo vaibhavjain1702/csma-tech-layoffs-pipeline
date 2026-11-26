@@ -23,6 +23,8 @@ This project studies how online communities discuss layoffs, hiring difficulties
 | What every output folder is | [outputs/README.md](outputs/README.md) |
 | Midterm report and slides | [`deliverables/`](deliverables/) |
 | **Final report, slides, insights, contribution matrix (draft)** | [`deliverables/final/`](deliverables/final/) |
+| **Complete project handbook** (104 pages) | [`docs/PROJECT_HANDBOOK.md`](docs/PROJECT_HANDBOOK.md) ([PDF](docs/PROJECT_HANDBOOK.pdf)) |
+| Team-only extras (scripts that build the final documents, Tableau check screenshots) | [`team_extras/`](team_extras/README.md) |
 | Network (Gephi) findings | [Author-network findings](gephi/analysis/FINDINGS.md) and the [Gephi guide](gephi/README.md) |
 | Background exploration | [Language notes](outputs/10_language/LANGUAGE_NOTES.md), [dynamics notes](outputs/11_dynamics/DYNAMICS_NOTES.md) |
 | Project overview as of October | [Project summary](docs/PROJECT_BRIEF.md), [process report](docs/PROCESS_REPORT.md), [research design](docs/RESEARCH_DESIGN.md) |
