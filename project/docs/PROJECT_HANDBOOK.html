@@ -3672,6 +3672,9 @@ FROM records GROUP BY subreddit, kind, text_state ORDER BY subreddit, kind, n DE
 </table>
 <p>Tip: to see the whole chart without scrolling, use the toolbar "fit" dropdown and pick <strong>Entire View</strong>.</p>
 <hr />
+<blockquote>
+<p><strong>Official visual guides with screenshots:</strong> <a href="https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm">Get Started with Tableau Desktop</a>, <a href="https://help.tableau.com/current/pro/desktop/en-us/environment_workspace.htm">The Tableau workspace</a> and <a href="https://help.tableau.com/current/pro/desktop/en-us/story_create.htm">Create a story</a>.</p>
+</blockquote>
 <h3 id="46-tour-of-every-sheet-dashboard-and-the-story">4.6 Tour of every sheet, dashboard and the story</h3>
 <p>Each worksheet has a <strong>takeaway title</strong> (the main message as a sentence), a grey <strong>caveat line</strong> under it, and the same caveat repeated as the sheet caption. To check any number, hover over the mark and compare with <code>tableau/EXPECTED_VALUES.md</code>.</p>
 <p><strong>Colours.</strong> Tableau 2026.3 ignored the custom colours written into the file and used its default palette, assigned alphabetically. The dashboard colour keys were changed to match what Tableau actually draws:</p>
@@ -4721,6 +4724,37 @@ FROM records GROUP BY subreddit, kind, text_state ORDER BY subreddit, kind, n DE
 <li>The conversation network has <strong>no</strong> GEXF fallback. If its project will not open, show the slide PNG.</li>
 </ol>
 <hr />
+<blockquote>
+<p><strong>Checked on 27 Nov 2026, 02:02 IST.</strong> All four projects load in Gephi's own <strong>0.11.3 engine</strong> (the same version as the desktop app on this Mac), with the expected counts. This was a load test without the screen; nobody has yet clicked through them in the app.</p>
+<table>
+<thead>
+<tr>
+<th>Project file</th>
+<th>Workspaces inside (nodes / edges)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type_network_lift.gephi</code></td>
+<td>Comment kind to reply kind (lift): 12 / 32</td>
+</tr>
+<tr>
+<td><code>author_replies.gephi</code></td>
+<td>Full network (14,507 users): 14,507 / 15,427 · Largest weak component (9,330 users): 9,330 / 12,360</td>
+</tr>
+<tr>
+<td><code>r4_cscq_author_types.gephi</code></td>
+<td>R4 author types (colour = type) and R4 Gephi modularity: 10,778 / 91,657 each</td>
+</tr>
+<tr>
+<td><code>conversations.gephi</code></td>
+<td>Conversation network: 13,866 / 13,206 · 30 largest components (figure): 12,156 / 12,126</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Do not double-click a <code>.gephi</code> file in Finder.</strong> On this Mac that only starts Gephi without loading the project (checked 27 Nov). Start Gephi first, then use <strong>File &gt; Open</strong> and pick the file. A project can hold more than one workspace: switch with the <strong>Workspace</strong> menu (menu wording can differ slightly between versions).</p>
+<p>Official visual guides with screenshots: <a href="https://gephi.org/quickstart/">Gephi Quick Start</a> and the <a href="https://docs.gephi.org/desktop/">Gephi Desktop documentation</a>.</p>
+</blockquote>
 <h3 id="54-interface-tour">5.4 Interface tour</h3>
 <p>The window has three main tabs along the top: <strong>Overview</strong>, <strong>Data Laboratory</strong> and <strong>Preview</strong>.</p>
 <h4 id="541-overview-where-you-work-on-the-graph">5.4.1 Overview: where you work on the graph</h4>

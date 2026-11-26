@@ -1511,6 +1511,8 @@ Tip: to see the whole chart without scrolling, use the toolbar "fit" dropdown an
 
 ---
 
+> **Official visual guides with screenshots:** [Get Started with Tableau Desktop](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm), [The Tableau workspace](https://help.tableau.com/current/pro/desktop/en-us/environment_workspace.htm) and [Create a story](https://help.tableau.com/current/pro/desktop/en-us/story_create.htm).
+
 ### 4.6 Tour of every sheet, dashboard and the story
 
 Each worksheet has a **takeaway title** (the main message as a sentence), a grey **caveat line** under it, and the same caveat repeated as the sheet caption. To check any number, hover over the mark and compare with `tableau/EXPECTED_VALUES.md`.
@@ -2277,6 +2279,19 @@ The projects were saved by Toolkit 0.11.4, one patch release newer than the app,
 4. The conversation network has **no** GEXF fallback. If its project will not open, show the slide PNG.
 
 ---
+
+> **Checked on 27 Nov 2026, 02:02 IST.** All four projects load in Gephi's own **0.11.3 engine** (the same version as the desktop app on this Mac), with the expected counts. This was a load test without the screen; nobody has yet clicked through them in the app.
+>
+> | Project file | Workspaces inside (nodes / edges) |
+> |---|---|
+> | `type_network_lift.gephi` | Comment kind to reply kind (lift): 12 / 32 |
+> | `author_replies.gephi` | Full network (14,507 users): 14,507 / 15,427 · Largest weak component (9,330 users): 9,330 / 12,360 |
+> | `r4_cscq_author_types.gephi` | R4 author types (colour = type) and R4 Gephi modularity: 10,778 / 91,657 each |
+> | `conversations.gephi` | Conversation network: 13,866 / 13,206 · 30 largest components (figure): 12,156 / 12,126 |
+>
+> **Do not double-click a `.gephi` file in Finder.** On this Mac that only starts Gephi without loading the project (checked 27 Nov). Start Gephi first, then use **File > Open** and pick the file. A project can hold more than one workspace: switch with the **Workspace** menu (menu wording can differ slightly between versions).
+>
+> Official visual guides with screenshots: [Gephi Quick Start](https://gephi.org/quickstart/) and the [Gephi Desktop documentation](https://docs.gephi.org/desktop/).
 
 ### 5.4 Interface tour
 
